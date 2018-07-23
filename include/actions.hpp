@@ -73,11 +73,13 @@ public:
         E_AT_PLAY_PCAP_AUDIO,
         E_AT_PLAY_PCAP_IMAGE,
         E_AT_PLAY_PCAP_VIDEO,
+        E_AT_PLAY_DTMF,
 #endif
 #ifdef RTP_STREAM
-      E_AT_RTP_STREAM_PAUSE,
-      E_AT_RTP_STREAM_RESUME,
-      E_AT_RTP_STREAM_PLAY,
+        E_AT_RTP_STREAM_PAUSE,
+        E_AT_RTP_STREAM_RESUME,
+        E_AT_RTP_STREAM_PLAY,
+        E_AT_RTP_ECHO,
 #endif
         E_AT_NB_ACTION
     };
@@ -153,7 +155,7 @@ public:
     void setScenario     (scenario *     P_scenario);
     void setRegExp       (const char*    P_value);  /* ereg specific function. */
     int  executeRegExp   (const char*    P_string, VariableTable *P_callVarTable);
-    void setMessage      (char*          P_value, int n = 0);  /* log specific function  */
+    void setMessage(const char* P_value, int n = 0);  /* log specific function  */
     void setIntCmd       (T_IntCmdType   P_type );  /* exec specific function */
     void setDistribution (CSample *      P_value);  /* sample specific function  */
     void setDoubleValue  (double         P_value);  /* assign value specific function  */
@@ -164,7 +166,7 @@ public:
 #endif
 #ifdef RTP_STREAM
     void setRTPStreamActInfo(const char* P_value);  /* parse rtp stream playback values from string */
-    void setRTPStreamActInfo (rtpstream_actinfo_t *P_value); /* copy stored rtp stream playback params */
+    void setRTPStreamActInfo(rtpstream_actinfo_t* P_value); /* copy stored rtp stream playback params */
 #endif
 
     void setSubVarId     (int P_value);
@@ -218,7 +220,7 @@ private:
     pcap_pkts *    M_pcapArgs;
 #endif
 #ifdef RTP_STREAM
-      rtpstream_actinfo_t M_rtpstream_actinfo;
+    rtpstream_actinfo_t M_rtpstream_actinfo;
 #endif
     void setSubString(char** P_target, const char* P_source, int P_start, int P_stop);
 };
