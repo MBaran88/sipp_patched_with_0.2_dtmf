@@ -1,0 +1,3 @@
+/home/mateuszbaran/Desktop/sipp-3.5.1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/mateuszbaran/Desktop/sipp-3.5.1/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/mateuszbaran/Desktop/sipp-3.5.1/cmake-build-debug/CMakeFiles/sipp_3_5_1.dir
