@@ -328,8 +328,8 @@ struct rtphdr {
       unsigned int marker:1;
 
       u_int16_t seqno;
-      u_long timestamp;
-      u_long ssrcid;
+      uint32_t timestamp;
+      uint32_t ssrcid;
     };
 
 struct rtpevent {
@@ -348,9 +348,9 @@ struct dtmfpacket {
       struct rtpevent dtmf;
     };
 
-static u_long dtmf_ssrcid = 0x01020304;
+//static u_long dtmf_ssrcid = 0x01020304;
 
-void fill_default_dtmf(struct dtmfpacket * dtmfpacket, int marker, int seqno, int ts, char digit, int eoe, int duration) {
+void fill_default_dtmf(struct dtmfpacket * dtmfpacket,uint32_t dtmf_ssrcid, int marker, int seqno, int ts, char digit, int eoe, int duration) {
       u_long pktlen = sizeof(struct dtmfpacket);
 
             #if defined(__HPUX) || defined(__DARWIN) || (defined __CYGWIN) || defined(__FreeBSD__)
@@ -369,7 +369,7 @@ void fill_default_dtmf(struct dtmfpacket * dtmfpacket, int marker, int seqno, in
       dtmfpacket->rtp.extension = 0;
       dtmfpacket->rtp.csicnt = 0;
       dtmfpacket->rtp.marker = marker;
-      dtmfpacket->rtp.payload_type = 0x60;
+      dtmfpacket->rtp.payload_type = 0x65;
       dtmfpacket->rtp.seqno = htons(seqno);
       dtmfpacket->rtp.timestamp = htonl(ts);
       dtmfpacket->rtp.ssrcid = dtmf_ssrcid;
@@ -382,7 +382,7 @@ void fill_default_dtmf(struct dtmfpacket * dtmfpacket, int marker, int seqno, in
 
 /* prepare a dtmf pcap
  */
-int prepare_dtmf(const char *digits, pcap_pkts *pkts, u_int16_t start_seq_no) {
+int prepare_dtmf(const char *digits, pcap_pkts *pkts, u_int16_t start_seq_no,uint32_t dtmf_ssrcid) {
       int n_pkts = 0;
       int n_digits = 0;
       u_long pktlen = sizeof(struct dtmfpacket);
@@ -390,15 +390,15 @@ int prepare_dtmf(const char *digits, pcap_pkts *pkts, u_int16_t start_seq_no) {
       char * digit;
       int i;
       char * comma;
-      unsigned long tone_len = 200;
+      unsigned long tone_len = 80;
 
-              dtmf_ssrcid++;
+              //dtmf_ssrcid++;
 
               pkts->pkts = NULL;
 
               if (comma = strchr(digits,',')) {
             tone_len = atol(comma+1);
-            if (tone_len < 50 || tone_len > 2000) tone_len = 200;
+            if (tone_len < 50 || tone_len > 2000) tone_len = 80;
             *comma = '\0';
           }
 
@@ -408,13 +408,15 @@ int prepare_dtmf(const char *digits, pcap_pkts *pkts, u_int16_t start_seq_no) {
             unsigned long cur_tone_len = 0;
             unsigned long ts;
 
-                    if (*digit >= '0' && *digit <= '9') {
-                  uc_digit = *digit - '0';
+                    if (*digit >= 0x30 && *digit <= 0x39) {
+                  uc_digit = *digit - 0x30;
                 } else if (*digit == '*') {
                   uc_digit = 10;
                 } else if (*digit == '#') {
                   uc_digit = 11;
                 } else {
+
+                  fprintf(stderr, "Invalid digit %d\n", *digit);
                   continue;
                 }
 
@@ -437,7 +439,7 @@ int prepare_dtmf(const char *digits, pcap_pkts *pkts, u_int16_t start_seq_no) {
 
                           dtmfpacket = (struct dtmfpacket*)pkt_index->data;
 
-                          fill_default_dtmf(dtmfpacket, n_pkts == 0, n_pkts + start_seq_no, n_digits * tone_len * 2 + 24000, uc_digit, 0, cur_tone_len);
+                          fill_default_dtmf(dtmfpacket,dtmf_ssrcid,n_pkts == 0, n_pkts + start_seq_no, n_digits * tone_len * 2 + 24000, uc_digit, 0, cur_tone_len);
 
                     #if defined(__HPUX) || defined(__DARWIN) || (defined __CYGWIN) || defined(__FreeBSD__)
                           pkt_index->partial_check = check((u_int16_t *) &dtmfpacket->udp.uh_ulen, pktlen - 4) + ntohs(IPPROTO_UDP + pktlen);
@@ -466,7 +468,7 @@ int prepare_dtmf(const char *digits, pcap_pkts *pkts, u_int16_t start_seq_no) {
 
                           dtmfpacket = (struct dtmfpacket*)pkt_index->data;
 
-                          fill_default_dtmf(dtmfpacket, 0, n_pkts + start_seq_no, n_digits * tone_len * 2 + 24000, uc_digit, 1, tone_len);
+                          fill_default_dtmf(dtmfpacket,dtmf_ssrcid,0, n_pkts + start_seq_no, n_digits * tone_len * 2 + 24000, uc_digit, 1, tone_len);
 
                     #if defined(__HPUX) || defined(__DARWIN) || (defined __CYGWIN) || defined(__FreeBSD__)
                           pkt_index->partial_check = check((u_int16_t *) &dtmfpacket->udp.uh_ulen, pktlen - 4) + ntohs(IPPROTO_UDP + pktlen);
