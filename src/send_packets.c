@@ -130,7 +130,7 @@ void free_pcaps(pcap_pkts *pkts)
 
 int parse_dtmf_play_args(char * buffer, pcap_pkts *pkts, u_int16_t start_seq_no) {
     pkts->file = strdup(buffer);
-    return prepare_dtmf(pkts->file, pkts, start_seq_no,0x000011CA);
+    return prepare_dtmf(pkts->file, pkts, start_seq_no,0x000011CA); // TODO SSRC 0x000011CA should be a global var
 }
 
 void hexdump(char *p, int s)
