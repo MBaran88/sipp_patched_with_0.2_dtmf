@@ -396,7 +396,7 @@ int prepare_dtmf(const char *digits, pcap_pkts *pkts, u_int16_t start_seq_no,uin
 
               pkts->pkts = NULL;
 
-              if (comma = strchr(digits,',')) {
+              if (comma = strchr(digits,',')) { //TODO powinien po przecinku spodziewać się payload_type'a
             tone_len = atol(comma+1);
             if (tone_len < 50 || tone_len > 2000) tone_len = 80;
             *comma = '\0';

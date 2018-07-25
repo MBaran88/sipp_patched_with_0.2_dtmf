@@ -571,7 +571,7 @@ void call::init(scenario * call_scenario, struct sipp_socket *socket, struct soc
 
 #ifdef PCAPPLAY
     hasMediaInformation = 0;
-    play_args_a.last_seq_no = 1;
+    play_args_a.last_seq_no = 1; // TODO zachowac ciaglosc last_seq_no (wspolne dla dtmfow i zwyklego audio)
     play_args_v.last_seq_no = 2400;
 #endif
 
@@ -2214,6 +2214,12 @@ char* call::createSendingMessage(SendingMessage *src, int P_index, char *msg_buf
             ERROR("cannot assign a free audio port to this call - using 0 for [rtpstream_audio_port]");
           }
           dest += snprintf(dest, left, "%d",temp_audio_port);
+          play_args_t *play_args = &play_args_a;
+        if (media_ip_is_ipv6) {
+                (_RCAST(struct sockaddr_in6 *, &(play_args->from)))->sin6_port = htons(temp_audio_port);
+            } else {
+                (_RCAST(struct sockaddr_in *, &(play_args->from)))->sin_port = htons(temp_audio_port);
+            }
         }
         break;
       case E_Message_RTPStream_Video_Port:
