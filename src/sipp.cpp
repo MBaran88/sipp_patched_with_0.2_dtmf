@@ -46,6 +46,7 @@
 #include "assert.h"
 #include "config.h"
 #include "version.h"
+#include <sys/epoll.h>
 
 extern struct sipp_socket *ctrl_socket;
 extern struct sipp_socket *stdin_socket;

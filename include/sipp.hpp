@@ -172,12 +172,12 @@ cmd messages are received */
 
 #define DEFAULT_BEHAVIOR_ALL         (DEFAULT_BEHAVIOR_BYE | DEFAULT_BEHAVIOR_ABORTUNEXP | DEFAULT_BEHAVIOR_PINGREPLY)
 
-#ifdef RTP_STREAM
+//#ifdef RTP_STREAM
 #define DEFAULT_MIN_RTP_PORT         8192
 #define DEFAULT_MAX_RTP_PORT         65535
 #define DEFAULT_RTP_PAYLOAD          8
 #define DEFAULT_RTP_THREADTASKS      20
-#endif
+//#endif
 
 /************ User controls and command line options ***********/
 
@@ -239,6 +239,7 @@ extern char               local_ip[40];
 extern char               local_ip_escaped[42];
 extern bool               local_ip_is_ipv6;
 extern int                local_port              _DEFVAL(0);
+extern const int          payload_type            _DEFVAL(65);
 #ifdef USE_SCTP
 extern char               multihome_ip[40];
 extern int                heartbeat               _DEFVAL(0);
@@ -254,13 +255,13 @@ extern int                tcp_readsize            _DEFVAL(65535);
 #if defined(PCAPPLAY) || defined(RTP_STREAM)
 extern int                hasMedia                _DEFVAL(0);
 #endif
-#ifdef RTP_STREAM
+//#ifdef RTP_STREAM
 extern int                min_rtp_port            _DEFVAL(DEFAULT_MIN_RTP_PORT);
 extern int                max_rtp_port            _DEFVAL(DEFAULT_MAX_RTP_PORT);
 extern int                rtp_default_payload     _DEFVAL(DEFAULT_RTP_PAYLOAD);
 extern int                rtp_tasks_per_thread    _DEFVAL(DEFAULT_RTP_THREADTASKS);
 extern int                rtp_buffsize            _DEFVAL(65535);
-#endif
+//#endif
 
 extern bool               rtp_echo_enabled        _DEFVAL(0);
 extern char               media_ip[40];
@@ -378,12 +379,12 @@ extern unsigned long rtp2_pckts                   _DEFVAL(0);
 extern unsigned long rtp2_bytes                   _DEFVAL(0);
 extern unsigned long rtp2_pckts_pcap              _DEFVAL(0);
 extern unsigned long rtp2_bytes_pcap              _DEFVAL(0);
-#ifdef RTP_STREAM
+//#ifdef RTP_STREAM
 extern volatile unsigned long rtpstream_numthreads _DEFVAL(0);
 extern volatile unsigned long rtpstream_bytes_in  _DEFVAL(0);
 extern volatile unsigned long rtpstream_bytes_out _DEFVAL(0);
 extern volatile unsigned long rtpstream_pckts     _DEFVAL(0);
-#endif
+//#endif
 
 
 /************* Rate Control & Contexts variables **************/

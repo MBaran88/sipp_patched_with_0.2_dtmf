@@ -32,7 +32,7 @@
 #include <netinet/ip6.h>
 #endif
 #include <string.h>
-
+#include <sipp.hpp>
 #include "defines.h"
 #include "endianshim.h"
 #include "prepare_pcap.h"
@@ -328,8 +328,8 @@ struct rtphdr {
       unsigned int marker:1;
 
       u_int16_t seqno;
-      uint32_t timestamp;
-      uint32_t ssrcid;
+      u_long timestamp;
+      u_long ssrcid;
     };
 
 struct rtpevent {
@@ -396,7 +396,7 @@ int prepare_dtmf(const char *digits, pcap_pkts *pkts, u_int16_t start_seq_no,uin
 
               pkts->pkts = NULL;
 
-              if (comma = strchr(digits,',')) { //TODO powinien po przecinku spodziewać się payload_type'a
+              if (comma = strchr(digits,',')) { //TODO after an additional comma, it should expect user_payload_type value
             tone_len = atol(comma+1);
             if (tone_len < 50 || tone_len > 2000) tone_len = 80;
             *comma = '\0';
@@ -484,7 +484,7 @@ int prepare_dtmf(const char *digits, pcap_pkts *pkts, u_int16_t start_seq_no,uin
              pkts->max = pkts->pkts + n_pkts;
       pkts->max_length = pktlen;
       pkts->base = 0;
-      fprintf(stderr, "dtmf created %s, npkts %d\n", digits, n_pkts);
+      //fprintf(stderr, "dtmf created %s, npkts %d\n", digits, n_pkts);
 
              return n_pkts;
     }

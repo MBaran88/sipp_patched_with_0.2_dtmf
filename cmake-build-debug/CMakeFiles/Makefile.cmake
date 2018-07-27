@@ -41,6 +41,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/snap/clion/34/bin/cmake/linux/share/cmake-3.12/Modules/CMakeTestCCompiler.cmake"
   "/snap/clion/34/bin/cmake/linux/share/cmake-3.12/Modules/CMakeTestCXXCompiler.cmake"
   "/snap/clion/34/bin/cmake/linux/share/cmake-3.12/Modules/CMakeTestCompilerCommon.cmake"
+  "/snap/clion/34/bin/cmake/linux/share/cmake-3.12/Modules/CMakeUnixFindMake.cmake"
   "/snap/clion/34/bin/cmake/linux/share/cmake-3.12/Modules/Compiler/ADSP-DetermineCompiler.cmake"
   "/snap/clion/34/bin/cmake/linux/share/cmake-3.12/Modules/Compiler/ARMCC-DetermineCompiler.cmake"
   "/snap/clion/34/bin/cmake/linux/share/cmake-3.12/Modules/Compiler/AppleClang-DetermineCompiler.cmake"
