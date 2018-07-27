@@ -1,0 +1,13 @@
+sipp: The following events occured:
+2018-07-23	10:12:47.632761	1532333567.632761: Aborting call on unexpected message for Call-Id '1-27448@192.168.20.175': while expecting '180' (index 2), received 'SIP/2.0 503 Service unavailable
+Via: SIP/2.0/UDP 192.168.20.175:5077;branch=z9hG4bK-27448-1-0
+From: <sip:101@192.168.20.175:5077>;tag=27448SIPpTag091
+To: "800 " <sip:800@10.10.10.149:5060>;tag=6eae3390fc3db85d
+Call-ID: 1-27448@192.168.20.175
+CSeq: 1 INVITE
+Max-Forwards: 70
+Contact: <sip:800@10.10.10.149:5060>
+Content-Length: 0
+
+'.
+2018-07-23	10:12:47.633102	1532333567.633102: Failed to shutdown socket 0, errno = 88 (Socket operation on non-socket).

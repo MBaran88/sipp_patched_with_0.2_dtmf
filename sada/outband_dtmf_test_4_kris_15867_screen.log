@@ -1,0 +1,101 @@
+------------------------------ Scenario Screen -------- [1-9]: Change Screen --
+  Timestamp: Fri Jul 27 08:49:39 2018
+
+  Call-rate(length)   Port   Total-time  Total-calls  Remote-host
+  10.0(0 ms)/1.000s   5075      82.25 s          200  10.10.10.149:5060(UDP)
+
+  Call limit reached (-m 200), 0.000 s period  0 ms scheduler resolution
+  0 calls (limit 200)                    Peak was 200 calls, after 20 s
+  0 Running, 202 Paused, 0 Woken up
+  0 dead call msg (discarded)            0 out-of-call msg (discarded)        
+  1 open sockets                        
+
+                                 Messages  Retrans   Timeout   Unexpected-Msg
+      INVITE ---------->  B-RTD1 200       0         0                  
+         100 <----------  E-RTD1 200       0         0         0        
+         180 <----------         0         0         0         0        
+         200 <----------  E-RTD2 200       0         0         0        
+
+         ACK ---------->         200       0                            
+       Pause [   6000ms]         200                           0        
+              [ NOP ]              
+       Pause [   1000ms]         200                           0        
+              [ NOP ]              
+       Pause [    55.0s]         200                           0        
+         BYE ---------->  B-RTD3 200       0         0                  
+         200 <----------  E-RTD3 200       0         0         0        
+
+------- Waiting for active calls to end. Press [q] again to force exit. -------
+
+----------------------------- Statistics Screen ------- [1-9]: Change Screen --
+  Start Time             | 2018-07-27	08:48:17.515300	1532674097.515300         
+  Last Reset Time        | 2018-07-27	08:49:39.771043	1532674179.771043         
+  Current Time           | 2018-07-27	08:49:39.771177	1532674179.771177         
+-------------------------+---------------------------+--------------------------
+  Counter Name           | Periodic value            | Cumulative value
+-------------------------+---------------------------+--------------------------
+  Elapsed Time           | 00:00:00:000000           | 00:01:22:255000          
+  Call Rate              |    0.000 cps              |    2.431 cps             
+-------------------------+---------------------------+--------------------------
+  Incoming call created  |        0                  |        0                 
+  OutGoing call created  |        0                  |      200                 
+  Total Call created     |                           |      200                 
+  Current Call           |        0                  |                          
+-------------------------+---------------------------+--------------------------
+  Successful call        |        0                  |      200                 
+  Failed call            |        0                  |        0                 
+-------------------------+---------------------------+--------------------------
+  Response Time invite   | 00:00:00:000000           | 00:00:00:026000          
+  Response Time 1        | 00:00:00:000000           | 00:00:00:080000          
+  Response Time bye      | 00:00:00:000000           | 00:00:00:025000          
+  Call Length            | 00:00:00:000000           | 00:01:02:119000          
+------- Waiting for active calls to end. Press [q] again to force exit. -------
+
+---------------------------- Repartition Screen ------- [1-9]: Change Screen --
+  Average Response Time Repartition invite                                      
+           0 ms <= n <        10 ms :         39                                
+          10 ms <= n <        20 ms :         26                                
+          20 ms <= n <        30 ms :         54                                
+          30 ms <= n <        40 ms :         18                                
+          40 ms <= n <        50 ms :         47                                
+          50 ms <= n <       100 ms :         16                                
+         100 ms <= n <       150 ms :          0                                
+         150 ms <= n <       200 ms :          0                                
+                   n >=      200 ms :          0                                
+  Average Call Length Repartition                                               
+           0 ms <= n <        10 ms :          0                                
+          10 ms <= n <        50 ms :          0                                
+          50 ms <= n <       100 ms :          0                                
+         100 ms <= n <       500 ms :          0                                
+         500 ms <= n <      1000 ms :          0                                
+        1000 ms <= n <      5000 ms :          0                                
+        5000 ms <= n <     10000 ms :          0                                
+                   n >=    10000 ms :        200                                
+------- Waiting for active calls to end. Press [q] again to force exit. -------
+
+--------------------------- Repartition 2 Screen ------ [1-9]: Change Screen --
+  Average Response Time Repartition 1                                           
+           0 ms <= n <        10 ms :          0                                
+          10 ms <= n <        20 ms :          0                                
+          20 ms <= n <        30 ms :          0                                
+          30 ms <= n <        40 ms :          0                                
+          40 ms <= n <        50 ms :          0                                
+          50 ms <= n <       100 ms :        170                                
+         100 ms <= n <       150 ms :         26                                
+         150 ms <= n <       200 ms :          3                                
+                   n >=      200 ms :          1                                
+------- Waiting for active calls to end. Press [q] again to force exit. -------
+
+--------------------------- Repartition 3 Screen ------ [1-9]: Change Screen --
+  Average Response Time Repartition bye                                         
+           0 ms <= n <        10 ms :         62                                
+          10 ms <= n <        20 ms :         29                                
+          20 ms <= n <        30 ms :         24                                
+          30 ms <= n <        40 ms :         17                                
+          40 ms <= n <        50 ms :         50                                
+          50 ms <= n <       100 ms :         18                                
+         100 ms <= n <       150 ms :          0                                
+         150 ms <= n <       200 ms :          0                                
+                   n >=      200 ms :          0                                
+------- Waiting for active calls to end. Press [q] again to force exit. -------
+

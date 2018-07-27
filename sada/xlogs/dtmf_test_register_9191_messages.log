@@ -1,0 +1,62 @@
+----------------------------------------------- 2018-07-24 11:26:36.674891
+UDP message sent (326 bytes):
+
+REGISTER sip:10.10.10.149 SIP/2.0
+Via: SIP/2.0/UDP 192.168.20.175:5063;branch=z9hG4bK-9191-1-0
+From: <sip:101@10.10.10.149>;tag=1
+To: <sip:101@10.10.10.149>
+Call-ID: 1-9191@192.168.20.175
+CSeq: 1 REGISTER
+Contact: sip:101@192.168.20.175:5063
+Max-Forwards: 10
+Expires: 120
+User-Agent: SIPp/Linux
+Content-Length: 0
+
+
+----------------------------------------------- 2018-07-24 11:26:36.706487
+UDP message received [451] bytes :
+
+SIP/2.0 401 Unauthorized
+Via: SIP/2.0/UDP 192.168.20.175:5063;branch=z9hG4bK-9191-1-0
+From: <sip:101@10.10.10.149:5060>;tag=1
+To: <sip:101@10.10.10.149:5060>;tag=a3407ae5864707b8
+Call-ID: 1-9191@192.168.20.175
+CSeq: 1 REGISTER
+Max-Forwards: 70
+Contact: sip:101@192.168.20.175:5063
+WWW-Authenticate: Digest realm="10.10.10.149:5060",qop="auth",nonce="ca71e9476b115bcbc58410b90660fb9a",opaque="1532424396676",algorithm=MD5
+Content-Length: 0
+
+
+----------------------------------------------- 2018-07-24 11:26:36.706655
+UDP message sent (581 bytes):
+
+REGISTER sip:10.10.10.149 SIP/2.0
+Via: SIP/2.0/UDP 192.168.20.175:5063;branch=z9hG4bK-9191-1-3
+From: <sip:101@10.10.10.149>;tag=1
+To: <sip:101@10.10.10.149>
+Call-ID: 1-9191@192.168.20.175
+CSeq: 2 REGISTER
+Contact: sip:101@192.168.20.175:5063
+Authorization: Digest username="101",realm="10.10.10.149:5060",cnonce="327b23c6",nc=00000001,qop=auth,uri="sip:10.10.10.149:5060",nonce="ca71e9476b115bcbc58410b90660fb9a",response="4bf28d22795f40c9c5c362addaa36ac9",algorithm=MD5,opaque="1532424396676"
+Max-Forwards: 10
+Expires: 72000
+User-Agent: SIPp/Linux
+Content-Length: 0
+
+
+----------------------------------------------- 2018-07-24 11:26:36.777952
+UDP message received [300] bytes :
+
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 192.168.20.175:5063;branch=z9hG4bK-9191-1-3
+From: <sip:101@10.10.10.149:5060>;tag=1
+To: <sip:101@10.10.10.149:5060>;tag=a3407ae5864707b8
+Call-ID: 1-9191@192.168.20.175
+CSeq: 2 REGISTER
+Max-Forwards: 70
+Contact: sip:101@192.168.20.175:5063
+Content-Length: 0
+
+

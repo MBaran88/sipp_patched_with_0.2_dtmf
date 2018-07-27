@@ -1,0 +1,2 @@
+sipp: The following events occured:
+2018-07-24	11:45:40.581003	1532425540.581003: Unable to bind main socket, errno = 99 (Cannot assign requested address).

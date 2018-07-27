@@ -1,0 +1,741 @@
+sipp: The following events occured:
+2018-07-26	12:33:53.686386	1532601233.686386: Aborting call on unexpected message for Call-Id '376-20559@192.168.20.175': while expecting '100' (index 1), received 'SIP/2.0 480 Temporarily unavailable
+Via: SIP/2.0/UDP 192.168.20.175:5075;branch=z9hG4bK-20559-376-0
+From: <sip:101@192.168.20.175:5075>;tag=20559SIPpTag09376
+To: "800 " <sip:800@10.10.10.149:5060>;tag=a95178a921e7455e
+Call-ID: 376-20559@192.168.20.175
+CSeq: 1 INVITE
+Max-Forwards: 70
+Contact: <sip:800@10.10.10.149:5060>
+Content-Length: 0
+
+'.
+2018-07-26	12:33:53.787277	1532601233.787277: Aborting call on unexpected message for Call-Id '378-20559@192.168.20.175': while expecting '100' (index 1), received 'SIP/2.0 480 Temporarily unavailable
+Via: SIP/2.0/UDP 192.168.20.175:5075;branch=z9hG4bK-20559-378-0
+From: <sip:101@192.168.20.175:5075>;tag=20559SIPpTag09378
+To: "800 " <sip:800@10.10.10.149:5060>;tag=a0fb1aadbb745684
+Call-ID: 378-20559@192.168.20.175
+CSeq: 1 INVITE
+Max-Forwards: 70
+Contact: <sip:800@10.10.10.149:5060>
+Content-Length: 0
+
+'.
+2018-07-26	12:33:53.888866	1532601233.888866: Aborting call on unexpected message for Call-Id '380-20559@192.168.20.175': while expecting '100' (index 1), received 'SIP/2.0 480 Temporarily unavailable
+Via: SIP/2.0/UDP 192.168.20.175:5075;branch=z9hG4bK-20559-380-0
+From: <sip:101@192.168.20.175:5075>;tag=20559SIPpTag09380
+To: "800 " <sip:800@10.10.10.149:5060>;tag=877a9fe922cdcec2
+Call-ID: 380-20559@192.168.20.175
+CSeq: 1 INVITE
+Max-Forwards: 70
+Contact: <sip:800@10.10.10.149:5060>
+Content-Length: 0
+
+'.
+2018-07-26	12:33:53.939126	1532601233.939126: Aborting call on unexpected message for Call-Id '381-20559@192.168.20.175': while expecting '100' (index 1), received 'SIP/2.0 480 Temporarily unavailable
+Via: SIP/2.0/UDP 192.168.20.175:5075;branch=z9hG4bK-20559-381-0
+From: <sip:101@192.168.20.175:5075>;tag=20559SIPpTag09381
+To: "800 " <sip:800@10.10.10.149:5060>;tag=2105f237e541143d
+Call-ID: 381-20559@192.168.20.175
+CSeq: 1 INVITE
+Max-Forwards: 70
+Contact: <sip:800@10.10.10.149:5060>
+Content-Length: 0
+
+'.
+2018-07-26	12:33:54.072832	1532601234.072832: Aborting call on unexpected message for Call-Id '383-20559@192.168.20.175': while expecting '180' (index 2), received 'SIP/2.0 480 Temporarily unavailable
+Via: SIP/2.0/UDP 192.168.20.175:5075;branch=z9hG4bK-20559-383-0
+From: <sip:101@192.168.20.175:5075>;tag=20559SIPpTag09383
+To: "800 " <sip:800@10.10.10.149:5060>;tag=8b27e8d63f27b9d
+Call-ID: 383-20559@192.168.20.175
+CSeq: 1 INVITE
+Max-Forwards: 70
+Contact: <sip:800@10.10.10.149:5060>
+Content-Length: 0
+
+'.
+2018-07-26	12:33:54.215117	1532601234.215117: Aborting call on unexpected message for Call-Id '386-20559@192.168.20.175': while expecting '180' (index 2), received 'SIP/2.0 480 Temporarily unavailable
+Via: SIP/2.0/UDP 192.168.20.175:5075;branch=z9hG4bK-20559-386-0
+From: <sip:101@192.168.20.175:5075>;tag=20559SIPpTag09386
+To: "800 " <sip:800@10.10.10.149:5060>;tag=3685e25491ca8cf
+Call-ID: 386-20559@192.168.20.175
+CSeq: 1 INVITE
+Max-Forwards: 70
+Contact: <sip:800@10.10.10.149:5060>
+Content-Length: 0
+
+'.
+2018-07-26	12:33:54.222976	1532601234.222976: Aborting call on unexpected message for Call-Id '387-20559@192.168.20.175': while expecting '180' (index 2), received 'SIP/2.0 480 Temporarily unavailable
+Via: SIP/2.0/UDP 192.168.20.175:5075;branch=z9hG4bK-20559-387-0
+From: <sip:101@192.168.20.175:5075>;tag=20559SIPpTag09387
+To: "800 " <sip:800@10.10.10.149:5060>;tag=85c9ac63551457ff
+Call-ID: 387-20559@192.168.20.175
+CSeq: 1 INVITE
+Max-Forwards: 70
+Contact: <sip:800@10.10.10.149:5060>
+Content-Length: 0
+
+'.
+2018-07-26	12:33:54.338916	1532601234.338916: Aborting call on unexpected message for Call-Id '389-20559@192.168.20.175': while expecting '180' (index 2), received 'SIP/2.0 480 Temporarily unavailable
+Via: SIP/2.0/UDP 192.168.20.175:5075;branch=z9hG4bK-20559-389-0
+From: <sip:101@192.168.20.175:5075>;tag=20559SIPpTag09389
+To: "800 " <sip:800@10.10.10.149:5060>;tag=cdba4d6f3be27653
+Call-ID: 389-20559@192.168.20.175
+CSeq: 1 INVITE
+Max-Forwards: 70
+Contact: <sip:800@10.10.10.149:5060>
+Content-Length: 0
+
+'.
+2018-07-26	12:33:54.340104	1532601234.340104: Aborting call on unexpected message for Call-Id '388-20559@192.168.20.175': while expecting '180' (index 2), received 'SIP/2.0 480 Temporarily unavailable
+Via: SIP/2.0/UDP 192.168.20.175:5075;branch=z9hG4bK-20559-388-0
+From: <sip:101@192.168.20.175:5075>;tag=20559SIPpTag09388
+To: "800 " <sip:800@10.10.10.149:5060>;tag=6283f33289e1fec3
+Call-ID: 388-20559@192.168.20.175
+CSeq: 1 INVITE
+Max-Forwards: 70
+Contact: <sip:800@10.10.10.149:5060>
+Content-Length: 0
+
+'.
+2018-07-26	12:33:54.487448	1532601234.487448: Aborting call on unexpected message for Call-Id '392-20559@192.168.20.175': while expecting '180' (index 2), received 'SIP/2.0 480 Temporarily unavailable
+Via: SIP/2.0/UDP 192.168.20.175:5075;branch=z9hG4bK-20559-392-0
+From: <sip:101@192.168.20.175:5075>;tag=20559SIPpTag09392
+To: "800 " <sip:800@10.10.10.149:5060>;tag=d65492fbc0967eb4
+Call-ID: 392-20559@192.168.20.175
+CSeq: 1 INVITE
+Max-Forwards: 70
+Contact: <sip:800@10.10.10.149:5060>
+Content-Length: 0
+
+'.
+2018-07-26	12:33:54.595057	1532601234.595057: Aborting call on unexpected message for Call-Id '394-20559@192.168.20.175': while expecting '180' (index 2), received 'SIP/2.0 480 Temporarily unavailable
+Via: SIP/2.0/UDP 192.168.20.175:5075;branch=z9hG4bK-20559-394-0
+From: <sip:101@192.168.20.175:5075>;tag=20559SIPpTag09394
+To: "800 " <sip:800@10.10.10.149:5060>;tag=e6b14c86c323fdc
+Call-ID: 394-20559@192.168.20.175
+CSeq: 1 INVITE
+Max-Forwards: 70
+Contact: <sip:800@10.10.10.149:5060>
+Content-Length: 0
+
+'.
+2018-07-26	12:33:54.690544	1532601234.690544: Aborting call on unexpected message for Call-Id '396-20559@192.168.20.175': while expecting '180' (index 2), received 'SIP/2.0 480 Temporarily unavailable
+Via: SIP/2.0/UDP 192.168.20.175:5075;branch=z9hG4bK-20559-396-0
+From: <sip:101@192.168.20.175:5075>;tag=20559SIPpTag09396
+To: "800 " <sip:800@10.10.10.149:5060>;tag=391677127e8c3255
+Call-ID: 396-20559@192.168.20.175
+CSeq: 1 INVITE
+Max-Forwards: 70
+Contact: <sip:800@10.10.10.149:5060>
+Content-Length: 0
+
+'.
+2018-07-26	12:33:54.718933	1532601234.718933: Aborting call on unexpected message for Call-Id '397-20559@192.168.20.175': while expecting '100' (index 1), received 'SIP/2.0 480 Temporarily unavailable
+Via: SIP/2.0/UDP 192.168.20.175:5075;branch=z9hG4bK-20559-397-0
+From: <sip:101@192.168.20.175:5075>;tag=20559SIPpTag09397
+To: "800 " <sip:800@10.10.10.149:5060>;tag=523476662f100081
+Call-ID: 397-20559@192.168.20.175
+CSeq: 1 INVITE
+Max-Forwards: 70
+Contact: <sip:800@10.10.10.149:5060>
+Content-Length: 0
+
+'.
+2018-07-26	12:33:54.842700	1532601234.842700: Aborting call on unexpected message for Call-Id '399-20559@192.168.20.175': while expecting '180' (index 2), received 'SIP/2.0 480 Temporarily unavailable
+Via: SIP/2.0/UDP 192.168.20.175:5075;branch=z9hG4bK-20559-399-0
+From: <sip:101@192.168.20.175:5075>;tag=20559SIPpTag09399
+To: "800 " <sip:800@10.10.10.149:5060>;tag=433b403dfc065a54
+Call-ID: 399-20559@192.168.20.175
+CSeq: 1 INVITE
+Max-Forwards: 70
+Contact: <sip:800@10.10.10.149:5060>
+Content-Length: 0
+
+'.
+2018-07-26	12:33:54.945635	1532601234.945635: Aborting call on unexpected message for Call-Id '401-20559@192.168.20.175': while expecting '180' (index 2), received 'SIP/2.0 480 Temporarily unavailable
+Via: SIP/2.0/UDP 192.168.20.175:5075;branch=z9hG4bK-20559-401-0
+From: <sip:101@192.168.20.175:5075>;tag=20559SIPpTag09401
+To: "800 " <sip:800@10.10.10.149:5060>;tag=9ec22a10fed1d
+Call-ID: 401-20559@192.168.20.175
+CSeq: 1 INVITE
+Max-Forwards: 70
+Contact: <sip:800@10.10.10.149:5060>
+Content-Length: 0
+
+'.
+2018-07-26	12:33:55.127417	1532601235.127417: Aborting call on unexpected message for Call-Id '404-20559@192.168.20.175': while expecting '100' (index 1), received 'SIP/2.0 480 Temporarily unavailable
+Via: SIP/2.0/UDP 192.168.20.175:5075;branch=z9hG4bK-20559-404-0
+From: <sip:101@192.168.20.175:5075>;tag=20559SIPpTag09404
+To: "800 " <sip:800@10.10.10.149:5060>;tag=bc3e441a4cd6d40b
+Call-ID: 404-20559@192.168.20.175
+CSeq: 1 INVITE
+Max-Forwards: 70
+Contact: <sip:800@10.10.10.149:5060>
+Content-Length: 0
+
+'.
+2018-07-26	12:33:55.129519	1532601235.129519: Aborting call on unexpected message for Call-Id '405-20559@192.168.20.175': while expecting '100' (index 1), received 'SIP/2.0 480 Temporarily unavailable
+Via: SIP/2.0/UDP 192.168.20.175:5075;branch=z9hG4bK-20559-405-0
+From: <sip:101@192.168.20.175:5075>;tag=20559SIPpTag09405
+To: "800 " <sip:800@10.10.10.149:5060>;tag=26d301b614cdc635
+Call-ID: 405-20559@192.168.20.175
+CSeq: 1 INVITE
+Max-Forwards: 70
+Contact: <sip:800@10.10.10.149:5060>
+Content-Length: 0
+
+'.
+2018-07-26	12:33:55.250936	1532601235.250936: Aborting call on unexpected message for Call-Id '407-20559@192.168.20.175': while expecting '180' (index 2), received 'SIP/2.0 480 Temporarily unavailable
+Via: SIP/2.0/UDP 192.168.20.175:5075;branch=z9hG4bK-20559-407-0
+From: <sip:101@192.168.20.175:5075>;tag=20559SIPpTag09407
+To: "800 " <sip:800@10.10.10.149:5060>;tag=f7a4b88faabcb6f3
+Call-ID: 407-20559@192.168.20.175
+CSeq: 1 INVITE
+Max-Forwards: 70
+Contact: <sip:800@10.10.10.149:5060>
+Content-Length: 0
+
+'.
+2018-07-26	12:33:55.281302	1532601235.281302: Aborting call on unexpected message for Call-Id '408-20559@192.168.20.175': while expecting '100' (index 1), received 'SIP/2.0 480 Temporarily unavailable
+Via: SIP/2.0/UDP 192.168.20.175:5075;branch=z9hG4bK-20559-408-0
+From: <sip:101@192.168.20.175:5075>;tag=20559SIPpTag09408
+To: "800 " <sip:800@10.10.10.149:5060>;tag=b9674d63a61c4ff7
+Call-ID: 408-20559@192.168.20.175
+CSeq: 1 INVITE
+Max-Forwards: 70
+Contact: <sip:800@10.10.10.149:5060>
+Content-Length: 0
+
+'.
+2018-07-26	12:33:55.461716	1532601235.461716: Aborting call on unexpected message for Call-Id '411-20559@192.168.20.175': while expecting '180' (index 2), received 'SIP/2.0 480 Temporarily unavailable
+Via: SIP/2.0/UDP 192.168.20.175:5075;branch=z9hG4bK-20559-411-0
+From: <sip:101@192.168.20.175:5075>;tag=20559SIPpTag09411
+To: "800 " <sip:800@10.10.10.149:5060>;tag=35893cd869ea0ed7
+Call-ID: 411-20559@192.168.20.175
+CSeq: 1 INVITE
+Max-Forwards: 70
+Contact: <sip:800@10.10.10.149:5060>
+Content-Length: 0
+
+'.
+2018-07-26	12:33:55.594003	1532601235.594003: Aborting call on unexpected message for Call-Id '414-20559@192.168.20.175': while expecting '100' (index 1), received 'SIP/2.0 480 Temporarily unavailable
+Via: SIP/2.0/UDP 192.168.20.175:5075;branch=z9hG4bK-20559-414-0
+From: <sip:101@192.168.20.175:5075>;tag=20559SIPpTag09414
+To: "800 " <sip:800@10.10.10.149:5060>;tag=56def837db9c2fb7
+Call-ID: 414-20559@192.168.20.175
+CSeq: 1 INVITE
+Max-Forwards: 70
+Contact: <sip:800@10.10.10.149:5060>
+Content-Length: 0
+
+'.
+2018-07-26	12:33:55.645381	1532601235.645381: Aborting call on unexpected message for Call-Id '415-20559@192.168.20.175': while expecting '100' (index 1), received 'SIP/2.0 480 Temporarily unavailable
+Via: SIP/2.0/UDP 192.168.20.175:5075;branch=z9hG4bK-20559-415-0
+From: <sip:101@192.168.20.175:5075>;tag=20559SIPpTag09415
+To: "800 " <sip:800@10.10.10.149:5060>;tag=d4c1ff1e0ee35e7
+Call-ID: 415-20559@192.168.20.175
+CSeq: 1 INVITE
+Max-Forwards: 70
+Contact: <sip:800@10.10.10.149:5060>
+Content-Length: 0
+
+'.
+2018-07-26	12:33:55.649465	1532601235.649465: Aborting call on unexpected message for Call-Id '416-20559@192.168.20.175': while expecting '100' (index 1), received 'SIP/2.0 480 Temporarily unavailable
+Via: SIP/2.0/UDP 192.168.20.175:5075;branch=z9hG4bK-20559-416-0
+From: <sip:101@192.168.20.175:5075>;tag=20559SIPpTag09416
+To: "800 " <sip:800@10.10.10.149:5060>;tag=f2bc27ec70432ea5
+Call-ID: 416-20559@192.168.20.175
+CSeq: 1 INVITE
+Max-Forwards: 70
+Contact: <sip:800@10.10.10.149:5060>
+Content-Length: 0
+
+'.
+2018-07-26	12:33:55.702132	1532601235.702132: Aborting call on unexpected message for Call-Id '417-20559@192.168.20.175': while expecting '100' (index 1), received 'SIP/2.0 480 Temporarily unavailable
+Via: SIP/2.0/UDP 192.168.20.175:5075;branch=z9hG4bK-20559-417-0
+From: <sip:101@192.168.20.175:5075>;tag=20559SIPpTag09417
+To: "800 " <sip:800@10.10.10.149:5060>;tag=2fcf5cc441055a06
+Call-ID: 417-20559@192.168.20.175
+CSeq: 1 INVITE
+Max-Forwards: 70
+Contact: <sip:800@10.10.10.149:5060>
+Content-Length: 0
+
+'.
+2018-07-26	12:33:55.923833	1532601235.923833: Aborting call on unexpected message for Call-Id '421-20559@192.168.20.175': while expecting '100' (index 1), received 'SIP/2.0 480 Temporarily unavailable
+Via: SIP/2.0/UDP 192.168.20.175:5075;branch=z9hG4bK-20559-421-0
+From: <sip:101@192.168.20.175:5075>;tag=20559SIPpTag09421
+To: "800 " <sip:800@10.10.10.149:5060>;tag=c817ca234aeccaca
+Call-ID: 421-20559@192.168.20.175
+CSeq: 1 INVITE
+Max-Forwards: 70
+Contact: <sip:800@10.10.10.149:5060>
+Content-Length: 0
+
+'.
+2018-07-26	12:33:55.975980	1532601235.975980: Aborting call on unexpected message for Call-Id '422-20559@192.168.20.175': while expecting '100' (index 1), received 'SIP/2.0 480 Temporarily unavailable
+Via: SIP/2.0/UDP 192.168.20.175:5075;branch=z9hG4bK-20559-422-0
+From: <sip:101@192.168.20.175:5075>;tag=20559SIPpTag09422
+To: "800 " <sip:800@10.10.10.149:5060>;tag=845b46f00716c729
+Call-ID: 422-20559@192.168.20.175
+CSeq: 1 INVITE
+Max-Forwards: 70
+Contact: <sip:800@10.10.10.149:5060>
+Content-Length: 0
+
+'.
+2018-07-26	12:33:56.155855	1532601236.155855: Aborting call on unexpected message for Call-Id '425-20559@192.168.20.175': while expecting '180' (index 2), received 'SIP/2.0 480 Temporarily unavailable
+Via: SIP/2.0/UDP 192.168.20.175:5075;branch=z9hG4bK-20559-425-0
+From: <sip:101@192.168.20.175:5075>;tag=20559SIPpTag09425
+To: "800 " <sip:800@10.10.10.149:5060>;tag=d9f92e546937da70
+Call-ID: 425-20559@192.168.20.175
+CSeq: 1 INVITE
+Max-Forwards: 70
+Contact: <sip:800@10.10.10.149:5060>
+Content-Length: 0
+
+'.
+2018-07-26	12:33:56.234784	1532601236.234784: Aborting call on unexpected message for Call-Id '427-20559@192.168.20.175': while expecting '100' (index 1), received 'SIP/2.0 480 Temporarily unavailable
+Via: SIP/2.0/UDP 192.168.20.175:5075;branch=z9hG4bK-20559-427-0
+From: <sip:101@192.168.20.175:5075>;tag=20559SIPpTag09427
+To: "800 " <sip:800@10.10.10.149:5060>;tag=3f0e21baa61563af
+Call-ID: 427-20559@192.168.20.175
+CSeq: 1 INVITE
+Max-Forwards: 70
+Contact: <sip:800@10.10.10.149:5060>
+Content-Length: 0
+
+'.
+2018-07-26	12:33:56.335784	1532601236.335784: Aborting call on unexpected message for Call-Id '429-20559@192.168.20.175': while expecting '100' (index 1), received 'SIP/2.0 480 Temporarily unavailable
+Via: SIP/2.0/UDP 192.168.20.175:5075;branch=z9hG4bK-20559-429-0
+From: <sip:101@192.168.20.175:5075>;tag=20559SIPpTag09429
+To: "800 " <sip:800@10.10.10.149:5060>;tag=9fec81b34678e036
+Call-ID: 429-20559@192.168.20.175
+CSeq: 1 INVITE
+Max-Forwards: 70
+Contact: <sip:800@10.10.10.149:5060>
+Content-Length: 0
+
+'.
+2018-07-26	12:33:56.491622	1532601236.491622: Aborting call on unexpected message for Call-Id '432-20559@192.168.20.175': while expecting '100' (index 1), received 'SIP/2.0 480 Temporarily unavailable
+Via: SIP/2.0/UDP 192.168.20.175:5075;branch=z9hG4bK-20559-432-0
+From: <sip:101@192.168.20.175:5075>;tag=20559SIPpTag09432
+To: "800 " <sip:800@10.10.10.149:5060>;tag=278d42439a7b896b
+Call-ID: 432-20559@192.168.20.175
+CSeq: 1 INVITE
+Max-Forwards: 70
+Contact: <sip:800@10.10.10.149:5060>
+Content-Length: 0
+
+'.
+2018-07-26	12:33:56.543223	1532601236.543223: Aborting call on unexpected message for Call-Id '433-20559@192.168.20.175': while expecting '100' (index 1), received 'SIP/2.0 480 Temporarily unavailable
+Via: SIP/2.0/UDP 192.168.20.175:5075;branch=z9hG4bK-20559-433-0
+From: <sip:101@192.168.20.175:5075>;tag=20559SIPpTag09433
+To: "800 " <sip:800@10.10.10.149:5060>;tag=1abf23f59afee1ac
+Call-ID: 433-20559@192.168.20.175
+CSeq: 1 INVITE
+Max-Forwards: 70
+Contact: <sip:800@10.10.10.149:5060>
+Content-Length: 0
+
+'.
+2018-07-26	12:33:56.593442	1532601236.593442: Aborting call on unexpected message for Call-Id '434-20559@192.168.20.175': while expecting '100' (index 1), received 'SIP/2.0 480 Temporarily unavailable
+Via: SIP/2.0/UDP 192.168.20.175:5075;branch=z9hG4bK-20559-434-0
+From: <sip:101@192.168.20.175:5075>;tag=20559SIPpTag09434
+To: "800 " <sip:800@10.10.10.149:5060>;tag=ad4cf20143a4761d
+Call-ID: 434-20559@192.168.20.175
+CSeq: 1 INVITE
+Max-Forwards: 70
+Contact: <sip:800@10.10.10.149:5060>
+Content-Length: 0
+
+'.
+2018-07-26	12:33:56.730450	1532601236.730450: Aborting call on unexpected message for Call-Id '436-20559@192.168.20.175': while expecting '180' (index 2), received 'SIP/2.0 480 Temporarily unavailable
+Via: SIP/2.0/UDP 192.168.20.175:5075;branch=z9hG4bK-20559-436-0
+From: <sip:101@192.168.20.175:5075>;tag=20559SIPpTag09436
+To: "800 " <sip:800@10.10.10.149:5060>;tag=7c0422ea37d54b1b
+Call-ID: 436-20559@192.168.20.175
+CSeq: 1 INVITE
+Max-Forwards: 70
+Contact: <sip:800@10.10.10.149:5060>
+Content-Length: 0
+
+'.
+2018-07-26	12:33:56.734104	1532601236.734104: Aborting call on unexpected message for Call-Id '437-20559@192.168.20.175': while expecting '180' (index 2), received 'SIP/2.0 480 Temporarily unavailable
+Via: SIP/2.0/UDP 192.168.20.175:5075;branch=z9hG4bK-20559-437-0
+From: <sip:101@192.168.20.175:5075>;tag=20559SIPpTag09437
+To: "800 " <sip:800@10.10.10.149:5060>;tag=4fadc7b09cda6f80
+Call-ID: 437-20559@192.168.20.175
+CSeq: 1 INVITE
+Max-Forwards: 70
+Contact: <sip:800@10.10.10.149:5060>
+Content-Length: 0
+
+'.
+2018-07-26	12:33:56.848617	1532601236.848617: Aborting call on unexpected message for Call-Id '439-20559@192.168.20.175': while expecting '100' (index 1), received 'SIP/2.0 480 Temporarily unavailable
+Via: SIP/2.0/UDP 192.168.20.175:5075;branch=z9hG4bK-20559-439-0
+From: <sip:101@192.168.20.175:5075>;tag=20559SIPpTag09439
+To: "800 " <sip:800@10.10.10.149:5060>;tag=1a5f4c73ea5221a6
+Call-ID: 439-20559@192.168.20.175
+CSeq: 1 INVITE
+Max-Forwards: 70
+Contact: <sip:800@10.10.10.149:5060>
+Content-Length: 0
+
+'.
+2018-07-26	12:33:56.870593	1532601236.870593: Aborting call on an unexpected BYE for call: 238-20559@192.168.20.175.
+2018-07-26	12:33:56.877083	1532601236.877083: Aborting call on unexpected message for Call-Id '440-20559@192.168.20.175': while expecting '180' (index 2), received 'SIP/2.0 480 Temporarily unavailable
+Via: SIP/2.0/UDP 192.168.20.175:5075;branch=z9hG4bK-20559-440-0
+From: <sip:101@192.168.20.175:5075>;tag=20559SIPpTag09440
+To: "800 " <sip:800@10.10.10.149:5060>;tag=a07308e38e68e96e
+Call-ID: 440-20559@192.168.20.175
+CSeq: 1 INVITE
+Max-Forwards: 70
+Contact: <sip:800@10.10.10.149:5060>
+Content-Length: 0
+
+'.
+2018-07-26	12:33:57.006878	1532601237.006878: Aborting call on unexpected message for Call-Id '443-20559@192.168.20.175': while expecting '100' (index 1), received 'SIP/2.0 480 Temporarily unavailable
+Via: SIP/2.0/UDP 192.168.20.175:5075;branch=z9hG4bK-20559-443-0
+From: <sip:101@192.168.20.175:5075>;tag=20559SIPpTag09443
+To: "800 " <sip:800@10.10.10.149:5060>;tag=6c881265be927a7
+Call-ID: 443-20559@192.168.20.175
+CSeq: 1 INVITE
+Max-Forwards: 70
+Contact: <sip:800@10.10.10.149:5060>
+Content-Length: 0
+
+'.
+2018-07-26	12:33:57.111903	1532601237.111903: Aborting call on unexpected message for Call-Id '445-20559@192.168.20.175': while expecting '100' (index 1), received 'SIP/2.0 480 Temporarily unavailable
+Via: SIP/2.0/UDP 192.168.20.175:5075;branch=z9hG4bK-20559-445-0
+From: <sip:101@192.168.20.175:5075>;tag=20559SIPpTag09445
+To: "800 " <sip:800@10.10.10.149:5060>;tag=e657c01cf70ca311
+Call-ID: 445-20559@192.168.20.175
+CSeq: 1 INVITE
+Max-Forwards: 70
+Contact: <sip:800@10.10.10.149:5060>
+Content-Length: 0
+
+'.
+2018-07-26	12:33:57.165990	1532601237.165990: Aborting call on unexpected message for Call-Id '446-20559@192.168.20.175': while expecting '100' (index 1), received 'SIP/2.0 480 Temporarily unavailable
+Via: SIP/2.0/UDP 192.168.20.175:5075;branch=z9hG4bK-20559-446-0
+From: <sip:101@192.168.20.175:5075>;tag=20559SIPpTag09446
+To: "800 " <sip:800@10.10.10.149:5060>;tag=81e2a987a14c4d16
+Call-ID: 446-20559@192.168.20.175
+CSeq: 1 INVITE
+Max-Forwards: 70
+Contact: <sip:800@10.10.10.149:5060>
+Content-Length: 0
+
+'.
+2018-07-26	12:33:57.295313	1532601237.295313: Aborting call on unexpected message for Call-Id '448-20559@192.168.20.175': while expecting '180' (index 2), received 'SIP/2.0 480 Temporarily unavailable
+Via: SIP/2.0/UDP 192.168.20.175:5075;branch=z9hG4bK-20559-448-0
+From: <sip:101@192.168.20.175:5075>;tag=20559SIPpTag09448
+To: "800 " <sip:800@10.10.10.149:5060>;tag=9d560f1584193328
+Call-ID: 448-20559@192.168.20.175
+CSeq: 1 INVITE
+Max-Forwards: 70
+Contact: <sip:800@10.10.10.149:5060>
+Content-Length: 0
+
+'.
+2018-07-26	12:33:57.369700	1532601237.369700: Aborting call on unexpected message for Call-Id '450-20559@192.168.20.175': while expecting '100' (index 1), received 'SIP/2.0 480 Temporarily unavailable
+Via: SIP/2.0/UDP 192.168.20.175:5075;branch=z9hG4bK-20559-450-0
+From: <sip:101@192.168.20.175:5075>;tag=20559SIPpTag09450
+To: "800 " <sip:800@10.10.10.149:5060>;tag=465e6793fb9798b3
+Call-ID: 450-20559@192.168.20.175
+CSeq: 1 INVITE
+Max-Forwards: 70
+Contact: <sip:800@10.10.10.149:5060>
+Content-Length: 0
+
+'.
+2018-07-26	12:33:57.424949	1532601237.424949: Aborting call on unexpected message for Call-Id '451-20559@192.168.20.175': while expecting '100' (index 1), received 'SIP/2.0 480 Temporarily unavailable
+Via: SIP/2.0/UDP 192.168.20.175:5075;branch=z9hG4bK-20559-451-0
+From: <sip:101@192.168.20.175:5075>;tag=20559SIPpTag09451
+To: "800 " <sip:800@10.10.10.149:5060>;tag=a2a1dac8ce1bb489
+Call-ID: 451-20559@192.168.20.175
+CSeq: 1 INVITE
+Max-Forwards: 70
+Contact: <sip:800@10.10.10.149:5060>
+Content-Length: 0
+
+'.
+2018-07-26	12:33:57.626656	1532601237.626656: Aborting call on unexpected message for Call-Id '455-20559@192.168.20.175': while expecting '180' (index 2), received 'SIP/2.0 480 Temporarily unavailable
+Via: SIP/2.0/UDP 192.168.20.175:5075;branch=z9hG4bK-20559-455-0
+From: <sip:101@192.168.20.175:5075>;tag=20559SIPpTag09455
+To: "800 " <sip:800@10.10.10.149:5060>;tag=107267574f0be0ee
+Call-ID: 455-20559@192.168.20.175
+CSeq: 1 INVITE
+Max-Forwards: 70
+Contact: <sip:800@10.10.10.149:5060>
+Content-Length: 0
+
+'.
+2018-07-26	12:33:57.650935	1532601237.650935: Aborting call on unexpected message for Call-Id '456-20559@192.168.20.175': while expecting '100' (index 1), received 'SIP/2.0 480 Temporarily unavailable
+Via: SIP/2.0/UDP 192.168.20.175:5075;branch=z9hG4bK-20559-456-0
+From: <sip:101@192.168.20.175:5075>;tag=20559SIPpTag09456
+To: "800 " <sip:800@10.10.10.149:5060>;tag=40ca93147cb5a058
+Call-ID: 456-20559@192.168.20.175
+CSeq: 1 INVITE
+Max-Forwards: 70
+Contact: <sip:800@10.10.10.149:5060>
+Content-Length: 0
+
+'.
+2018-07-26	12:33:57.959751	1532601237.959751: Aborting call on unexpected message for Call-Id '461-20559@192.168.20.175': while expecting '180' (index 2), received 'SIP/2.0 480 Temporarily unavailable
+Via: SIP/2.0/UDP 192.168.20.175:5075;branch=z9hG4bK-20559-461-0
+From: <sip:101@192.168.20.175:5075>;tag=20559SIPpTag09461
+To: "800 " <sip:800@10.10.10.149:5060>;tag=dbf299942bb7521d
+Call-ID: 461-20559@192.168.20.175
+CSeq: 1 INVITE
+Max-Forwards: 70
+Contact: <sip:800@10.10.10.149:5060>
+Content-Length: 0
+
+'.
+2018-07-26	12:33:58.275757	1532601238.275757: Aborting call on unexpected message for Call-Id '468-20559@192.168.20.175': while expecting '180' (index 2), received 'SIP/2.0 480 Temporarily unavailable
+Via: SIP/2.0/UDP 192.168.20.175:5075;branch=z9hG4bK-20559-468-0
+From: <sip:101@192.168.20.175:5075>;tag=20559SIPpTag09468
+To: "800 " <sip:800@10.10.10.149:5060>;tag=be6b09b830e7cd38
+Call-ID: 468-20559@192.168.20.175
+CSeq: 1 INVITE
+Max-Forwards: 70
+Contact: <sip:800@10.10.10.149:5060>
+Content-Length: 0
+
+'.
+2018-07-26	12:33:58.660860	1532601238.660860: Aborting call on unexpected message for Call-Id '476-20559@192.168.20.175': while expecting '100' (index 1), received 'SIP/2.0 480 Temporarily unavailable
+Via: SIP/2.0/UDP 192.168.20.175:5075;branch=z9hG4bK-20559-476-0
+From: <sip:101@192.168.20.175:5075>;tag=20559SIPpTag09476
+To: "800 " <sip:800@10.10.10.149:5060>;tag=e4748b66a8594ed1
+Call-ID: 476-20559@192.168.20.175
+CSeq: 1 INVITE
+Max-Forwards: 70
+Contact: <sip:800@10.10.10.149:5060>
+Content-Length: 0
+
+'.
+2018-07-26	12:33:59.040580	1532601239.040580: Aborting call on unexpected message for Call-Id '483-20559@192.168.20.175': while expecting '180' (index 2), received 'SIP/2.0 480 Temporarily unavailable
+Via: SIP/2.0/UDP 192.168.20.175:5075;branch=z9hG4bK-20559-483-0
+From: <sip:101@192.168.20.175:5075>;tag=20559SIPpTag09483
+To: "800 " <sip:800@10.10.10.149:5060>;tag=58a8553520cda01f
+Call-ID: 483-20559@192.168.20.175
+CSeq: 1 INVITE
+Max-Forwards: 70
+Contact: <sip:800@10.10.10.149:5060>
+Content-Length: 0
+
+'.
+2018-07-26	12:33:59.125784	1532601239.125784: Aborting call on unexpected message for Call-Id '485-20559@192.168.20.175': while expecting '100' (index 1), received 'SIP/2.0 480 Temporarily unavailable
+Via: SIP/2.0/UDP 192.168.20.175:5075;branch=z9hG4bK-20559-485-0
+From: <sip:101@192.168.20.175:5075>;tag=20559SIPpTag09485
+To: "800 " <sip:800@10.10.10.149:5060>;tag=a9a9d6feaca88d50
+Call-ID: 485-20559@192.168.20.175
+CSeq: 1 INVITE
+Max-Forwards: 70
+Contact: <sip:800@10.10.10.149:5060>
+Content-Length: 0
+
+'.
+2018-07-26	12:33:59.562543	1532601239.562543: Aborting call on unexpected message for Call-Id '493-20559@192.168.20.175': while expecting '180' (index 2), received 'SIP/2.0 480 Temporarily unavailable
+Via: SIP/2.0/UDP 192.168.20.175:5075;branch=z9hG4bK-20559-493-0
+From: <sip:101@192.168.20.175:5075>;tag=20559SIPpTag09493
+To: "800 " <sip:800@10.10.10.149:5060>;tag=73ccdb010e1ab21c
+Call-ID: 493-20559@192.168.20.175
+CSeq: 1 INVITE
+Max-Forwards: 70
+Contact: <sip:800@10.10.10.149:5060>
+Content-Length: 0
+
+'.
+2018-07-26	12:33:59.950334	1532601239.950334: Aborting call on an unexpected BYE for call: 298-20559@192.168.20.175.
+2018-07-26	12:33:59.951308	1532601239.951308: Aborting call on unexpected message for Call-Id '500-20559@192.168.20.175': while expecting '180' (index 2), received 'SIP/2.0 480 Temporarily unavailable
+Via: SIP/2.0/UDP 192.168.20.175:5075;branch=z9hG4bK-20559-500-0
+From: <sip:101@192.168.20.175:5075>;tag=20559SIPpTag09500
+To: "800 " <sip:800@10.10.10.149:5060>;tag=cfcd69800022917e
+Call-ID: 500-20559@192.168.20.175
+CSeq: 1 INVITE
+Max-Forwards: 70
+Contact: <sip:800@10.10.10.149:5060>
+Content-Length: 0
+
+'.
+2018-07-26	12:33:59.952427	1532601239.952427: Aborting call on unexpected message for Call-Id '501-20559@192.168.20.175': while expecting '180' (index 2), received 'SIP/2.0 480 Temporarily unavailable
+Via: SIP/2.0/UDP 192.168.20.175:5075;branch=z9hG4bK-20559-501-0
+From: <sip:101@192.168.20.175:5075>;tag=20559SIPpTag09501
+To: "800 " <sip:800@10.10.10.149:5060>;tag=4972f591bcd30644
+Call-ID: 501-20559@192.168.20.175
+CSeq: 1 INVITE
+Max-Forwards: 70
+Contact: <sip:800@10.10.10.149:5060>
+Content-Length: 0
+
+'.
+2018-07-26	12:34:00.638168	1532601240.638168: Aborting call on unexpected message for Call-Id '515-20559@192.168.20.175': while expecting '180' (index 2), received 'SIP/2.0 480 Temporarily unavailable
+Via: SIP/2.0/UDP 192.168.20.175:5075;branch=z9hG4bK-20559-515-0
+From: <sip:101@192.168.20.175:5075>;tag=20559SIPpTag09515
+To: "800 " <sip:800@10.10.10.149:5060>;tag=34b88c3a54c9f5f9
+Call-ID: 515-20559@192.168.20.175
+CSeq: 1 INVITE
+Max-Forwards: 70
+Contact: <sip:800@10.10.10.149:5060>
+Content-Length: 0
+
+'.
+2018-07-26	12:34:00.811205	1532601240.811205: Aborting call on unexpected message for Call-Id '519-20559@192.168.20.175': while expecting '100' (index 1), received 'SIP/2.0 480 Temporarily unavailable
+Via: SIP/2.0/UDP 192.168.20.175:5075;branch=z9hG4bK-20559-519-0
+From: <sip:101@192.168.20.175:5075>;tag=20559SIPpTag09519
+To: "800 " <sip:800@10.10.10.149:5060>;tag=1845f02f8a1a2129
+Call-ID: 519-20559@192.168.20.175
+CSeq: 1 INVITE
+Max-Forwards: 70
+Contact: <sip:800@10.10.10.149:5060>
+Content-Length: 0
+
+'.
+2018-07-26	12:34:01.009351	1532601241.009351: Aborting call on unexpected message for Call-Id '523-20559@192.168.20.175': while expecting '100' (index 1), received 'SIP/2.0 480 Temporarily unavailable
+Via: SIP/2.0/UDP 192.168.20.175:5075;branch=z9hG4bK-20559-523-0
+From: <sip:101@192.168.20.175:5075>;tag=20559SIPpTag09523
+To: "800 " <sip:800@10.10.10.149:5060>;tag=8f8f386d96d0aa46
+Call-ID: 523-20559@192.168.20.175
+CSeq: 1 INVITE
+Max-Forwards: 70
+Contact: <sip:800@10.10.10.149:5060>
+Content-Length: 0
+
+'.
+2018-07-26	12:34:01.938245	1532601241.938245: Aborting call on unexpected message for Call-Id '533-20559@192.168.20.175': while expecting '100' (index 1), received 'SIP/2.0 480 Temporarily unavailable
+Via: SIP/2.0/UDP 192.168.20.175:5075;branch=z9hG4bK-20559-533-0
+From: <sip:101@192.168.20.175:5075>;tag=20559SIPpTag09533
+To: "800 " <sip:800@10.10.10.149:5060>;tag=7128674f7ccf78eb
+Call-ID: 533-20559@192.168.20.175
+CSeq: 1 INVITE
+Max-Forwards: 70
+Contact: <sip:800@10.10.10.149:5060>
+Content-Length: 0
+
+'.
+2018-07-26	12:34:01.938369	1532601241.938369: Aborting call on unexpected message for Call-Id '534-20559@192.168.20.175': while expecting '100' (index 1), received 'SIP/2.0 480 Temporarily unavailable
+Via: SIP/2.0/UDP 192.168.20.175:5075;branch=z9hG4bK-20559-534-0
+From: <sip:101@192.168.20.175:5075>;tag=20559SIPpTag09534
+To: "800 " <sip:800@10.10.10.149:5060>;tag=592e8ef561a60fba
+Call-ID: 534-20559@192.168.20.175
+CSeq: 1 INVITE
+Max-Forwards: 70
+Contact: <sip:800@10.10.10.149:5060>
+Content-Length: 0
+
+'.
+2018-07-26	12:34:01.938450	1532601241.938450: Aborting call on unexpected message for Call-Id '535-20559@192.168.20.175': while expecting '100' (index 1), received 'SIP/2.0 480 Temporarily unavailable
+Via: SIP/2.0/UDP 192.168.20.175:5075;branch=z9hG4bK-20559-535-0
+From: <sip:101@192.168.20.175:5075>;tag=20559SIPpTag09535
+To: "800 " <sip:800@10.10.10.149:5060>;tag=248f9969f2733298
+Call-ID: 535-20559@192.168.20.175
+CSeq: 1 INVITE
+Max-Forwards: 70
+Contact: <sip:800@10.10.10.149:5060>
+Content-Length: 0
+
+'.
+2018-07-26	12:34:01.938558	1532601241.938558: Aborting call on unexpected message for Call-Id '536-20559@192.168.20.175': while expecting '100' (index 1), received 'SIP/2.0 480 Temporarily unavailable
+Via: SIP/2.0/UDP 192.168.20.175:5075;branch=z9hG4bK-20559-536-0
+From: <sip:101@192.168.20.175:5075>;tag=20559SIPpTag09536
+To: "800 " <sip:800@10.10.10.149:5060>;tag=fac5d65a8cd4976
+Call-ID: 536-20559@192.168.20.175
+CSeq: 1 INVITE
+Max-Forwards: 70
+Contact: <sip:800@10.10.10.149:5060>
+Content-Length: 0
+
+'.
+2018-07-26	12:34:01.938634	1532601241.938634: Aborting call on unexpected message for Call-Id '537-20559@192.168.20.175': while expecting '100' (index 1), received 'SIP/2.0 480 Temporarily unavailable
+Via: SIP/2.0/UDP 192.168.20.175:5075;branch=z9hG4bK-20559-537-0
+From: <sip:101@192.168.20.175:5075>;tag=20559SIPpTag09537
+To: "800 " <sip:800@10.10.10.149:5060>;tag=94e038e836af5918
+Call-ID: 537-20559@192.168.20.175
+CSeq: 1 INVITE
+Max-Forwards: 70
+Contact: <sip:800@10.10.10.149:5060>
+Content-Length: 0
+
+'.
+2018-07-26	12:34:01.938707	1532601241.938707: Aborting call on unexpected message for Call-Id '538-20559@192.168.20.175': while expecting '100' (index 1), received 'SIP/2.0 480 Temporarily unavailable
+Via: SIP/2.0/UDP 192.168.20.175:5075;branch=z9hG4bK-20559-538-0
+From: <sip:101@192.168.20.175:5075>;tag=20559SIPpTag09538
+To: "800 " <sip:800@10.10.10.149:5060>;tag=635bf668af895240
+Call-ID: 538-20559@192.168.20.175
+CSeq: 1 INVITE
+Max-Forwards: 70
+Contact: <sip:800@10.10.10.149:5060>
+Content-Length: 0
+
+'.
+2018-07-26	12:34:01.938789	1532601241.938789: Aborting call on unexpected message for Call-Id '539-20559@192.168.20.175': while expecting '100' (index 1), received 'SIP/2.0 480 Temporarily unavailable
+Via: SIP/2.0/UDP 192.168.20.175:5075;branch=z9hG4bK-20559-539-0
+From: <sip:101@192.168.20.175:5075>;tag=20559SIPpTag09539
+To: "800 " <sip:800@10.10.10.149:5060>;tag=8fad5153a5e3af0a
+Call-ID: 539-20559@192.168.20.175
+CSeq: 1 INVITE
+Max-Forwards: 70
+Contact: <sip:800@10.10.10.149:5060>
+Content-Length: 0
+
+'.
+2018-07-26	12:34:01.938861	1532601241.938861: Aborting call on unexpected message for Call-Id '540-20559@192.168.20.175': while expecting '100' (index 1), received 'SIP/2.0 480 Temporarily unavailable
+Via: SIP/2.0/UDP 192.168.20.175:5075;branch=z9hG4bK-20559-540-0
+From: <sip:101@192.168.20.175:5075>;tag=20559SIPpTag09540
+To: "800 " <sip:800@10.10.10.149:5060>;tag=c6d5cdb463d50299
+Call-ID: 540-20559@192.168.20.175
+CSeq: 1 INVITE
+Max-Forwards: 70
+Contact: <sip:800@10.10.10.149:5060>
+Content-Length: 0
+
+'.
+2018-07-26	12:34:01.938942	1532601241.938942: Aborting call on unexpected message for Call-Id '541-20559@192.168.20.175': while expecting '100' (index 1), received 'SIP/2.0 480 Temporarily unavailable
+Via: SIP/2.0/UDP 192.168.20.175:5075;branch=z9hG4bK-20559-541-0
+From: <sip:101@192.168.20.175:5075>;tag=20559SIPpTag09541
+To: "800 " <sip:800@10.10.10.149:5060>;tag=a896127b932b34ba
+Call-ID: 541-20559@192.168.20.175
+CSeq: 1 INVITE
+Max-Forwards: 70
+Contact: <sip:800@10.10.10.149:5060>
+Content-Length: 0
+
+'.
+2018-07-26	12:34:01.970477	1532601241.970477: Aborting call on unexpected message for Call-Id '529-20559@192.168.20.175': while expecting '180' (index 2), received 'SIP/2.0 480 Temporarily unavailable
+Via: SIP/2.0/UDP 192.168.20.175:5075;branch=z9hG4bK-20559-529-0
+From: <sip:101@192.168.20.175:5075>;tag=20559SIPpTag09529
+To: "800 " <sip:800@10.10.10.149:5060>;tag=98f65acdbcd6a5fa
+Call-ID: 529-20559@192.168.20.175
+CSeq: 1 INVITE
+Max-Forwards: 70
+Contact: <sip:800@10.10.10.149:5060>
+Content-Length: 0
+
+'.
+2018-07-26	12:34:02.041884	1532601242.041884: Aborting call on unexpected message for Call-Id '542-20559@192.168.20.175': while expecting '180' (index 2), received 'SIP/2.0 480 Temporarily unavailable
+Via: SIP/2.0/UDP 192.168.20.175:5075;branch=z9hG4bK-20559-542-0
+From: <sip:101@192.168.20.175:5075>;tag=20559SIPpTag09542
+To: "800 " <sip:800@10.10.10.149:5060>;tag=259e213a0c7f3798
+Call-ID: 542-20559@192.168.20.175
+CSeq: 1 INVITE
+Max-Forwards: 70
+Contact: <sip:800@10.10.10.149:5060>
+Content-Length: 0
+
+'.
+2018-07-26	12:34:02.045644	1532601242.045644: Aborting call on unexpected message for Call-Id '543-20559@192.168.20.175': while expecting '180' (index 2), received 'SIP/2.0 480 Temporarily unavailable
+Via: SIP/2.0/UDP 192.168.20.175:5075;branch=z9hG4bK-20559-543-0
+From: <sip:101@192.168.20.175:5075>;tag=20559SIPpTag09543
+To: "800 " <sip:800@10.10.10.149:5060>;tag=f7f72945429f9b5a
+Call-ID: 543-20559@192.168.20.175
+CSeq: 1 INVITE
+Max-Forwards: 70
+Contact: <sip:800@10.10.10.149:5060>
+Content-Length: 0
+
+'.
+2018-07-26	12:34:03.270680	1532601243.270680: Can't create raw IPv4 socket (need to run as root?): Too many open files.

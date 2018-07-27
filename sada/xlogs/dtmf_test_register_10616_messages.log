@@ -1,0 +1,48 @@
+----------------------------------------------- 2018-07-25 08:47:27.819423
+UDP message sent (325 bytes):
+
+REGISTER sip:10.10.10.149 SIP/2.0
+Via: SIP/2.0/UDP 192.168.21.80:5063;branch=z9hG4bK-10616-1-0
+From: <sip:101@10.10.10.149>;tag=1
+To: <sip:101@10.10.10.149>
+Call-ID: 1-10616@192.168.21.80
+CSeq: 1 REGISTER
+Contact: sip:101@192.168.21.80:5063
+Max-Forwards: 10
+Expires: 120
+User-Agent: SIPp/Linux
+Content-Length: 0
+
+
+----------------------------------------------- 2018-07-25 08:47:28.322488
+UDP message sent (325 bytes):
+
+REGISTER sip:10.10.10.149 SIP/2.0
+Via: SIP/2.0/UDP 192.168.21.80:5063;branch=z9hG4bK-10616-1-0
+From: <sip:101@10.10.10.149>;tag=1
+To: <sip:101@10.10.10.149>
+Call-ID: 1-10616@192.168.21.80
+CSeq: 1 REGISTER
+Contact: sip:101@192.168.21.80:5063
+Max-Forwards: 10
+Expires: 120
+User-Agent: SIPp/Linux
+Content-Length: 0
+
+
+----------------------------------------------- 2018-07-25 08:47:29.326387
+UDP message sent (325 bytes):
+
+REGISTER sip:10.10.10.149 SIP/2.0
+Via: SIP/2.0/UDP 192.168.21.80:5063;branch=z9hG4bK-10616-1-0
+From: <sip:101@10.10.10.149>;tag=1
+To: <sip:101@10.10.10.149>
+Call-ID: 1-10616@192.168.21.80
+CSeq: 1 REGISTER
+Contact: sip:101@192.168.21.80:5063
+Max-Forwards: 10
+Expires: 120
+User-Agent: SIPp/Linux
+Content-Length: 0
+
+

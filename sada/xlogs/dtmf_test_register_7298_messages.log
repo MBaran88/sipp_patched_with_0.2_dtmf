@@ -1,0 +1,62 @@
+----------------------------------------------- 2018-07-25 11:20:14.595890
+UDP message sent (323 bytes):
+
+REGISTER sip:10.10.10.149 SIP/2.0
+Via: SIP/2.0/UDP 192.168.21.80:5064;branch=z9hG4bK-7298-1-0
+From: <sip:101@10.10.10.149>;tag=1
+To: <sip:101@10.10.10.149>
+Call-ID: 1-7298@192.168.21.80
+CSeq: 1 REGISTER
+Contact: sip:101@192.168.21.80:5064
+Max-Forwards: 10
+Expires: 120
+User-Agent: SIPp/Linux
+Content-Length: 0
+
+
+----------------------------------------------- 2018-07-25 11:20:14.636617
+UDP message received [448] bytes :
+
+SIP/2.0 401 Unauthorized
+Via: SIP/2.0/UDP 192.168.21.80:5064;branch=z9hG4bK-7298-1-0
+From: <sip:101@10.10.10.149:5060>;tag=1
+To: <sip:101@10.10.10.149:5060>;tag=bb4fcb8029c1367b
+Call-ID: 1-7298@192.168.21.80
+CSeq: 1 REGISTER
+Max-Forwards: 70
+Contact: sip:101@192.168.21.80:5064
+WWW-Authenticate: Digest realm="10.10.10.149:5060",qop="auth",nonce="c277e918afea8057296c81bd5e83a68a",opaque="1532510414600",algorithm=MD5
+Content-Length: 0
+
+
+----------------------------------------------- 2018-07-25 11:20:14.636927
+UDP message sent (578 bytes):
+
+REGISTER sip:10.10.10.149 SIP/2.0
+Via: SIP/2.0/UDP 192.168.21.80:5064;branch=z9hG4bK-7298-1-3
+From: <sip:101@10.10.10.149>;tag=1
+To: <sip:101@10.10.10.149>
+Call-ID: 1-7298@192.168.21.80
+CSeq: 2 REGISTER
+Contact: sip:101@192.168.21.80:5064
+Authorization: Digest username="101",realm="10.10.10.149:5060",cnonce="327b23c6",nc=00000001,qop=auth,uri="sip:10.10.10.149:5060",nonce="c277e918afea8057296c81bd5e83a68a",response="0b17bf77c91270e414ad4e44830e36fc",algorithm=MD5,opaque="1532510414600"
+Max-Forwards: 10
+Expires: 72000
+User-Agent: SIPp/Linux
+Content-Length: 0
+
+
+----------------------------------------------- 2018-07-25 11:20:14.724197
+UDP message received [297] bytes :
+
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 192.168.21.80:5064;branch=z9hG4bK-7298-1-3
+From: <sip:101@10.10.10.149:5060>;tag=1
+To: <sip:101@10.10.10.149:5060>;tag=bb4fcb8029c1367b
+Call-ID: 1-7298@192.168.21.80
+CSeq: 2 REGISTER
+Max-Forwards: 70
+Contact: sip:101@192.168.21.80:5064
+Content-Length: 0
+
+

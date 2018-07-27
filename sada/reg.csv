@@ -1,0 +1,14 @@
+SEQUENTIAL;
+200;10.10.10.149;[authentication username=200 password=200];51000;
+201;10.10.10.149;[authentication username=201 password=201];51000;
+202;10.10.10.149;[authentication username=202 password=202];51000;
+203;10.10.10.149;[authentication username=203 password=203];51000;
+204;10.10.10.149;[authentication username=204 password=204];51000;
+205;10.10.10.149;[authentication username=205 password=205];51000;
+206;10.10.10.149;[authentication username=206 password=206];51000;
+207;10.10.10.149;[authentication username=207 password=207];51000;
+208;10.10.10.149;[authentication username=208 password=208];51000;
+209;10.10.10.149;[authentication username=209 password=209];51000;
+210;10.10.10.149;[authentication username=210 password=210];51000;
+211;10.10.10.149;[authentication username=211 password=211];51000;
+212;10.10.10.149;[authentication username=212 password=212];51000;

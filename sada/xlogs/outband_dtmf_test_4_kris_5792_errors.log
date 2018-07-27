@@ -1,0 +1,1640 @@
+sipp: The following events occured:
+2018-07-26	16:06:05.825753	1532613965.825753: Discarding message which can't be mapped to a known SIPp call:
+BYE sip:101@192.168.20.175:5075 SIP/2.0
+Via: SIP/2.0/UDP 10.10.10.149:5060;branch=z9hG4bK5fa11bb3
+From: "800 " <sip:800@10.10.10.149:5060>;tag=bfe73b927b6437fe
+To: <sip:101@192.168.20.175:5075>;tag=4715SIPpTag09615
+Call-ID: 615-4715@192.168.20.175
+CSeq: 2 BYE
+Max-Forwards: 70
+Content-Length: 0
+User-Agent: ActisPBX 2.0
+Allow: INVITE, ACK, CANCEL, BYE, REFER, NOTIFY, REGISTER, SUBSCRIBE, INFO, MESSAGE, OPTIONS
+
+.
+2018-07-26	16:06:06.245378	1532613966.245378: Discarding message which can't be mapped to a known SIPp call:
+BYE sip:101@192.168.20.175:5075 SIP/2.0
+Via: SIP/2.0/UDP 10.10.10.149:5060;branch=z9hG4bK5fa11bb3
+From: "800 " <sip:800@10.10.10.149:5060>;tag=bfe73b927b6437fe
+To: <sip:101@192.168.20.175:5075>;tag=4715SIPpTag09615
+Call-ID: 615-4715@192.168.20.175
+CSeq: 2 BYE
+Max-Forwards: 70
+Content-Length: 0
+User-Agent: ActisPBX 2.0
+Allow: INVITE, ACK, CANCEL, BYE, REFER, NOTIFY, REGISTER, SUBSCRIBE, INFO, MESSAGE, OPTIONS
+
+.
+2018-07-26	16:06:13.151102	1532613973.151102: Aborting call on an unexpected BYE for call: 1-5792@192.168.20.175.
+2018-07-26	16:06:13.299726	1532613973.299726: Aborting call on an unexpected BYE for call: 2-5792@192.168.20.175.
+2018-07-26	16:06:13.356546	1532613973.356546: Aborting call on an unexpected BYE for call: 3-5792@192.168.20.175.
+2018-07-26	16:06:13.506442	1532613973.506442: Aborting call on an unexpected BYE for call: 4-5792@192.168.20.175.
+2018-07-26	16:06:13.606988	1532613973.606988: Aborting call on an unexpected BYE for call: 5-5792@192.168.20.175.
+2018-07-26	16:06:13.731694	1532613973.731694: Aborting call on an unexpected BYE for call: 6-5792@192.168.20.175.
+2018-07-26	16:06:13.807794	1532613973.807794: Aborting call on an unexpected BYE for call: 7-5792@192.168.20.175.
+2018-07-26	16:06:13.908588	1532613973.908588: Aborting call on an unexpected BYE for call: 8-5792@192.168.20.175.
+2018-07-26	16:06:13.955506	1532613973.955506: Aborting call on an unexpected BYE for call: 9-5792@192.168.20.175.
+2018-07-26	16:06:14.005434	1532613974.005434: Aborting call on an unexpected BYE for call: 10-5792@192.168.20.175.
+2018-07-26	16:06:14.157742	1532613974.157742: Aborting call on an unexpected BYE for call: 11-5792@192.168.20.175.
+2018-07-26	16:06:14.229378	1532613974.229378: Aborting call on an unexpected BYE for call: 12-5792@192.168.20.175.
+2018-07-26	16:06:14.312787	1532613974.312787: Aborting call on an unexpected BYE for call: 13-5792@192.168.20.175.
+2018-07-26	16:06:14.475846	1532613974.475846: Aborting call on an unexpected BYE for call: 14-5792@192.168.20.175.
+2018-07-26	16:06:14.519352	1532613974.519352: Aborting call on an unexpected BYE for call: 15-5792@192.168.20.175.
+2018-07-26	16:06:14.694498	1532613974.694498: Aborting call on an unexpected BYE for call: 16-5792@192.168.20.175.
+2018-07-26	16:06:14.922311	1532613974.922311: Aborting call on an unexpected BYE for call: 18-5792@192.168.20.175.
+2018-07-26	16:06:14.925858	1532613974.925858: Aborting call on an unexpected BYE for call: 17-5792@192.168.20.175.
+2018-07-26	16:06:14.970679	1532613974.970679: Aborting call on an unexpected BYE for call: 19-5792@192.168.20.175.
+2018-07-26	16:06:15.091708	1532613975.091708: Aborting call on an unexpected BYE for call: 20-5792@192.168.20.175.
+2018-07-26	16:06:15.240246	1532613975.240246: Aborting call on an unexpected BYE for call: 21-5792@192.168.20.175.
+2018-07-26	16:06:15.283584	1532613975.283584: Aborting call on an unexpected BYE for call: 22-5792@192.168.20.175.
+2018-07-26	16:06:15.387002	1532613975.387002: Aborting call on an unexpected BYE for call: 23-5792@192.168.20.175.
+2018-07-26	16:06:15.434274	1532613975.434274: Aborting call on an unexpected BYE for call: 24-5792@192.168.20.175.
+2018-07-26	16:06:15.588582	1532613975.588582: Aborting call on an unexpected BYE for call: 25-5792@192.168.20.175.
+2018-07-26	16:06:15.645503	1532613975.645503: Aborting call on an unexpected BYE for call: 26-5792@192.168.20.175.
+2018-07-26	16:06:15.841975	1532613975.841975: Aborting call on an unexpected BYE for call: 27-5792@192.168.20.175.
+2018-07-26	16:06:16.013202	1532613976.013202: Aborting call on an unexpected BYE for call: 28-5792@192.168.20.175.
+2018-07-26	16:06:16.027118	1532613976.027118: Aborting call on an unexpected BYE for call: 29-5792@192.168.20.175.
+2018-07-26	16:06:16.140612	1532613976.140612: Aborting call on an unexpected BYE for call: 30-5792@192.168.20.175.
+2018-07-26	16:06:16.141240	1532613976.141240: Aborting call on an unexpected BYE for call: 31-5792@192.168.20.175.
+2018-07-26	16:06:16.290367	1532613976.290367: Aborting call on an unexpected BYE for call: 32-5792@192.168.20.175.
+2018-07-26	16:06:16.514029	1532613976.514029: Aborting call on an unexpected BYE for call: 33-5792@192.168.20.175.
+2018-07-26	16:06:16.514289	1532613976.514289: Aborting call on an unexpected BYE for call: 34-5792@192.168.20.175.
+2018-07-26	16:06:16.597249	1532613976.597249: Aborting call on an unexpected BYE for call: 35-5792@192.168.20.175.
+2018-07-26	16:06:16.750972	1532613976.750972: Aborting call on an unexpected BYE for call: 36-5792@192.168.20.175.
+2018-07-26	16:06:16.797061	1532613976.797061: Aborting call on an unexpected BYE for call: 37-5792@192.168.20.175.
+2018-07-26	16:06:16.894042	1532613976.894042: Aborting call on an unexpected BYE for call: 38-5792@192.168.20.175.
+2018-07-26	16:06:17.047852	1532613977.047852: Aborting call on an unexpected BYE for call: 39-5792@192.168.20.175.
+2018-07-26	16:06:17.102950	1532613977.102950: Aborting call on an unexpected BYE for call: 40-5792@192.168.20.175.
+2018-07-26	16:06:17.335518	1532613977.335518: Aborting call on an unexpected BYE for call: 41-5792@192.168.20.175.
+2018-07-26	16:06:17.387334	1532613977.387334: Aborting call on an unexpected BYE for call: 42-5792@192.168.20.175.
+2018-07-26	16:06:17.401578	1532613977.401578: Aborting call on an unexpected BYE for call: 43-5792@192.168.20.175.
+2018-07-26	16:06:17.502252	1532613977.502252: Aborting call on an unexpected BYE for call: 44-5792@192.168.20.175.
+2018-07-26	16:06:17.680556	1532613977.680556: Aborting call on an unexpected BYE for call: 45-5792@192.168.20.175.
+2018-07-26	16:06:17.711490	1532613977.711490: Aborting call on an unexpected BYE for call: 46-5792@192.168.20.175.
+2018-07-26	16:06:17.859128	1532613977.859128: Aborting call on an unexpected BYE for call: 47-5792@192.168.20.175.
+2018-07-26	16:06:17.933575	1532613977.933575: Aborting call on an unexpected BYE for call: 48-5792@192.168.20.175.
+2018-07-26	16:06:18.126148	1532613978.126148: Aborting call on an unexpected BYE for call: 49-5792@192.168.20.175.
+2018-07-26	16:06:18.127076	1532613978.127076: Aborting call on an unexpected BYE for call: 50-5792@192.168.20.175.
+2018-07-26	16:06:18.273763	1532613978.273763: Aborting call on an unexpected BYE for call: 51-5792@192.168.20.175.
+2018-07-26	16:06:18.373563	1532613978.373563: Aborting call on an unexpected BYE for call: 52-5792@192.168.20.175.
+2018-07-26	16:06:18.429786	1532613978.429786: Aborting call on an unexpected BYE for call: 53-5792@192.168.20.175.
+2018-07-26	16:06:18.533405	1532613978.533405: Aborting call on an unexpected BYE for call: 54-5792@192.168.20.175.
+2018-07-26	16:06:18.629255	1532613978.629255: Aborting call on an unexpected BYE for call: 55-5792@192.168.20.175.
+2018-07-26	16:06:18.684210	1532613978.684210: Aborting call on an unexpected BYE for call: 56-5792@192.168.20.175.
+2018-07-26	16:06:18.791693	1532613978.791693: Aborting call on an unexpected BYE for call: 57-5792@192.168.20.175.
+2018-07-26	16:06:18.885035	1532613978.885035: Aborting call on an unexpected BYE for call: 58-5792@192.168.20.175.
+2018-07-26	16:06:18.939691	1532613978.939691: Aborting call on an unexpected BYE for call: 59-5792@192.168.20.175.
+2018-07-26	16:06:19.094133	1532613979.094133: Aborting call on an unexpected BYE for call: 60-5792@192.168.20.175.
+2018-07-26	16:06:19.203312	1532613979.203312: Aborting call on an unexpected BYE for call: 61-5792@192.168.20.175.
+2018-07-26	16:06:19.250203	1532613979.250203: Aborting call on an unexpected BYE for call: 62-5792@192.168.20.175.
+2018-07-26	16:06:19.398396	1532613979.398396: Aborting call on an unexpected BYE for call: 63-5792@192.168.20.175.
+2018-07-26	16:06:19.520676	1532613979.520676: Aborting call on an unexpected BYE for call: 64-5792@192.168.20.175.
+2018-07-26	16:06:19.558922	1532613979.558922: Aborting call on an unexpected BYE for call: 65-5792@192.168.20.175.
+2018-07-26	16:06:19.664160	1532613979.664160: Aborting call on an unexpected BYE for call: 66-5792@192.168.20.175.
+2018-07-26	16:06:19.809033	1532613979.809033: Aborting call on an unexpected BYE for call: 67-5792@192.168.20.175.
+2018-07-26	16:06:19.901770	1532613979.901770: Aborting call on an unexpected BYE for call: 68-5792@192.168.20.175.
+2018-07-26	16:06:20.011562	1532613980.011562: Aborting call on an unexpected BYE for call: 69-5792@192.168.20.175.
+2018-07-26	16:06:20.118975	1532613980.118975: Aborting call on an unexpected BYE for call: 70-5792@192.168.20.175.
+2018-07-26	16:06:20.166735	1532613980.166735: Aborting call on an unexpected BYE for call: 71-5792@192.168.20.175.
+2018-07-26	16:06:20.324528	1532613980.324528: Aborting call on an unexpected BYE for call: 72-5792@192.168.20.175.
+2018-07-26	16:06:20.481694	1532613980.481694: Aborting call on an unexpected BYE for call: 73-5792@192.168.20.175.
+2018-07-26	16:06:20.566230	1532613980.566230: Aborting call on an unexpected BYE for call: 74-5792@192.168.20.175.
+2018-07-26	16:06:20.632661	1532613980.632661: Aborting call on an unexpected BYE for call: 75-5792@192.168.20.175.
+2018-07-26	16:06:20.730132	1532613980.730132: Aborting call on an unexpected BYE for call: 76-5792@192.168.20.175.
+2018-07-26	16:06:20.842082	1532613980.842082: Aborting call on an unexpected BYE for call: 77-5792@192.168.20.175.
+2018-07-26	16:06:20.943170	1532613980.943170: Aborting call on an unexpected BYE for call: 78-5792@192.168.20.175.
+2018-07-26	16:06:20.990987	1532613980.990987: Aborting call on an unexpected BYE for call: 79-5792@192.168.20.175.
+2018-07-26	16:06:21.090408	1532613981.090408: Aborting call on an unexpected BYE for call: 80-5792@192.168.20.175.
+2018-07-26	16:06:21.219339	1532613981.219339: Aborting call on an unexpected BYE for call: 81-5792@192.168.20.175.
+2018-07-26	16:06:21.266059	1532613981.266059: Discarding message which can't be mapped to a known SIPp call:
+BYE sip:101@192.168.20.175:5075 SIP/2.0
+Via: SIP/2.0/UDP 10.10.10.149:5060;branch=z9hG4bK87342aae
+From: "800 " <sip:800@10.10.10.149:5060>;tag=8fb0a06da0e0032b
+To: <sip:101@192.168.20.175:5075>;tag=4715SIPpTag09962
+Call-ID: 962-4715@192.168.20.175
+CSeq: 2 BYE
+Max-Forwards: 70
+Content-Length: 0
+User-Agent: ActisPBX 2.0
+Allow: INVITE, ACK, CANCEL, BYE, REFER, NOTIFY, REGISTER, SUBSCRIBE, INFO, MESSAGE, OPTIONS
+
+.
+2018-07-26	16:06:21.367503	1532613981.367503: Discarding message which can't be mapped to a known SIPp call:
+BYE sip:101@192.168.20.175:5075 SIP/2.0
+Via: SIP/2.0/UDP 10.10.10.149:5060;branch=z9hG4bKe1675a7a
+From: "800 " <sip:800@10.10.10.149:5060>;tag=3bb044c0fad1307c
+To: <sip:101@192.168.20.175:5075>;tag=4715SIPpTag09963
+Call-ID: 963-4715@192.168.20.175
+CSeq: 2 BYE
+Max-Forwards: 70
+Content-Length: 0
+User-Agent: ActisPBX 2.0
+Allow: INVITE, ACK, CANCEL, BYE, REFER, NOTIFY, REGISTER, SUBSCRIBE, INFO, MESSAGE, OPTIONS
+
+.
+2018-07-26	16:06:21.374915	1532613981.374915: Discarding message which can't be mapped to a known SIPp call:
+BYE sip:101@192.168.20.175:5075 SIP/2.0
+Via: SIP/2.0/UDP 10.10.10.149:5060;branch=z9hG4bK1690e34f
+From: "800 " <sip:800@10.10.10.149:5060>;tag=56bd6b410df160fa
+To: <sip:101@192.168.20.175:5075>;tag=4715SIPpTag09964
+Call-ID: 964-4715@192.168.20.175
+CSeq: 2 BYE
+Max-Forwards: 70
+Content-Length: 0
+User-Agent: ActisPBX 2.0
+Allow: INVITE, ACK, CANCEL, BYE, REFER, NOTIFY, REGISTER, SUBSCRIBE, INFO, MESSAGE, OPTIONS
+
+.
+2018-07-26	16:06:21.385947	1532613981.385947: Discarding message which can't be mapped to a known SIPp call:
+BYE sip:101@192.168.20.175:5075 SIP/2.0
+Via: SIP/2.0/UDP 10.10.10.149:5060;branch=z9hG4bKd4084ddc
+From: "800 " <sip:800@10.10.10.149:5060>;tag=69d73656e343af04
+To: <sip:101@192.168.20.175:5075>;tag=4715SIPpTag09967
+Call-ID: 967-4715@192.168.20.175
+CSeq: 2 BYE
+Max-Forwards: 70
+Content-Length: 0
+User-Agent: ActisPBX 2.0
+Allow: INVITE, ACK, CANCEL, BYE, REFER, NOTIFY, REGISTER, SUBSCRIBE, INFO, MESSAGE, OPTIONS
+
+.
+2018-07-26	16:06:21.387660	1532613981.387660: Discarding message which can't be mapped to a known SIPp call:
+BYE sip:101@192.168.20.175:5075 SIP/2.0
+Via: SIP/2.0/UDP 10.10.10.149:5060;branch=z9hG4bKdeffbce6
+From: "800 " <sip:800@10.10.10.149:5060>;tag=68f6abcd64dcf8c5
+To: <sip:101@192.168.20.175:5075>;tag=4715SIPpTag09928
+Call-ID: 928-4715@192.168.20.175
+CSeq: 2 BYE
+Max-Forwards: 70
+Content-Length: 0
+User-Agent: ActisPBX 2.0
+Allow: INVITE, ACK, CANCEL, BYE, REFER, NOTIFY, REGISTER, SUBSCRIBE, INFO, MESSAGE, OPTIONS
+
+.
+2018-07-26	16:06:21.390215	1532613981.390215: Aborting call on an unexpected BYE for call: 82-5792@192.168.20.175.
+2018-07-26	16:06:21.391427	1532613981.391427: Discarding message which can't be mapped to a known SIPp call:
+BYE sip:101@192.168.20.175:5075 SIP/2.0
+Via: SIP/2.0/UDP 10.10.10.149:5060;branch=z9hG4bKce0e4dd0
+From: "800 " <sip:800@10.10.10.149:5060>;tag=1df454badf3411de
+To: <sip:101@192.168.20.175:5075>;tag=4715SIPpTag09966
+Call-ID: 966-4715@192.168.20.175
+CSeq: 2 BYE
+Max-Forwards: 70
+Content-Length: 0
+User-Agent: ActisPBX 2.0
+Allow: INVITE, ACK, CANCEL, BYE, REFER, NOTIFY, REGISTER, SUBSCRIBE, INFO, MESSAGE, OPTIONS
+
+.
+2018-07-26	16:06:21.438054	1532613981.438054: Discarding message which can't be mapped to a known SIPp call:
+BYE sip:101@192.168.20.175:5075 SIP/2.0
+Via: SIP/2.0/UDP 10.10.10.149:5060;branch=z9hG4bK234938ac
+From: "800 " <sip:800@10.10.10.149:5060>;tag=33c255daeec2a17d
+To: <sip:101@192.168.20.175:5075>;tag=4715SIPpTag09927
+Call-ID: 927-4715@192.168.20.175
+CSeq: 2 BYE
+Max-Forwards: 70
+Content-Length: 0
+User-Agent: ActisPBX 2.0
+Allow: INVITE, ACK, CANCEL, BYE, REFER, NOTIFY, REGISTER, SUBSCRIBE, INFO, MESSAGE, OPTIONS
+
+.
+2018-07-26	16:06:21.443687	1532613981.443687: Discarding message which can't be mapped to a known SIPp call:
+BYE sip:101@192.168.20.175:5075 SIP/2.0
+Via: SIP/2.0/UDP 10.10.10.149:5060;branch=z9hG4bKe77e9057
+From: "800 " <sip:800@10.10.10.149:5060>;tag=c444b9e503d6f86f
+To: <sip:101@192.168.20.175:5075>;tag=4715SIPpTag09968
+Call-ID: 968-4715@192.168.20.175
+CSeq: 2 BYE
+Max-Forwards: 70
+Content-Length: 0
+User-Agent: ActisPBX 2.0
+Allow: INVITE, ACK, CANCEL, BYE, REFER, NOTIFY, REGISTER, SUBSCRIBE, INFO, MESSAGE, OPTIONS
+
+.
+2018-07-26	16:06:21.444942	1532613981.444942: Discarding message which can't be mapped to a known SIPp call:
+BYE sip:101@192.168.20.175:5075 SIP/2.0
+Via: SIP/2.0/UDP 10.10.10.149:5060;branch=z9hG4bK25365b92
+From: "800 " <sip:800@10.10.10.149:5060>;tag=4bc9f363fcf2de78
+To: <sip:101@192.168.20.175:5075>;tag=4715SIPpTag09926
+Call-ID: 926-4715@192.168.20.175
+CSeq: 2 BYE
+Max-Forwards: 70
+Content-Length: 0
+User-Agent: ActisPBX 2.0
+Allow: INVITE, ACK, CANCEL, BYE, REFER, NOTIFY, REGISTER, SUBSCRIBE, INFO, MESSAGE, OPTIONS
+
+.
+2018-07-26	16:06:21.448682	1532613981.448682: Discarding message which can't be mapped to a known SIPp call:
+BYE sip:101@192.168.20.175:5075 SIP/2.0
+Via: SIP/2.0/UDP 10.10.10.149:5060;branch=z9hG4bK4f9811ec
+From: "800 " <sip:800@10.10.10.149:5060>;tag=f5dd6286b90c7051
+To: <sip:101@192.168.20.175:5075>;tag=4715SIPpTag09965
+Call-ID: 965-4715@192.168.20.175
+CSeq: 2 BYE
+Max-Forwards: 70
+Content-Length: 0
+User-Agent: ActisPBX 2.0
+Allow: INVITE, ACK, CANCEL, BYE, REFER, NOTIFY, REGISTER, SUBSCRIBE, INFO, MESSAGE, OPTIONS
+
+.
+2018-07-26	16:06:21.525446	1532613981.525446: Discarding message which can't be mapped to a known SIPp call:
+BYE sip:101@192.168.20.175:5075 SIP/2.0
+Via: SIP/2.0/UDP 10.10.10.149:5060;branch=z9hG4bK32d353a
+From: "800 " <sip:800@10.10.10.149:5060>;tag=41e61fa5cbb46be7
+To: <sip:101@192.168.20.175:5075>;tag=4715SIPpTag09969
+Call-ID: 969-4715@192.168.20.175
+CSeq: 2 BYE
+Max-Forwards: 70
+Content-Length: 0
+User-Agent: ActisPBX 2.0
+Allow: INVITE, ACK, CANCEL, BYE, REFER, NOTIFY, REGISTER, SUBSCRIBE, INFO, MESSAGE, OPTIONS
+
+.
+2018-07-26	16:06:21.556878	1532613981.556878: Discarding message which can't be mapped to a known SIPp call:
+BYE sip:101@192.168.20.175:5075 SIP/2.0
+Via: SIP/2.0/UDP 10.10.10.149:5060;branch=z9hG4bK55404bdc
+From: "800 " <sip:800@10.10.10.149:5060>;tag=83e4f54d87fa1856
+To: <sip:101@192.168.20.175:5075>;tag=4715SIPpTag09970
+Call-ID: 970-4715@192.168.20.175
+CSeq: 2 BYE
+Max-Forwards: 70
+Content-Length: 0
+User-Agent: ActisPBX 2.0
+Allow: INVITE, ACK, CANCEL, BYE, REFER, NOTIFY, REGISTER, SUBSCRIBE, INFO, MESSAGE, OPTIONS
+
+.
+2018-07-26	16:06:21.559170	1532613981.559170: Discarding message which can't be mapped to a known SIPp call:
+BYE sip:101@192.168.20.175:5075 SIP/2.0
+Via: SIP/2.0/UDP 10.10.10.149:5060;branch=z9hG4bK30480bae
+From: "800 " <sip:800@10.10.10.149:5060>;tag=9ceb626d86c02eb0
+To: <sip:101@192.168.20.175:5075>;tag=4715SIPpTag09973
+Call-ID: 973-4715@192.168.20.175
+CSeq: 2 BYE
+Max-Forwards: 70
+Content-Length: 0
+User-Agent: ActisPBX 2.0
+Allow: INVITE, ACK, CANCEL, BYE, REFER, NOTIFY, REGISTER, SUBSCRIBE, INFO, MESSAGE, OPTIONS
+
+.
+2018-07-26	16:06:21.564752	1532613981.564752: Aborting call on an unexpected BYE for call: 83-5792@192.168.20.175.
+2018-07-26	16:06:21.565142	1532613981.565142: Discarding message which can't be mapped to a known SIPp call:
+BYE sip:101@192.168.20.175:5075 SIP/2.0
+Via: SIP/2.0/UDP 10.10.10.149:5060;branch=z9hG4bK38af5504
+From: "800 " <sip:800@10.10.10.149:5060>;tag=52ee9e4139ce5ae0
+To: <sip:101@192.168.20.175:5075>;tag=4715SIPpTag09971
+Call-ID: 971-4715@192.168.20.175
+CSeq: 2 BYE
+Max-Forwards: 70
+Content-Length: 0
+User-Agent: ActisPBX 2.0
+Allow: INVITE, ACK, CANCEL, BYE, REFER, NOTIFY, REGISTER, SUBSCRIBE, INFO, MESSAGE, OPTIONS
+
+.
+2018-07-26	16:06:21.570856	1532613981.570856: Discarding message which can't be mapped to a known SIPp call:
+BYE sip:101@192.168.20.175:5075 SIP/2.0
+Via: SIP/2.0/UDP 10.10.10.149:5060;branch=z9hG4bK56272e04
+From: "800 " <sip:800@10.10.10.149:5060>;tag=ca82d79e6dfebad8
+To: <sip:101@192.168.20.175:5075>;tag=4715SIPpTag09952
+Call-ID: 952-4715@192.168.20.175
+CSeq: 2 BYE
+Max-Forwards: 70
+Content-Length: 0
+User-Agent: ActisPBX 2.0
+Allow: INVITE, ACK, CANCEL, BYE, REFER, NOTIFY, REGISTER, SUBSCRIBE, INFO, MESSAGE, OPTIONS
+
+.
+2018-07-26	16:06:21.570875	1532613981.570875: Discarding message which can't be mapped to a known SIPp call:
+BYE sip:101@192.168.20.175:5075 SIP/2.0
+Via: SIP/2.0/UDP 10.10.10.149:5060;branch=z9hG4bKe078f1ea
+From: "800 " <sip:800@10.10.10.149:5060>;tag=47e3bd3c326e099d
+To: <sip:101@192.168.20.175:5075>;tag=4715SIPpTag09951
+Call-ID: 951-4715@192.168.20.175
+CSeq: 2 BYE
+Max-Forwards: 70
+Content-Length: 0
+User-Agent: ActisPBX 2.0
+Allow: INVITE, ACK, CANCEL, BYE, REFER, NOTIFY, REGISTER, SUBSCRIBE, INFO, MESSAGE, OPTIONS
+
+.
+2018-07-26	16:06:21.577818	1532613981.577818: Discarding message which can't be mapped to a known SIPp call:
+BYE sip:101@192.168.20.175:5075 SIP/2.0
+Via: SIP/2.0/UDP 10.10.10.149:5060;branch=z9hG4bK8fe78d6d
+From: "800 " <sip:800@10.10.10.149:5060>;tag=9cbb07b082bdb22a
+To: <sip:101@192.168.20.175:5075>;tag=4715SIPpTag09957
+Call-ID: 957-4715@192.168.20.175
+CSeq: 2 BYE
+Max-Forwards: 70
+Content-Length: 0
+User-Agent: ActisPBX 2.0
+Allow: INVITE, ACK, CANCEL, BYE, REFER, NOTIFY, REGISTER, SUBSCRIBE, INFO, MESSAGE, OPTIONS
+
+.
+2018-07-26	16:06:21.594753	1532613981.594753: Discarding message which can't be mapped to a known SIPp call:
+BYE sip:101@192.168.20.175:5075 SIP/2.0
+Via: SIP/2.0/UDP 10.10.10.149:5060;branch=z9hG4bKacea89af
+From: "800 " <sip:800@10.10.10.149:5060>;tag=7eb8ffaddfda03da
+To: <sip:101@192.168.20.175:5075>;tag=4715SIPpTag09956
+Call-ID: 956-4715@192.168.20.175
+CSeq: 2 BYE
+Max-Forwards: 70
+Content-Length: 0
+User-Agent: ActisPBX 2.0
+Allow: INVITE, ACK, CANCEL, BYE, REFER, NOTIFY, REGISTER, SUBSCRIBE, INFO, MESSAGE, OPTIONS
+
+.
+2018-07-26	16:06:21.595748	1532613981.595748: Discarding message which can't be mapped to a known SIPp call:
+BYE sip:101@192.168.20.175:5075 SIP/2.0
+Via: SIP/2.0/UDP 10.10.10.149:5060;branch=z9hG4bK6a69f668
+From: "800 " <sip:800@10.10.10.149:5060>;tag=359c3d67a86882dd
+To: <sip:101@192.168.20.175:5075>;tag=4715SIPpTag09954
+Call-ID: 954-4715@192.168.20.175
+CSeq: 2 BYE
+Max-Forwards: 70
+Content-Length: 0
+User-Agent: ActisPBX 2.0
+Allow: INVITE, ACK, CANCEL, BYE, REFER, NOTIFY, REGISTER, SUBSCRIBE, INFO, MESSAGE, OPTIONS
+
+.
+2018-07-26	16:06:21.693996	1532613981.693996: Discarding message which can't be mapped to a known SIPp call:
+BYE sip:101@192.168.20.175:5075 SIP/2.0
+Via: SIP/2.0/UDP 10.10.10.149:5060;branch=z9hG4bK69712281
+From: "800 " <sip:800@10.10.10.149:5060>;tag=f5b1254f42143f10
+To: <sip:101@192.168.20.175:5075>;tag=4715SIPpTag09944
+Call-ID: 944-4715@192.168.20.175
+CSeq: 2 BYE
+Max-Forwards: 70
+Content-Length: 0
+User-Agent: ActisPBX 2.0
+Allow: INVITE, ACK, CANCEL, BYE, REFER, NOTIFY, REGISTER, SUBSCRIBE, INFO, MESSAGE, OPTIONS
+
+.
+2018-07-26	16:06:21.694970	1532613981.694970: Discarding message which can't be mapped to a known SIPp call:
+BYE sip:101@192.168.20.175:5075 SIP/2.0
+Via: SIP/2.0/UDP 10.10.10.149:5060;branch=z9hG4bKb61df6aa
+From: "800 " <sip:800@10.10.10.149:5060>;tag=67e777e2563260ab
+To: <sip:101@192.168.20.175:5075>;tag=4715SIPpTag09959
+Call-ID: 959-4715@192.168.20.175
+CSeq: 2 BYE
+Max-Forwards: 70
+Content-Length: 0
+User-Agent: ActisPBX 2.0
+Allow: INVITE, ACK, CANCEL, BYE, REFER, NOTIFY, REGISTER, SUBSCRIBE, INFO, MESSAGE, OPTIONS
+
+.
+2018-07-26	16:06:21.746107	1532613981.746107: Discarding message which can't be mapped to a known SIPp call:
+BYE sip:101@192.168.20.175:5075 SIP/2.0
+Via: SIP/2.0/UDP 10.10.10.149:5060;branch=z9hG4bK1690e34f
+From: "800 " <sip:800@10.10.10.149:5060>;tag=56bd6b410df160fa
+To: <sip:101@192.168.20.175:5075>;tag=4715SIPpTag09964
+Call-ID: 964-4715@192.168.20.175
+CSeq: 2 BYE
+Max-Forwards: 70
+Content-Length: 0
+User-Agent: ActisPBX 2.0
+Allow: INVITE, ACK, CANCEL, BYE, REFER, NOTIFY, REGISTER, SUBSCRIBE, INFO, MESSAGE, OPTIONS
+
+.
+2018-07-26	16:06:21.746155	1532613981.746155: Discarding message which can't be mapped to a known SIPp call:
+BYE sip:101@192.168.20.175:5075 SIP/2.0
+Via: SIP/2.0/UDP 10.10.10.149:5060;branch=z9hG4bKe1675a7a
+From: "800 " <sip:800@10.10.10.149:5060>;tag=3bb044c0fad1307c
+To: <sip:101@192.168.20.175:5075>;tag=4715SIPpTag09963
+Call-ID: 963-4715@192.168.20.175
+CSeq: 2 BYE
+Max-Forwards: 70
+Content-Length: 0
+User-Agent: ActisPBX 2.0
+Allow: INVITE, ACK, CANCEL, BYE, REFER, NOTIFY, REGISTER, SUBSCRIBE, INFO, MESSAGE, OPTIONS
+
+.
+2018-07-26	16:06:21.746427	1532613981.746427: Discarding message which can't be mapped to a known SIPp call:
+BYE sip:101@192.168.20.175:5075 SIP/2.0
+Via: SIP/2.0/UDP 10.10.10.149:5060;branch=z9hG4bK4f9811ec
+From: "800 " <sip:800@10.10.10.149:5060>;tag=f5dd6286b90c7051
+To: <sip:101@192.168.20.175:5075>;tag=4715SIPpTag09965
+Call-ID: 965-4715@192.168.20.175
+CSeq: 2 BYE
+Max-Forwards: 70
+Content-Length: 0
+User-Agent: ActisPBX 2.0
+Allow: INVITE, ACK, CANCEL, BYE, REFER, NOTIFY, REGISTER, SUBSCRIBE, INFO, MESSAGE, OPTIONS
+
+.
+2018-07-26	16:06:21.746470	1532613981.746470: Discarding message which can't be mapped to a known SIPp call:
+BYE sip:101@192.168.20.175:5075 SIP/2.0
+Via: SIP/2.0/UDP 10.10.10.149:5060;branch=z9hG4bK87342aae
+From: "800 " <sip:800@10.10.10.149:5060>;tag=8fb0a06da0e0032b
+To: <sip:101@192.168.20.175:5075>;tag=4715SIPpTag09962
+Call-ID: 962-4715@192.168.20.175
+CSeq: 2 BYE
+Max-Forwards: 70
+Content-Length: 0
+User-Agent: ActisPBX 2.0
+Allow: INVITE, ACK, CANCEL, BYE, REFER, NOTIFY, REGISTER, SUBSCRIBE, INFO, MESSAGE, OPTIONS
+
+.
+2018-07-26	16:06:21.746807	1532613981.746807: Discarding message which can't be mapped to a known SIPp call:
+BYE sip:101@192.168.20.175:5075 SIP/2.0
+Via: SIP/2.0/UDP 10.10.10.149:5060;branch=z9hG4bKdeffbce6
+From: "800 " <sip:800@10.10.10.149:5060>;tag=68f6abcd64dcf8c5
+To: <sip:101@192.168.20.175:5075>;tag=4715SIPpTag09928
+Call-ID: 928-4715@192.168.20.175
+CSeq: 2 BYE
+Max-Forwards: 70
+Content-Length: 0
+User-Agent: ActisPBX 2.0
+Allow: INVITE, ACK, CANCEL, BYE, REFER, NOTIFY, REGISTER, SUBSCRIBE, INFO, MESSAGE, OPTIONS
+
+.
+2018-07-26	16:06:21.746852	1532613981.746852: Discarding message which can't be mapped to a known SIPp call:
+BYE sip:101@192.168.20.175:5075 SIP/2.0
+Via: SIP/2.0/UDP 10.10.10.149:5060;branch=z9hG4bKce0e4dd0
+From: "800 " <sip:800@10.10.10.149:5060>;tag=1df454badf3411de
+To: <sip:101@192.168.20.175:5075>;tag=4715SIPpTag09966
+Call-ID: 966-4715@192.168.20.175
+CSeq: 2 BYE
+Max-Forwards: 70
+Content-Length: 0
+User-Agent: ActisPBX 2.0
+Allow: INVITE, ACK, CANCEL, BYE, REFER, NOTIFY, REGISTER, SUBSCRIBE, INFO, MESSAGE, OPTIONS
+
+.
+2018-07-26	16:06:21.747096	1532613981.747096: Discarding message which can't be mapped to a known SIPp call:
+BYE sip:101@192.168.20.175:5075 SIP/2.0
+Via: SIP/2.0/UDP 10.10.10.149:5060;branch=z9hG4bKd4084ddc
+From: "800 " <sip:800@10.10.10.149:5060>;tag=69d73656e343af04
+To: <sip:101@192.168.20.175:5075>;tag=4715SIPpTag09967
+Call-ID: 967-4715@192.168.20.175
+CSeq: 2 BYE
+Max-Forwards: 70
+Content-Length: 0
+User-Agent: ActisPBX 2.0
+Allow: INVITE, ACK, CANCEL, BYE, REFER, NOTIFY, REGISTER, SUBSCRIBE, INFO, MESSAGE, OPTIONS
+
+.
+2018-07-26	16:06:21.747388	1532613981.747388: Discarding message which can't be mapped to a known SIPp call:
+BYE sip:101@192.168.20.175:5075 SIP/2.0
+Via: SIP/2.0/UDP 10.10.10.149:5060;branch=z9hG4bK234938ac
+From: "800 " <sip:800@10.10.10.149:5060>;tag=33c255daeec2a17d
+To: <sip:101@192.168.20.175:5075>;tag=4715SIPpTag09927
+Call-ID: 927-4715@192.168.20.175
+CSeq: 2 BYE
+Max-Forwards: 70
+Content-Length: 0
+User-Agent: ActisPBX 2.0
+Allow: INVITE, ACK, CANCEL, BYE, REFER, NOTIFY, REGISTER, SUBSCRIBE, INFO, MESSAGE, OPTIONS
+
+.
+2018-07-26	16:06:21.747448	1532613981.747448: Discarding message which can't be mapped to a known SIPp call:
+BYE sip:101@192.168.20.175:5075 SIP/2.0
+Via: SIP/2.0/UDP 10.10.10.149:5060;branch=z9hG4bK25365b92
+From: "800 " <sip:800@10.10.10.149:5060>;tag=4bc9f363fcf2de78
+To: <sip:101@192.168.20.175:5075>;tag=4715SIPpTag09926
+Call-ID: 926-4715@192.168.20.175
+CSeq: 2 BYE
+Max-Forwards: 70
+Content-Length: 0
+User-Agent: ActisPBX 2.0
+Allow: INVITE, ACK, CANCEL, BYE, REFER, NOTIFY, REGISTER, SUBSCRIBE, INFO, MESSAGE, OPTIONS
+
+.
+2018-07-26	16:06:21.747643	1532613981.747643: Discarding message which can't be mapped to a known SIPp call:
+BYE sip:101@192.168.20.175:5075 SIP/2.0
+Via: SIP/2.0/UDP 10.10.10.149:5060;branch=z9hG4bKe77e9057
+From: "800 " <sip:800@10.10.10.149:5060>;tag=c444b9e503d6f86f
+To: <sip:101@192.168.20.175:5075>;tag=4715SIPpTag09968
+Call-ID: 968-4715@192.168.20.175
+CSeq: 2 BYE
+Max-Forwards: 70
+Content-Length: 0
+User-Agent: ActisPBX 2.0
+Allow: INVITE, ACK, CANCEL, BYE, REFER, NOTIFY, REGISTER, SUBSCRIBE, INFO, MESSAGE, OPTIONS
+
+.
+2018-07-26	16:06:21.772384	1532613981.772384: Discarding message which can't be mapped to a known SIPp call:
+BYE sip:101@192.168.20.175:5075 SIP/2.0
+Via: SIP/2.0/UDP 10.10.10.149:5060;branch=z9hG4bK16ae413d
+From: "800 " <sip:800@10.10.10.149:5060>;tag=87bb75c759b2abe8
+To: <sip:101@192.168.20.175:5075>;tag=4715SIPpTag09943
+Call-ID: 943-4715@192.168.20.175
+CSeq: 2 BYE
+Max-Forwards: 70
+Content-Length: 0
+User-Agent: ActisPBX 2.0
+Allow: INVITE, ACK, CANCEL, BYE, REFER, NOTIFY, REGISTER, SUBSCRIBE, INFO, MESSAGE, OPTIONS
+
+.
+2018-07-26	16:06:21.778391	1532613981.778391: Discarding message which can't be mapped to a known SIPp call:
+BYE sip:101@192.168.20.175:5075 SIP/2.0
+Via: SIP/2.0/UDP 10.10.10.149:5060;branch=z9hG4bKb22435b3
+From: "800 " <sip:800@10.10.10.149:5060>;tag=e011bcd27b914dd3
+To: <sip:101@192.168.20.175:5075>;tag=4715SIPpTag09975
+Call-ID: 975-4715@192.168.20.175
+CSeq: 2 BYE
+Max-Forwards: 70
+Content-Length: 0
+User-Agent: ActisPBX 2.0
+Allow: INVITE, ACK, CANCEL, BYE, REFER, NOTIFY, REGISTER, SUBSCRIBE, INFO, MESSAGE, OPTIONS
+
+.
+2018-07-26	16:06:21.783556	1532613981.783556: Discarding message which can't be mapped to a known SIPp call:
+BYE sip:101@192.168.20.175:5075 SIP/2.0
+Via: SIP/2.0/UDP 10.10.10.149:5060;branch=z9hG4bK90b779f9
+From: "800 " <sip:800@10.10.10.149:5060>;tag=ff43f8868a27990d
+To: <sip:101@192.168.20.175:5075>;tag=4715SIPpTag09972
+Call-ID: 972-4715@192.168.20.175
+CSeq: 2 BYE
+Max-Forwards: 70
+Content-Length: 0
+User-Agent: ActisPBX 2.0
+Allow: INVITE, ACK, CANCEL, BYE, REFER, NOTIFY, REGISTER, SUBSCRIBE, INFO, MESSAGE, OPTIONS
+
+.
+2018-07-26	16:06:21.784865	1532613981.784865: Discarding message which can't be mapped to a known SIPp call:
+BYE sip:101@192.168.20.175:5075 SIP/2.0
+Via: SIP/2.0/UDP 10.10.10.149:5060;branch=z9hG4bKc2f382b2
+From: "800 " <sip:800@10.10.10.149:5060>;tag=a682c8a1d87915cb
+To: <sip:101@192.168.20.175:5075>;tag=4715SIPpTag09937
+Call-ID: 937-4715@192.168.20.175
+CSeq: 2 BYE
+Max-Forwards: 70
+Content-Length: 0
+User-Agent: ActisPBX 2.0
+Allow: INVITE, ACK, CANCEL, BYE, REFER, NOTIFY, REGISTER, SUBSCRIBE, INFO, MESSAGE, OPTIONS
+
+.
+2018-07-26	16:06:21.787791	1532613981.787791: Aborting call on an unexpected BYE for call: 84-5792@192.168.20.175.
+2018-07-26	16:06:21.789068	1532613981.789068: Discarding message which can't be mapped to a known SIPp call:
+BYE sip:101@192.168.20.175:5075 SIP/2.0
+Via: SIP/2.0/UDP 10.10.10.149:5060;branch=z9hG4bK1a9c3259
+From: "800 " <sip:800@10.10.10.149:5060>;tag=3748202443b7436
+To: <sip:101@192.168.20.175:5075>;tag=4715SIPpTag09929
+Call-ID: 929-4715@192.168.20.175
+CSeq: 2 BYE
+Max-Forwards: 70
+Content-Length: 0
+User-Agent: ActisPBX 2.0
+Allow: INVITE, ACK, CANCEL, BYE, REFER, NOTIFY, REGISTER, SUBSCRIBE, INFO, MESSAGE, OPTIONS
+
+.
+2018-07-26	16:06:21.791315	1532613981.791315: Discarding message which can't be mapped to a known SIPp call:
+BYE sip:101@192.168.20.175:5075 SIP/2.0
+Via: SIP/2.0/UDP 10.10.10.149:5060;branch=z9hG4bK3d0f13d2
+From: "800 " <sip:800@10.10.10.149:5060>;tag=e47f870c1fdf5b9a
+To: <sip:101@192.168.20.175:5075>;tag=4715SIPpTag09960
+Call-ID: 960-4715@192.168.20.175
+CSeq: 2 BYE
+Max-Forwards: 70
+Content-Length: 0
+User-Agent: ActisPBX 2.0
+Allow: INVITE, ACK, CANCEL, BYE, REFER, NOTIFY, REGISTER, SUBSCRIBE, INFO, MESSAGE, OPTIONS
+
+.
+2018-07-26	16:06:21.862947	1532613981.862947: Discarding message which can't be mapped to a known SIPp call:
+BYE sip:101@192.168.20.175:5075 SIP/2.0
+Via: SIP/2.0/UDP 10.10.10.149:5060;branch=z9hG4bK7b6f5c4e
+From: "800 " <sip:800@10.10.10.149:5060>;tag=869e8d9f673ef3d5
+To: <sip:101@192.168.20.175:5075>;tag=4715SIPpTag09938
+Call-ID: 938-4715@192.168.20.175
+CSeq: 2 BYE
+Max-Forwards: 70
+Content-Length: 0
+User-Agent: ActisPBX 2.0
+Allow: INVITE, ACK, CANCEL, BYE, REFER, NOTIFY, REGISTER, SUBSCRIBE, INFO, MESSAGE, OPTIONS
+
+.
+2018-07-26	16:06:21.862980	1532613981.862980: Discarding message which can't be mapped to a known SIPp call:
+BYE sip:101@192.168.20.175:5075 SIP/2.0
+Via: SIP/2.0/UDP 10.10.10.149:5060;branch=z9hG4bKfe733aef
+From: "800 " <sip:800@10.10.10.149:5060>;tag=fbf6769da08388ce
+To: <sip:101@192.168.20.175:5075>;tag=4715SIPpTag09976
+Call-ID: 976-4715@192.168.20.175
+CSeq: 2 BYE
+Max-Forwards: 70
+Content-Length: 0
+User-Agent: ActisPBX 2.0
+Allow: INVITE, ACK, CANCEL, BYE, REFER, NOTIFY, REGISTER, SUBSCRIBE, INFO, MESSAGE, OPTIONS
+
+.
+2018-07-26	16:06:21.873952	1532613981.873952: Discarding message which can't be mapped to a known SIPp call:
+BYE sip:101@192.168.20.175:5075 SIP/2.0
+Via: SIP/2.0/UDP 10.10.10.149:5060;branch=z9hG4bKe3b85ef2
+From: "800 " <sip:800@10.10.10.149:5060>;tag=c9c81a078cde4776
+To: <sip:101@192.168.20.175:5075>;tag=4715SIPpTag09953
+Call-ID: 953-4715@192.168.20.175
+CSeq: 2 BYE
+Max-Forwards: 70
+Content-Length: 0
+User-Agent: ActisPBX 2.0
+Allow: INVITE, ACK, CANCEL, BYE, REFER, NOTIFY, REGISTER, SUBSCRIBE, INFO, MESSAGE, OPTIONS
+
+.
+2018-07-26	16:06:21.884148	1532613981.884148: Discarding message which can't be mapped to a known SIPp call:
+BYE sip:101@192.168.20.175:5075 SIP/2.0
+Via: SIP/2.0/UDP 10.10.10.149:5060;branch=z9hG4bK7f54a7f2
+From: "800 " <sip:800@10.10.10.149:5060>;tag=1951ba4156248548
+To: <sip:101@192.168.20.175:5075>;tag=4715SIPpTag09941
+Call-ID: 941-4715@192.168.20.175
+CSeq: 2 BYE
+Max-Forwards: 70
+Content-Length: 0
+User-Agent: ActisPBX 2.0
+Allow: INVITE, ACK, CANCEL, BYE, REFER, NOTIFY, REGISTER, SUBSCRIBE, INFO, MESSAGE, OPTIONS
+
+.
+2018-07-26	16:06:21.937132	1532613981.937132: Discarding message which can't be mapped to a known SIPp call:
+BYE sip:101@192.168.20.175:5075 SIP/2.0
+Via: SIP/2.0/UDP 10.10.10.149:5060;branch=z9hG4bKcda66ad4
+From: "800 " <sip:800@10.10.10.149:5060>;tag=da576f53a892127b
+To: <sip:101@192.168.20.175:5075>;tag=4715SIPpTag09974
+Call-ID: 974-4715@192.168.20.175
+CSeq: 2 BYE
+Max-Forwards: 70
+Content-Length: 0
+User-Agent: ActisPBX 2.0
+Allow: INVITE, ACK, CANCEL, BYE, REFER, NOTIFY, REGISTER, SUBSCRIBE, INFO, MESSAGE, OPTIONS
+
+.
+2018-07-26	16:06:21.937362	1532613981.937362: Aborting call on an unexpected BYE for call: 85-5792@192.168.20.175.
+2018-07-26	16:06:21.961698	1532613981.961698: Discarding message which can't be mapped to a known SIPp call:
+BYE sip:101@192.168.20.175:5075 SIP/2.0
+Via: SIP/2.0/UDP 10.10.10.149:5060;branch=z9hG4bKbb6eaa28
+From: "800 " <sip:800@10.10.10.149:5060>;tag=8f366c1ee6ad673b
+To: <sip:101@192.168.20.175:5075>;tag=4715SIPpTag09936
+Call-ID: 936-4715@192.168.20.175
+CSeq: 2 BYE
+Max-Forwards: 70
+Content-Length: 0
+User-Agent: ActisPBX 2.0
+Allow: INVITE, ACK, CANCEL, BYE, REFER, NOTIFY, REGISTER, SUBSCRIBE, INFO, MESSAGE, OPTIONS
+
+.
+2018-07-26	16:06:21.982957	1532613981.982957: Discarding message which can't be mapped to a known SIPp call:
+BYE sip:101@192.168.20.175:5075 SIP/2.0
+Via: SIP/2.0/UDP 10.10.10.149:5060;branch=z9hG4bKee9fcf14
+From: "800 " <sip:800@10.10.10.149:5060>;tag=1c9879ea1b9de3ce
+To: <sip:101@192.168.20.175:5075>;tag=4715SIPpTag09934
+Call-ID: 934-4715@192.168.20.175
+CSeq: 2 BYE
+Max-Forwards: 70
+Content-Length: 0
+User-Agent: ActisPBX 2.0
+Allow: INVITE, ACK, CANCEL, BYE, REFER, NOTIFY, REGISTER, SUBSCRIBE, INFO, MESSAGE, OPTIONS
+
+.
+2018-07-26	16:06:21.990351	1532613981.990351: Discarding message which can't be mapped to a known SIPp call:
+BYE sip:101@192.168.20.175:5075 SIP/2.0
+Via: SIP/2.0/UDP 10.10.10.149:5060;branch=z9hG4bKded84575
+From: "800 " <sip:800@10.10.10.149:5060>;tag=99097be24cc179cd
+To: <sip:101@192.168.20.175:5075>;tag=4715SIPpTag09955
+Call-ID: 955-4715@192.168.20.175
+CSeq: 2 BYE
+Max-Forwards: 70
+Content-Length: 0
+User-Agent: ActisPBX 2.0
+Allow: INVITE, ACK, CANCEL, BYE, REFER, NOTIFY, REGISTER, SUBSCRIBE, INFO, MESSAGE, OPTIONS
+
+.
+2018-07-26	16:06:21.995549	1532613981.995549: Discarding message which can't be mapped to a known SIPp call:
+BYE sip:101@192.168.20.175:5075 SIP/2.0
+Via: SIP/2.0/UDP 10.10.10.149:5060;branch=z9hG4bK55404bdc
+From: "800 " <sip:800@10.10.10.149:5060>;tag=83e4f54d87fa1856
+To: <sip:101@192.168.20.175:5075>;tag=4715SIPpTag09970
+Call-ID: 970-4715@192.168.20.175
+CSeq: 2 BYE
+Max-Forwards: 70
+Content-Length: 0
+User-Agent: ActisPBX 2.0
+Allow: INVITE, ACK, CANCEL, BYE, REFER, NOTIFY, REGISTER, SUBSCRIBE, INFO, MESSAGE, OPTIONS
+
+.
+2018-07-26	16:06:21.995574	1532613981.995574: Discarding message which can't be mapped to a known SIPp call:
+BYE sip:101@192.168.20.175:5075 SIP/2.0
+Via: SIP/2.0/UDP 10.10.10.149:5060;branch=z9hG4bKb61df6aa
+From: "800 " <sip:800@10.10.10.149:5060>;tag=67e777e2563260ab
+To: <sip:101@192.168.20.175:5075>;tag=4715SIPpTag09959
+Call-ID: 959-4715@192.168.20.175
+CSeq: 2 BYE
+Max-Forwards: 70
+Content-Length: 0
+User-Agent: ActisPBX 2.0
+Allow: INVITE, ACK, CANCEL, BYE, REFER, NOTIFY, REGISTER, SUBSCRIBE, INFO, MESSAGE, OPTIONS
+
+.
+2018-07-26	16:06:21.995897	1532613981.995897: Discarding message which can't be mapped to a known SIPp call:
+BYE sip:101@192.168.20.175:5075 SIP/2.0
+Via: SIP/2.0/UDP 10.10.10.149:5060;branch=z9hG4bK69712281
+From: "800 " <sip:800@10.10.10.149:5060>;tag=f5b1254f42143f10
+To: <sip:101@192.168.20.175:5075>;tag=4715SIPpTag09944
+Call-ID: 944-4715@192.168.20.175
+CSeq: 2 BYE
+Max-Forwards: 70
+Content-Length: 0
+User-Agent: ActisPBX 2.0
+Allow: INVITE, ACK, CANCEL, BYE, REFER, NOTIFY, REGISTER, SUBSCRIBE, INFO, MESSAGE, OPTIONS
+
+.
+2018-07-26	16:06:21.995914	1532613981.995914: Discarding message which can't be mapped to a known SIPp call:
+BYE sip:101@192.168.20.175:5075 SIP/2.0
+Via: SIP/2.0/UDP 10.10.10.149:5060;branch=z9hG4bK38af5504
+From: "800 " <sip:800@10.10.10.149:5060>;tag=52ee9e4139ce5ae0
+To: <sip:101@192.168.20.175:5075>;tag=4715SIPpTag09971
+Call-ID: 971-4715@192.168.20.175
+CSeq: 2 BYE
+Max-Forwards: 70
+Content-Length: 0
+User-Agent: ActisPBX 2.0
+Allow: INVITE, ACK, CANCEL, BYE, REFER, NOTIFY, REGISTER, SUBSCRIBE, INFO, MESSAGE, OPTIONS
+
+.
+2018-07-26	16:06:21.996265	1532613981.996265: Discarding message which can't be mapped to a known SIPp call:
+BYE sip:101@192.168.20.175:5075 SIP/2.0
+Via: SIP/2.0/UDP 10.10.10.149:5060;branch=z9hG4bK56272e04
+From: "800 " <sip:800@10.10.10.149:5060>;tag=ca82d79e6dfebad8
+To: <sip:101@192.168.20.175:5075>;tag=4715SIPpTag09952
+Call-ID: 952-4715@192.168.20.175
+CSeq: 2 BYE
+Max-Forwards: 70
+Content-Length: 0
+User-Agent: ActisPBX 2.0
+Allow: INVITE, ACK, CANCEL, BYE, REFER, NOTIFY, REGISTER, SUBSCRIBE, INFO, MESSAGE, OPTIONS
+
+.
+2018-07-26	16:06:21.996290	1532613981.996290: Discarding message which can't be mapped to a known SIPp call:
+BYE sip:101@192.168.20.175:5075 SIP/2.0
+Via: SIP/2.0/UDP 10.10.10.149:5060;branch=z9hG4bK8fe78d6d
+From: "800 " <sip:800@10.10.10.149:5060>;tag=9cbb07b082bdb22a
+To: <sip:101@192.168.20.175:5075>;tag=4715SIPpTag09957
+Call-ID: 957-4715@192.168.20.175
+CSeq: 2 BYE
+Max-Forwards: 70
+Content-Length: 0
+User-Agent: ActisPBX 2.0
+Allow: INVITE, ACK, CANCEL, BYE, REFER, NOTIFY, REGISTER, SUBSCRIBE, INFO, MESSAGE, OPTIONS
+
+.
+2018-07-26	16:06:21.996652	1532613981.996652: Discarding message which can't be mapped to a known SIPp call:
+BYE sip:101@192.168.20.175:5075 SIP/2.0
+Via: SIP/2.0/UDP 10.10.10.149:5060;branch=z9hG4bK30480bae
+From: "800 " <sip:800@10.10.10.149:5060>;tag=9ceb626d86c02eb0
+To: <sip:101@192.168.20.175:5075>;tag=4715SIPpTag09973
+Call-ID: 973-4715@192.168.20.175
+CSeq: 2 BYE
+Max-Forwards: 70
+Content-Length: 0
+User-Agent: ActisPBX 2.0
+Allow: INVITE, ACK, CANCEL, BYE, REFER, NOTIFY, REGISTER, SUBSCRIBE, INFO, MESSAGE, OPTIONS
+
+.
+2018-07-26	16:06:21.996674	1532613981.996674: Discarding message which can't be mapped to a known SIPp call:
+BYE sip:101@192.168.20.175:5075 SIP/2.0
+Via: SIP/2.0/UDP 10.10.10.149:5060;branch=z9hG4bKacea89af
+From: "800 " <sip:800@10.10.10.149:5060>;tag=7eb8ffaddfda03da
+To: <sip:101@192.168.20.175:5075>;tag=4715SIPpTag09956
+Call-ID: 956-4715@192.168.20.175
+CSeq: 2 BYE
+Max-Forwards: 70
+Content-Length: 0
+User-Agent: ActisPBX 2.0
+Allow: INVITE, ACK, CANCEL, BYE, REFER, NOTIFY, REGISTER, SUBSCRIBE, INFO, MESSAGE, OPTIONS
+
+.
+2018-07-26	16:06:21.996953	1532613981.996953: Discarding message which can't be mapped to a known SIPp call:
+BYE sip:101@192.168.20.175:5075 SIP/2.0
+Via: SIP/2.0/UDP 10.10.10.149:5060;branch=z9hG4bK6a69f668
+From: "800 " <sip:800@10.10.10.149:5060>;tag=359c3d67a86882dd
+To: <sip:101@192.168.20.175:5075>;tag=4715SIPpTag09954
+Call-ID: 954-4715@192.168.20.175
+CSeq: 2 BYE
+Max-Forwards: 70
+Content-Length: 0
+User-Agent: ActisPBX 2.0
+Allow: INVITE, ACK, CANCEL, BYE, REFER, NOTIFY, REGISTER, SUBSCRIBE, INFO, MESSAGE, OPTIONS
+
+.
+2018-07-26	16:06:21.997196	1532613981.997196: Discarding message which can't be mapped to a known SIPp call:
+BYE sip:101@192.168.20.175:5075 SIP/2.0
+Via: SIP/2.0/UDP 10.10.10.149:5060;branch=z9hG4bK32d353a
+From: "800 " <sip:800@10.10.10.149:5060>;tag=41e61fa5cbb46be7
+To: <sip:101@192.168.20.175:5075>;tag=4715SIPpTag09969
+Call-ID: 969-4715@192.168.20.175
+CSeq: 2 BYE
+Max-Forwards: 70
+Content-Length: 0
+User-Agent: ActisPBX 2.0
+Allow: INVITE, ACK, CANCEL, BYE, REFER, NOTIFY, REGISTER, SUBSCRIBE, INFO, MESSAGE, OPTIONS
+
+.
+2018-07-26	16:06:21.997449	1532613981.997449: Discarding message which can't be mapped to a known SIPp call:
+BYE sip:101@192.168.20.175:5075 SIP/2.0
+Via: SIP/2.0/UDP 10.10.10.149:5060;branch=z9hG4bKe078f1ea
+From: "800 " <sip:800@10.10.10.149:5060>;tag=47e3bd3c326e099d
+To: <sip:101@192.168.20.175:5075>;tag=4715SIPpTag09951
+Call-ID: 951-4715@192.168.20.175
+CSeq: 2 BYE
+Max-Forwards: 70
+Content-Length: 0
+User-Agent: ActisPBX 2.0
+Allow: INVITE, ACK, CANCEL, BYE, REFER, NOTIFY, REGISTER, SUBSCRIBE, INFO, MESSAGE, OPTIONS
+
+.
+2018-07-26	16:06:22.001480	1532613982.001480: Discarding message which can't be mapped to a known SIPp call:
+BYE sip:101@192.168.20.175:5075 SIP/2.0
+Via: SIP/2.0/UDP 10.10.10.149:5060;branch=z9hG4bKe19cad67
+From: "800 " <sip:800@10.10.10.149:5060>;tag=4e82183854c88e7a
+To: <sip:101@192.168.20.175:5075>;tag=4715SIPpTag09942
+Call-ID: 942-4715@192.168.20.175
+CSeq: 2 BYE
+Max-Forwards: 70
+Content-Length: 0
+User-Agent: ActisPBX 2.0
+Allow: INVITE, ACK, CANCEL, BYE, REFER, NOTIFY, REGISTER, SUBSCRIBE, INFO, MESSAGE, OPTIONS
+
+.
+2018-07-26	16:06:22.012078	1532613982.012078: Discarding message which can't be mapped to a known SIPp call:
+BYE sip:101@192.168.20.175:5075 SIP/2.0
+Via: SIP/2.0/UDP 10.10.10.149:5060;branch=z9hG4bK489357a1
+From: "800 " <sip:800@10.10.10.149:5060>;tag=fdb8b6371d61c9db
+To: <sip:101@192.168.20.175:5075>;tag=4715SIPpTag09947
+Call-ID: 947-4715@192.168.20.175
+CSeq: 2 BYE
+Max-Forwards: 70
+Content-Length: 0
+User-Agent: ActisPBX 2.0
+Allow: INVITE, ACK, CANCEL, BYE, REFER, NOTIFY, REGISTER, SUBSCRIBE, INFO, MESSAGE, OPTIONS
+
+.
+2018-07-26	16:06:22.014924	1532613982.014924: Discarding message which can't be mapped to a known SIPp call:
+BYE sip:101@192.168.20.175:5075 SIP/2.0
+Via: SIP/2.0/UDP 10.10.10.149:5060;branch=z9hG4bK60fdb0fe
+From: "800 " <sip:800@10.10.10.149:5060>;tag=97fb7f6189d4245c
+To: <sip:101@192.168.20.175:5075>;tag=4715SIPpTag09950
+Call-ID: 950-4715@192.168.20.175
+CSeq: 2 BYE
+Max-Forwards: 70
+Content-Length: 0
+User-Agent: ActisPBX 2.0
+Allow: INVITE, ACK, CANCEL, BYE, REFER, NOTIFY, REGISTER, SUBSCRIBE, INFO, MESSAGE, OPTIONS
+
+.
+2018-07-26	16:06:22.019194	1532613982.019194: Discarding message which can't be mapped to a known SIPp call:
+BYE sip:101@192.168.20.175:5075 SIP/2.0
+Via: SIP/2.0/UDP 10.10.10.149:5060;branch=z9hG4bK3d54011a
+From: "800 " <sip:800@10.10.10.149:5060>;tag=e4628ef82f2a88da
+To: <sip:101@192.168.20.175:5075>;tag=4715SIPpTag09961
+Call-ID: 961-4715@192.168.20.175
+CSeq: 2 BYE
+Max-Forwards: 70
+Content-Length: 0
+User-Agent: ActisPBX 2.0
+Allow: INVITE, ACK, CANCEL, BYE, REFER, NOTIFY, REGISTER, SUBSCRIBE, INFO, MESSAGE, OPTIONS
+
+.
+2018-07-26	16:06:22.023254	1532613982.023254: Discarding message which can't be mapped to a known SIPp call:
+BYE sip:101@192.168.20.175:5075 SIP/2.0
+Via: SIP/2.0/UDP 10.10.10.149:5060;branch=z9hG4bKaf291437
+From: "800 " <sip:800@10.10.10.149:5060>;tag=ee19b6581b46c0d9
+To: <sip:101@192.168.20.175:5075>;tag=4715SIPpTag09958
+Call-ID: 958-4715@192.168.20.175
+CSeq: 2 BYE
+Max-Forwards: 70
+Content-Length: 0
+User-Agent: ActisPBX 2.0
+Allow: INVITE, ACK, CANCEL, BYE, REFER, NOTIFY, REGISTER, SUBSCRIBE, INFO, MESSAGE, OPTIONS
+
+.
+2018-07-26	16:06:22.028100	1532613982.028100: Discarding message which can't be mapped to a known SIPp call:
+BYE sip:101@192.168.20.175:5075 SIP/2.0
+Via: SIP/2.0/UDP 10.10.10.149:5060;branch=z9hG4bK685157f7
+From: "800 " <sip:800@10.10.10.149:5060>;tag=2a94aa817162db71
+To: <sip:101@192.168.20.175:5075>;tag=4715SIPpTag09920
+Call-ID: 920-4715@192.168.20.175
+CSeq: 2 BYE
+Max-Forwards: 70
+Content-Length: 0
+User-Agent: ActisPBX 2.0
+Allow: INVITE, ACK, CANCEL, BYE, REFER, NOTIFY, REGISTER, SUBSCRIBE, INFO, MESSAGE, OPTIONS
+
+.
+2018-07-26	16:06:22.032937	1532613982.032937: Discarding message which can't be mapped to a known SIPp call:
+BYE sip:101@192.168.20.175:5075 SIP/2.0
+Via: SIP/2.0/UDP 10.10.10.149:5060;branch=z9hG4bKa1010de6
+From: "800 " <sip:800@10.10.10.149:5060>;tag=92a8aa0edb6c5b7b
+To: <sip:101@192.168.20.175:5075>;tag=4715SIPpTag09946
+Call-ID: 946-4715@192.168.20.175
+CSeq: 2 BYE
+Max-Forwards: 70
+Content-Length: 0
+User-Agent: ActisPBX 2.0
+Allow: INVITE, ACK, CANCEL, BYE, REFER, NOTIFY, REGISTER, SUBSCRIBE, INFO, MESSAGE, OPTIONS
+
+.
+2018-07-26	16:06:22.035136	1532613982.035136: Discarding message which can't be mapped to a known SIPp call:
+BYE sip:101@192.168.20.175:5075 SIP/2.0
+Via: SIP/2.0/UDP 10.10.10.149:5060;branch=z9hG4bK802141e7
+From: "800 " <sip:800@10.10.10.149:5060>;tag=1f65925e634ecb80
+To: <sip:101@192.168.20.175:5075>;tag=4715SIPpTag09945
+Call-ID: 945-4715@192.168.20.175
+CSeq: 2 BYE
+Max-Forwards: 70
+Content-Length: 0
+User-Agent: ActisPBX 2.0
+Allow: INVITE, ACK, CANCEL, BYE, REFER, NOTIFY, REGISTER, SUBSCRIBE, INFO, MESSAGE, OPTIONS
+
+.
+2018-07-26	16:06:22.035179	1532613982.035179: Aborting call on an unexpected BYE for call: 86-5792@192.168.20.175.
+2018-07-26	16:06:22.038690	1532613982.038690: Discarding message which can't be mapped to a known SIPp call:
+BYE sip:101@192.168.20.175:5075 SIP/2.0
+Via: SIP/2.0/UDP 10.10.10.149:5060;branch=z9hG4bK4ba5769e
+From: "800 " <sip:800@10.10.10.149:5060>;tag=76a90c0b383f8bf4
+To: <sip:101@192.168.20.175:5075>;tag=4715SIPpTag09948
+Call-ID: 948-4715@192.168.20.175
+CSeq: 2 BYE
+Max-Forwards: 70
+Content-Length: 0
+User-Agent: ActisPBX 2.0
+Allow: INVITE, ACK, CANCEL, BYE, REFER, NOTIFY, REGISTER, SUBSCRIBE, INFO, MESSAGE, OPTIONS
+
+.
+2018-07-26	16:06:22.043288	1532613982.043288: Discarding message which can't be mapped to a known SIPp call:
+BYE sip:101@192.168.20.175:5075 SIP/2.0
+Via: SIP/2.0/UDP 10.10.10.149:5060;branch=z9hG4bKec7c91b2
+From: "800 " <sip:800@10.10.10.149:5060>;tag=27984b8012653d4
+To: <sip:101@192.168.20.175:5075>;tag=4715SIPpTag09939
+Call-ID: 939-4715@192.168.20.175
+CSeq: 2 BYE
+Max-Forwards: 70
+Content-Length: 0
+User-Agent: ActisPBX 2.0
+Allow: INVITE, ACK, CANCEL, BYE, REFER, NOTIFY, REGISTER, SUBSCRIBE, INFO, MESSAGE, OPTIONS
+
+.
+2018-07-26	16:06:22.052161	1532613982.052161: Discarding message which can't be mapped to a known SIPp call:
+BYE sip:101@192.168.20.175:5075 SIP/2.0
+Via: SIP/2.0/UDP 10.10.10.149:5060;branch=z9hG4bK7b70c032
+From: "800 " <sip:800@10.10.10.149:5060>;tag=4d12e9dd25d33947
+To: <sip:101@192.168.20.175:5075>;tag=4715SIPpTag09940
+Call-ID: 940-4715@192.168.20.175
+CSeq: 2 BYE
+Max-Forwards: 70
+Content-Length: 0
+User-Agent: ActisPBX 2.0
+Allow: INVITE, ACK, CANCEL, BYE, REFER, NOTIFY, REGISTER, SUBSCRIBE, INFO, MESSAGE, OPTIONS
+
+.
+2018-07-26	16:06:22.052608	1532613982.052608: Discarding message which can't be mapped to a known SIPp call:
+BYE sip:101@192.168.20.175:5075 SIP/2.0
+Via: SIP/2.0/UDP 10.10.10.149:5060;branch=z9hG4bK54f649ad
+From: "800 " <sip:800@10.10.10.149:5060>;tag=13f200ab08cad076
+To: <sip:101@192.168.20.175:5075>;tag=4715SIPpTag09949
+Call-ID: 949-4715@192.168.20.175
+CSeq: 2 BYE
+Max-Forwards: 70
+Content-Length: 0
+User-Agent: ActisPBX 2.0
+Allow: INVITE, ACK, CANCEL, BYE, REFER, NOTIFY, REGISTER, SUBSCRIBE, INFO, MESSAGE, OPTIONS
+
+.
+2018-07-26	16:06:22.055408	1532613982.055408: Aborting call on an unexpected BYE for call: 87-5792@192.168.20.175.
+2018-07-26	16:06:22.057731	1532613982.057731: Aborting call on an unexpected BYE for call: 88-5792@192.168.20.175.
+2018-07-26	16:06:22.059382	1532613982.059382: Discarding message which can't be mapped to a known SIPp call:
+BYE sip:101@192.168.20.175:5075 SIP/2.0
+Via: SIP/2.0/UDP 10.10.10.149:5060;branch=z9hG4bK99579635
+From: "800 " <sip:800@10.10.10.149:5060>;tag=3b41e107d5bbd233
+To: <sip:101@192.168.20.175:5075>;tag=4715SIPpTag09931
+Call-ID: 931-4715@192.168.20.175
+CSeq: 2 BYE
+Max-Forwards: 70
+Content-Length: 0
+User-Agent: ActisPBX 2.0
+Allow: INVITE, ACK, CANCEL, BYE, REFER, NOTIFY, REGISTER, SUBSCRIBE, INFO, MESSAGE, OPTIONS
+
+.
+2018-07-26	16:06:22.061827	1532613982.061827: Discarding message which can't be mapped to a known SIPp call:
+BYE sip:101@192.168.20.175:5075 SIP/2.0
+Via: SIP/2.0/UDP 10.10.10.149:5060;branch=z9hG4bK609b2003
+From: "800 " <sip:800@10.10.10.149:5060>;tag=a1c29ede5250bf2c
+To: <sip:101@192.168.20.175:5075>;tag=4715SIPpTag09930
+Call-ID: 930-4715@192.168.20.175
+CSeq: 2 BYE
+Max-Forwards: 70
+Content-Length: 0
+User-Agent: ActisPBX 2.0
+Allow: INVITE, ACK, CANCEL, BYE, REFER, NOTIFY, REGISTER, SUBSCRIBE, INFO, MESSAGE, OPTIONS
+
+.
+2018-07-26	16:06:22.069154	1532613982.069154: Discarding message which can't be mapped to a known SIPp call:
+BYE sip:101@192.168.20.175:5075 SIP/2.0
+Via: SIP/2.0/UDP 10.10.10.149:5060;branch=z9hG4bK766cee31
+From: "800 " <sip:800@10.10.10.149:5060>;tag=454d73b3d689c804
+To: <sip:101@192.168.20.175:5075>;tag=4715SIPpTag09921
+Call-ID: 921-4715@192.168.20.175
+CSeq: 2 BYE
+Max-Forwards: 70
+Content-Length: 0
+User-Agent: ActisPBX 2.0
+Allow: INVITE, ACK, CANCEL, BYE, REFER, NOTIFY, REGISTER, SUBSCRIBE, INFO, MESSAGE, OPTIONS
+
+.
+2018-07-26	16:06:22.071582	1532613982.071582: Discarding message which can't be mapped to a known SIPp call:
+BYE sip:101@192.168.20.175:5075 SIP/2.0
+Via: SIP/2.0/UDP 10.10.10.149:5060;branch=z9hG4bK3593769b
+From: "800 " <sip:800@10.10.10.149:5060>;tag=d700f87254885f4a
+To: <sip:101@192.168.20.175:5075>;tag=4715SIPpTag09933
+Call-ID: 933-4715@192.168.20.175
+CSeq: 2 BYE
+Max-Forwards: 70
+Content-Length: 0
+User-Agent: ActisPBX 2.0
+Allow: INVITE, ACK, CANCEL, BYE, REFER, NOTIFY, REGISTER, SUBSCRIBE, INFO, MESSAGE, OPTIONS
+
+.
+2018-07-26	16:06:22.071984	1532613982.071984: Discarding message which can't be mapped to a known SIPp call:
+BYE sip:101@192.168.20.175:5075 SIP/2.0
+Via: SIP/2.0/UDP 10.10.10.149:5060;branch=z9hG4bK7e6ecddd
+From: "800 " <sip:800@10.10.10.149:5060>;tag=d160cb72407003f7
+To: <sip:101@192.168.20.175:5075>;tag=4715SIPpTag09932
+Call-ID: 932-4715@192.168.20.175
+CSeq: 2 BYE
+Max-Forwards: 70
+Content-Length: 0
+User-Agent: ActisPBX 2.0
+Allow: INVITE, ACK, CANCEL, BYE, REFER, NOTIFY, REGISTER, SUBSCRIBE, INFO, MESSAGE, OPTIONS
+
+.
+2018-07-26	16:06:22.085185	1532613982.085185: Aborting call on an unexpected BYE for call: 90-5792@192.168.20.175.
+2018-07-26	16:06:22.128371	1532613982.128371: Discarding message which can't be mapped to a known SIPp call:
+BYE sip:101@192.168.20.175:5075 SIP/2.0
+Via: SIP/2.0/UDP 10.10.10.149:5060;branch=z9hG4bK5db1c3a0
+From: "800 " <sip:800@10.10.10.149:5060>;tag=4841501e5bc8dcaf
+To: <sip:101@192.168.20.175:5075>;tag=4715SIPpTag09924
+Call-ID: 924-4715@192.168.20.175
+CSeq: 2 BYE
+Max-Forwards: 70
+Content-Length: 0
+User-Agent: ActisPBX 2.0
+Allow: INVITE, ACK, CANCEL, BYE, REFER, NOTIFY, REGISTER, SUBSCRIBE, INFO, MESSAGE, OPTIONS
+
+.
+2018-07-26	16:06:22.211511	1532613982.211511: Discarding message which can't be mapped to a known SIPp call:
+BYE sip:101@192.168.20.175:5075 SIP/2.0
+Via: SIP/2.0/UDP 10.10.10.149:5060;branch=z9hG4bK135544c6
+From: "800 " <sip:800@10.10.10.149:5060>;tag=cbaf8cb76d35ec78
+To: <sip:101@192.168.20.175:5075>;tag=4715SIPpTag09923
+Call-ID: 923-4715@192.168.20.175
+CSeq: 2 BYE
+Max-Forwards: 70
+Content-Length: 0
+User-Agent: ActisPBX 2.0
+Allow: INVITE, ACK, CANCEL, BYE, REFER, NOTIFY, REGISTER, SUBSCRIBE, INFO, MESSAGE, OPTIONS
+
+.
+2018-07-26	16:06:22.220579	1532613982.220579: Discarding message which can't be mapped to a known SIPp call:
+BYE sip:101@192.168.20.175:5075 SIP/2.0
+Via: SIP/2.0/UDP 10.10.10.149:5060;branch=z9hG4bK335fc366
+From: "800 " <sip:800@10.10.10.149:5060>;tag=9ad6891bd980aa7e
+To: <sip:101@192.168.20.175:5075>;tag=4715SIPpTag09922
+Call-ID: 922-4715@192.168.20.175
+CSeq: 2 BYE
+Max-Forwards: 70
+Content-Length: 0
+User-Agent: ActisPBX 2.0
+Allow: INVITE, ACK, CANCEL, BYE, REFER, NOTIFY, REGISTER, SUBSCRIBE, INFO, MESSAGE, OPTIONS
+
+.
+2018-07-26	16:06:22.225344	1532613982.225344: Discarding message which can't be mapped to a known SIPp call:
+BYE sip:101@192.168.20.175:5075 SIP/2.0
+Via: SIP/2.0/UDP 10.10.10.149:5060;branch=z9hG4bKf46d94f8
+From: "800 " <sip:800@10.10.10.149:5060>;tag=57c218fea3549783
+To: <sip:101@192.168.20.175:5075>;tag=4715SIPpTag09925
+Call-ID: 925-4715@192.168.20.175
+CSeq: 2 BYE
+Max-Forwards: 70
+Content-Length: 0
+User-Agent: ActisPBX 2.0
+Allow: INVITE, ACK, CANCEL, BYE, REFER, NOTIFY, REGISTER, SUBSCRIBE, INFO, MESSAGE, OPTIONS
+
+.
+2018-07-26	16:06:22.227009	1532613982.227009: Aborting call on an unexpected BYE for call: 89-5792@192.168.20.175.
+2018-07-26	16:06:22.228047	1532613982.228047: Discarding message which can't be mapped to a known SIPp call:
+BYE sip:101@192.168.20.175:5075 SIP/2.0
+Via: SIP/2.0/UDP 10.10.10.149:5060;branch=z9hG4bK397724d7
+From: "800 " <sip:800@10.10.10.149:5060>;tag=53fa11f70df22490
+To: <sip:101@192.168.20.175:5075>;tag=4715SIPpTag09935
+Call-ID: 935-4715@192.168.20.175
+CSeq: 2 BYE
+Max-Forwards: 70
+Content-Length: 0
+User-Agent: ActisPBX 2.0
+Allow: INVITE, ACK, CANCEL, BYE, REFER, NOTIFY, REGISTER, SUBSCRIBE, INFO, MESSAGE, OPTIONS
+
+.
+2018-07-26	16:06:22.228084	1532613982.228084: Aborting call on an unexpected BYE for call: 91-5792@192.168.20.175.
+2018-07-26	16:06:22.246000	1532613982.246000: Discarding message which can't be mapped to a known SIPp call:
+BYE sip:101@192.168.20.175:5075 SIP/2.0
+Via: SIP/2.0/UDP 10.10.10.149:5060;branch=z9hG4bK90b779f9
+From: "800 " <sip:800@10.10.10.149:5060>;tag=ff43f8868a27990d
+To: <sip:101@192.168.20.175:5075>;tag=4715SIPpTag09972
+Call-ID: 972-4715@192.168.20.175
+CSeq: 2 BYE
+Max-Forwards: 70
+Content-Length: 0
+User-Agent: ActisPBX 2.0
+Allow: INVITE, ACK, CANCEL, BYE, REFER, NOTIFY, REGISTER, SUBSCRIBE, INFO, MESSAGE, OPTIONS
+
+.
+2018-07-26	16:06:22.246021	1532613982.246021: Discarding message which can't be mapped to a known SIPp call:
+BYE sip:101@192.168.20.175:5075 SIP/2.0
+Via: SIP/2.0/UDP 10.10.10.149:5060;branch=z9hG4bKc2f382b2
+From: "800 " <sip:800@10.10.10.149:5060>;tag=a682c8a1d87915cb
+To: <sip:101@192.168.20.175:5075>;tag=4715SIPpTag09937
+Call-ID: 937-4715@192.168.20.175
+CSeq: 2 BYE
+Max-Forwards: 70
+Content-Length: 0
+User-Agent: ActisPBX 2.0
+Allow: INVITE, ACK, CANCEL, BYE, REFER, NOTIFY, REGISTER, SUBSCRIBE, INFO, MESSAGE, OPTIONS
+
+.
+2018-07-26	16:06:22.246351	1532613982.246351: Discarding message which can't be mapped to a known SIPp call:
+BYE sip:101@192.168.20.175:5075 SIP/2.0
+Via: SIP/2.0/UDP 10.10.10.149:5060;branch=z9hG4bKfe733aef
+From: "800 " <sip:800@10.10.10.149:5060>;tag=fbf6769da08388ce
+To: <sip:101@192.168.20.175:5075>;tag=4715SIPpTag09976
+Call-ID: 976-4715@192.168.20.175
+CSeq: 2 BYE
+Max-Forwards: 70
+Content-Length: 0
+User-Agent: ActisPBX 2.0
+Allow: INVITE, ACK, CANCEL, BYE, REFER, NOTIFY, REGISTER, SUBSCRIBE, INFO, MESSAGE, OPTIONS
+
+.
+2018-07-26	16:06:22.246368	1532613982.246368: Discarding message which can't be mapped to a known SIPp call:
+BYE sip:101@192.168.20.175:5075 SIP/2.0
+Via: SIP/2.0/UDP 10.10.10.149:5060;branch=z9hG4bK16ae413d
+From: "800 " <sip:800@10.10.10.149:5060>;tag=87bb75c759b2abe8
+To: <sip:101@192.168.20.175:5075>;tag=4715SIPpTag09943
+Call-ID: 943-4715@192.168.20.175
+CSeq: 2 BYE
+Max-Forwards: 70
+Content-Length: 0
+User-Agent: ActisPBX 2.0
+Allow: INVITE, ACK, CANCEL, BYE, REFER, NOTIFY, REGISTER, SUBSCRIBE, INFO, MESSAGE, OPTIONS
+
+.
+2018-07-26	16:06:22.246713	1532613982.246713: Discarding message which can't be mapped to a known SIPp call:
+BYE sip:101@192.168.20.175:5075 SIP/2.0
+Via: SIP/2.0/UDP 10.10.10.149:5060;branch=z9hG4bK7b6f5c4e
+From: "800 " <sip:800@10.10.10.149:5060>;tag=869e8d9f673ef3d5
+To: <sip:101@192.168.20.175:5075>;tag=4715SIPpTag09938
+Call-ID: 938-4715@192.168.20.175
+CSeq: 2 BYE
+Max-Forwards: 70
+Content-Length: 0
+User-Agent: ActisPBX 2.0
+Allow: INVITE, ACK, CANCEL, BYE, REFER, NOTIFY, REGISTER, SUBSCRIBE, INFO, MESSAGE, OPTIONS
+
+.
+2018-07-26	16:06:22.246729	1532613982.246729: Discarding message which can't be mapped to a known SIPp call:
+BYE sip:101@192.168.20.175:5075 SIP/2.0
+Via: SIP/2.0/UDP 10.10.10.149:5060;branch=z9hG4bKe3b85ef2
+From: "800 " <sip:800@10.10.10.149:5060>;tag=c9c81a078cde4776
+To: <sip:101@192.168.20.175:5075>;tag=4715SIPpTag09953
+Call-ID: 953-4715@192.168.20.175
+CSeq: 2 BYE
+Max-Forwards: 70
+Content-Length: 0
+User-Agent: ActisPBX 2.0
+Allow: INVITE, ACK, CANCEL, BYE, REFER, NOTIFY, REGISTER, SUBSCRIBE, INFO, MESSAGE, OPTIONS
+
+.
+2018-07-26	16:06:22.246981	1532613982.246981: Discarding message which can't be mapped to a known SIPp call:
+BYE sip:101@192.168.20.175:5075 SIP/2.0
+Via: SIP/2.0/UDP 10.10.10.149:5060;branch=z9hG4bKee9fcf14
+From: "800 " <sip:800@10.10.10.149:5060>;tag=1c9879ea1b9de3ce
+To: <sip:101@192.168.20.175:5075>;tag=4715SIPpTag09934
+Call-ID: 934-4715@192.168.20.175
+CSeq: 2 BYE
+Max-Forwards: 70
+Content-Length: 0
+User-Agent: ActisPBX 2.0
+Allow: INVITE, ACK, CANCEL, BYE, REFER, NOTIFY, REGISTER, SUBSCRIBE, INFO, MESSAGE, OPTIONS
+
+.
+2018-07-26	16:06:22.247278	1532613982.247278: Discarding message which can't be mapped to a known SIPp call:
+BYE sip:101@192.168.20.175:5075 SIP/2.0
+Via: SIP/2.0/UDP 10.10.10.149:5060;branch=z9hG4bK3d0f13d2
+From: "800 " <sip:800@10.10.10.149:5060>;tag=e47f870c1fdf5b9a
+To: <sip:101@192.168.20.175:5075>;tag=4715SIPpTag09960
+Call-ID: 960-4715@192.168.20.175
+CSeq: 2 BYE
+Max-Forwards: 70
+Content-Length: 0
+User-Agent: ActisPBX 2.0
+Allow: INVITE, ACK, CANCEL, BYE, REFER, NOTIFY, REGISTER, SUBSCRIBE, INFO, MESSAGE, OPTIONS
+
+.
+2018-07-26	16:06:22.247315	1532613982.247315: Discarding message which can't be mapped to a known SIPp call:
+BYE sip:101@192.168.20.175:5075 SIP/2.0
+Via: SIP/2.0/UDP 10.10.10.149:5060;branch=z9hG4bKcda66ad4
+From: "800 " <sip:800@10.10.10.149:5060>;tag=da576f53a892127b
+To: <sip:101@192.168.20.175:5075>;tag=4715SIPpTag09974
+Call-ID: 974-4715@192.168.20.175
+CSeq: 2 BYE
+Max-Forwards: 70
+Content-Length: 0
+User-Agent: ActisPBX 2.0
+Allow: INVITE, ACK, CANCEL, BYE, REFER, NOTIFY, REGISTER, SUBSCRIBE, INFO, MESSAGE, OPTIONS
+
+.
+2018-07-26	16:06:22.247526	1532613982.247526: Discarding message which can't be mapped to a known SIPp call:
+BYE sip:101@192.168.20.175:5075 SIP/2.0
+Via: SIP/2.0/UDP 10.10.10.149:5060;branch=z9hG4bK1a9c3259
+From: "800 " <sip:800@10.10.10.149:5060>;tag=3748202443b7436
+To: <sip:101@192.168.20.175:5075>;tag=4715SIPpTag09929
+Call-ID: 929-4715@192.168.20.175
+CSeq: 2 BYE
+Max-Forwards: 70
+Content-Length: 0
+User-Agent: ActisPBX 2.0
+Allow: INVITE, ACK, CANCEL, BYE, REFER, NOTIFY, REGISTER, SUBSCRIBE, INFO, MESSAGE, OPTIONS
+
+.
+2018-07-26	16:06:22.247775	1532613982.247775: Discarding message which can't be mapped to a known SIPp call:
+BYE sip:101@192.168.20.175:5075 SIP/2.0
+Via: SIP/2.0/UDP 10.10.10.149:5060;branch=z9hG4bK7f54a7f2
+From: "800 " <sip:800@10.10.10.149:5060>;tag=1951ba4156248548
+To: <sip:101@192.168.20.175:5075>;tag=4715SIPpTag09941
+Call-ID: 941-4715@192.168.20.175
+CSeq: 2 BYE
+Max-Forwards: 70
+Content-Length: 0
+User-Agent: ActisPBX 2.0
+Allow: INVITE, ACK, CANCEL, BYE, REFER, NOTIFY, REGISTER, SUBSCRIBE, INFO, MESSAGE, OPTIONS
+
+.
+2018-07-26	16:06:22.248036	1532613982.248036: Discarding message which can't be mapped to a known SIPp call:
+BYE sip:101@192.168.20.175:5075 SIP/2.0
+Via: SIP/2.0/UDP 10.10.10.149:5060;branch=z9hG4bKb22435b3
+From: "800 " <sip:800@10.10.10.149:5060>;tag=e011bcd27b914dd3
+To: <sip:101@192.168.20.175:5075>;tag=4715SIPpTag09975
+Call-ID: 975-4715@192.168.20.175
+CSeq: 2 BYE
+Max-Forwards: 70
+Content-Length: 0
+User-Agent: ActisPBX 2.0
+Allow: INVITE, ACK, CANCEL, BYE, REFER, NOTIFY, REGISTER, SUBSCRIBE, INFO, MESSAGE, OPTIONS
+
+.
+2018-07-26	16:06:22.248049	1532613982.248049: Discarding message which can't be mapped to a known SIPp call:
+BYE sip:101@192.168.20.175:5075 SIP/2.0
+Via: SIP/2.0/UDP 10.10.10.149:5060;branch=z9hG4bKded84575
+From: "800 " <sip:800@10.10.10.149:5060>;tag=99097be24cc179cd
+To: <sip:101@192.168.20.175:5075>;tag=4715SIPpTag09955
+Call-ID: 955-4715@192.168.20.175
+CSeq: 2 BYE
+Max-Forwards: 70
+Content-Length: 0
+User-Agent: ActisPBX 2.0
+Allow: INVITE, ACK, CANCEL, BYE, REFER, NOTIFY, REGISTER, SUBSCRIBE, INFO, MESSAGE, OPTIONS
+
+.
+2018-07-26	16:06:22.248405	1532613982.248405: Discarding message which can't be mapped to a known SIPp call:
+BYE sip:101@192.168.20.175:5075 SIP/2.0
+Via: SIP/2.0/UDP 10.10.10.149:5060;branch=z9hG4bKbb6eaa28
+From: "800 " <sip:800@10.10.10.149:5060>;tag=8f366c1ee6ad673b
+To: <sip:101@192.168.20.175:5075>;tag=4715SIPpTag09936
+Call-ID: 936-4715@192.168.20.175
+CSeq: 2 BYE
+Max-Forwards: 70
+Content-Length: 0
+User-Agent: ActisPBX 2.0
+Allow: INVITE, ACK, CANCEL, BYE, REFER, NOTIFY, REGISTER, SUBSCRIBE, INFO, MESSAGE, OPTIONS
+
+.
+2018-07-26	16:06:22.296575	1532613982.296575: Aborting call on an unexpected BYE for call: 92-5792@192.168.20.175.
+2018-07-26	16:06:22.444849	1532613982.444849: Aborting call on an unexpected BYE for call: 93-5792@192.168.20.175.
+2018-07-26	16:06:22.495505	1532613982.495505: Discarding message which can't be mapped to a known SIPp call:
+BYE sip:101@192.168.20.175:5075 SIP/2.0
+Via: SIP/2.0/UDP 10.10.10.149:5060;branch=z9hG4bK60fdb0fe
+From: "800 " <sip:800@10.10.10.149:5060>;tag=97fb7f6189d4245c
+To: <sip:101@192.168.20.175:5075>;tag=4715SIPpTag09950
+Call-ID: 950-4715@192.168.20.175
+CSeq: 2 BYE
+Max-Forwards: 70
+Content-Length: 0
+User-Agent: ActisPBX 2.0
+Allow: INVITE, ACK, CANCEL, BYE, REFER, NOTIFY, REGISTER, SUBSCRIBE, INFO, MESSAGE, OPTIONS
+
+.
+2018-07-26	16:06:22.495757	1532613982.495757: Discarding message which can't be mapped to a known SIPp call:
+BYE sip:101@192.168.20.175:5075 SIP/2.0
+Via: SIP/2.0/UDP 10.10.10.149:5060;branch=z9hG4bK609b2003
+From: "800 " <sip:800@10.10.10.149:5060>;tag=a1c29ede5250bf2c
+To: <sip:101@192.168.20.175:5075>;tag=4715SIPpTag09930
+Call-ID: 930-4715@192.168.20.175
+CSeq: 2 BYE
+Max-Forwards: 70
+Content-Length: 0
+User-Agent: ActisPBX 2.0
+Allow: INVITE, ACK, CANCEL, BYE, REFER, NOTIFY, REGISTER, SUBSCRIBE, INFO, MESSAGE, OPTIONS
+
+.
+2018-07-26	16:06:22.495790	1532613982.495790: Discarding message which can't be mapped to a known SIPp call:
+BYE sip:101@192.168.20.175:5075 SIP/2.0
+Via: SIP/2.0/UDP 10.10.10.149:5060;branch=z9hG4bKec7c91b2
+From: "800 " <sip:800@10.10.10.149:5060>;tag=27984b8012653d4
+To: <sip:101@192.168.20.175:5075>;tag=4715SIPpTag09939
+Call-ID: 939-4715@192.168.20.175
+CSeq: 2 BYE
+Max-Forwards: 70
+Content-Length: 0
+User-Agent: ActisPBX 2.0
+Allow: INVITE, ACK, CANCEL, BYE, REFER, NOTIFY, REGISTER, SUBSCRIBE, INFO, MESSAGE, OPTIONS
+
+.
+2018-07-26	16:06:22.496180	1532613982.496180: Discarding message which can't be mapped to a known SIPp call:
+BYE sip:101@192.168.20.175:5075 SIP/2.0
+Via: SIP/2.0/UDP 10.10.10.149:5060;branch=z9hG4bK802141e7
+From: "800 " <sip:800@10.10.10.149:5060>;tag=1f65925e634ecb80
+To: <sip:101@192.168.20.175:5075>;tag=4715SIPpTag09945
+Call-ID: 945-4715@192.168.20.175
+CSeq: 2 BYE
+Max-Forwards: 70
+Content-Length: 0
+User-Agent: ActisPBX 2.0
+Allow: INVITE, ACK, CANCEL, BYE, REFER, NOTIFY, REGISTER, SUBSCRIBE, INFO, MESSAGE, OPTIONS
+
+.
+2018-07-26	16:06:22.496210	1532613982.496210: Discarding message which can't be mapped to a known SIPp call:
+BYE sip:101@192.168.20.175:5075 SIP/2.0
+Via: SIP/2.0/UDP 10.10.10.149:5060;branch=z9hG4bK5db1c3a0
+From: "800 " <sip:800@10.10.10.149:5060>;tag=4841501e5bc8dcaf
+To: <sip:101@192.168.20.175:5075>;tag=4715SIPpTag09924
+Call-ID: 924-4715@192.168.20.175
+CSeq: 2 BYE
+Max-Forwards: 70
+Content-Length: 0
+User-Agent: ActisPBX 2.0
+Allow: INVITE, ACK, CANCEL, BYE, REFER, NOTIFY, REGISTER, SUBSCRIBE, INFO, MESSAGE, OPTIONS
+
+.
+2018-07-26	16:06:22.496493	1532613982.496493: Discarding message which can't be mapped to a known SIPp call:
+BYE sip:101@192.168.20.175:5075 SIP/2.0
+Via: SIP/2.0/UDP 10.10.10.149:5060;branch=z9hG4bKf46d94f8
+From: "800 " <sip:800@10.10.10.149:5060>;tag=57c218fea3549783
+To: <sip:101@192.168.20.175:5075>;tag=4715SIPpTag09925
+Call-ID: 925-4715@192.168.20.175
+CSeq: 2 BYE
+Max-Forwards: 70
+Content-Length: 0
+User-Agent: ActisPBX 2.0
+Allow: INVITE, ACK, CANCEL, BYE, REFER, NOTIFY, REGISTER, SUBSCRIBE, INFO, MESSAGE, OPTIONS
+
+.
+2018-07-26	16:06:22.496772	1532613982.496772: Discarding message which can't be mapped to a known SIPp call:
+BYE sip:101@192.168.20.175:5075 SIP/2.0
+Via: SIP/2.0/UDP 10.10.10.149:5060;branch=z9hG4bKa1010de6
+From: "800 " <sip:800@10.10.10.149:5060>;tag=92a8aa0edb6c5b7b
+To: <sip:101@192.168.20.175:5075>;tag=4715SIPpTag09946
+Call-ID: 946-4715@192.168.20.175
+CSeq: 2 BYE
+Max-Forwards: 70
+Content-Length: 0
+User-Agent: ActisPBX 2.0
+Allow: INVITE, ACK, CANCEL, BYE, REFER, NOTIFY, REGISTER, SUBSCRIBE, INFO, MESSAGE, OPTIONS
+
+.
+2018-07-26	16:06:22.496814	1532613982.496814: Discarding message which can't be mapped to a known SIPp call:
+BYE sip:101@192.168.20.175:5075 SIP/2.0
+Via: SIP/2.0/UDP 10.10.10.149:5060;branch=z9hG4bKaf291437
+From: "800 " <sip:800@10.10.10.149:5060>;tag=ee19b6581b46c0d9
+To: <sip:101@192.168.20.175:5075>;tag=4715SIPpTag09958
+Call-ID: 958-4715@192.168.20.175
+CSeq: 2 BYE
+Max-Forwards: 70
+Content-Length: 0
+User-Agent: ActisPBX 2.0
+Allow: INVITE, ACK, CANCEL, BYE, REFER, NOTIFY, REGISTER, SUBSCRIBE, INFO, MESSAGE, OPTIONS
+
+.
+2018-07-26	16:06:22.497075	1532613982.497075: Discarding message which can't be mapped to a known SIPp call:
+BYE sip:101@192.168.20.175:5075 SIP/2.0
+Via: SIP/2.0/UDP 10.10.10.149:5060;branch=z9hG4bK99579635
+From: "800 " <sip:800@10.10.10.149:5060>;tag=3b41e107d5bbd233
+To: <sip:101@192.168.20.175:5075>;tag=4715SIPpTag09931
+Call-ID: 931-4715@192.168.20.175
+CSeq: 2 BYE
+Max-Forwards: 70
+Content-Length: 0
+User-Agent: ActisPBX 2.0
+Allow: INVITE, ACK, CANCEL, BYE, REFER, NOTIFY, REGISTER, SUBSCRIBE, INFO, MESSAGE, OPTIONS
+
+.
+2018-07-26	16:06:22.497111	1532613982.497111: Discarding message which can't be mapped to a known SIPp call:
+BYE sip:101@192.168.20.175:5075 SIP/2.0
+Via: SIP/2.0/UDP 10.10.10.149:5060;branch=z9hG4bK489357a1
+From: "800 " <sip:800@10.10.10.149:5060>;tag=fdb8b6371d61c9db
+To: <sip:101@192.168.20.175:5075>;tag=4715SIPpTag09947
+Call-ID: 947-4715@192.168.20.175
+CSeq: 2 BYE
+Max-Forwards: 70
+Content-Length: 0
+User-Agent: ActisPBX 2.0
+Allow: INVITE, ACK, CANCEL, BYE, REFER, NOTIFY, REGISTER, SUBSCRIBE, INFO, MESSAGE, OPTIONS
+
+.
+2018-07-26	16:06:22.497457	1532613982.497457: Discarding message which can't be mapped to a known SIPp call:
+BYE sip:101@192.168.20.175:5075 SIP/2.0
+Via: SIP/2.0/UDP 10.10.10.149:5060;branch=z9hG4bK766cee31
+From: "800 " <sip:800@10.10.10.149:5060>;tag=454d73b3d689c804
+To: <sip:101@192.168.20.175:5075>;tag=4715SIPpTag09921
+Call-ID: 921-4715@192.168.20.175
+CSeq: 2 BYE
+Max-Forwards: 70
+Content-Length: 0
+User-Agent: ActisPBX 2.0
+Allow: INVITE, ACK, CANCEL, BYE, REFER, NOTIFY, REGISTER, SUBSCRIBE, INFO, MESSAGE, OPTIONS
+
+.
+2018-07-26	16:06:22.497488	1532613982.497488: Discarding message which can't be mapped to a known SIPp call:
+BYE sip:101@192.168.20.175:5075 SIP/2.0
+Via: SIP/2.0/UDP 10.10.10.149:5060;branch=z9hG4bK54f649ad
+From: "800 " <sip:800@10.10.10.149:5060>;tag=13f200ab08cad076
+To: <sip:101@192.168.20.175:5075>;tag=4715SIPpTag09949
+Call-ID: 949-4715@192.168.20.175
+CSeq: 2 BYE
+Max-Forwards: 70
+Content-Length: 0
+User-Agent: ActisPBX 2.0
+Allow: INVITE, ACK, CANCEL, BYE, REFER, NOTIFY, REGISTER, SUBSCRIBE, INFO, MESSAGE, OPTIONS
+
+.
+2018-07-26	16:06:22.497818	1532613982.497818: Discarding message which can't be mapped to a known SIPp call:
+BYE sip:101@192.168.20.175:5075 SIP/2.0
+Via: SIP/2.0/UDP 10.10.10.149:5060;branch=z9hG4bK7b70c032
+From: "800 " <sip:800@10.10.10.149:5060>;tag=4d12e9dd25d33947
+To: <sip:101@192.168.20.175:5075>;tag=4715SIPpTag09940
+Call-ID: 940-4715@192.168.20.175
+CSeq: 2 BYE
+Max-Forwards: 70
+Content-Length: 0
+User-Agent: ActisPBX 2.0
+Allow: INVITE, ACK, CANCEL, BYE, REFER, NOTIFY, REGISTER, SUBSCRIBE, INFO, MESSAGE, OPTIONS
+
+.
+2018-07-26	16:06:22.497847	1532613982.497847: Discarding message which can't be mapped to a known SIPp call:
+BYE sip:101@192.168.20.175:5075 SIP/2.0
+Via: SIP/2.0/UDP 10.10.10.149:5060;branch=z9hG4bK685157f7
+From: "800 " <sip:800@10.10.10.149:5060>;tag=2a94aa817162db71
+To: <sip:101@192.168.20.175:5075>;tag=4715SIPpTag09920
+Call-ID: 920-4715@192.168.20.175
+CSeq: 2 BYE
+Max-Forwards: 70
+Content-Length: 0
+User-Agent: ActisPBX 2.0
+Allow: INVITE, ACK, CANCEL, BYE, REFER, NOTIFY, REGISTER, SUBSCRIBE, INFO, MESSAGE, OPTIONS
+
+.
+2018-07-26	16:06:22.498206	1532613982.498206: Discarding message which can't be mapped to a known SIPp call:
+BYE sip:101@192.168.20.175:5075 SIP/2.0
+Via: SIP/2.0/UDP 10.10.10.149:5060;branch=z9hG4bK3d54011a
+From: "800 " <sip:800@10.10.10.149:5060>;tag=e4628ef82f2a88da
+To: <sip:101@192.168.20.175:5075>;tag=4715SIPpTag09961
+Call-ID: 961-4715@192.168.20.175
+CSeq: 2 BYE
+Max-Forwards: 70
+Content-Length: 0
+User-Agent: ActisPBX 2.0
+Allow: INVITE, ACK, CANCEL, BYE, REFER, NOTIFY, REGISTER, SUBSCRIBE, INFO, MESSAGE, OPTIONS
+
+.
+2018-07-26	16:06:22.498235	1532613982.498235: Discarding message which can't be mapped to a known SIPp call:
+BYE sip:101@192.168.20.175:5075 SIP/2.0
+Via: SIP/2.0/UDP 10.10.10.149:5060;branch=z9hG4bK4ba5769e
+From: "800 " <sip:800@10.10.10.149:5060>;tag=76a90c0b383f8bf4
+To: <sip:101@192.168.20.175:5075>;tag=4715SIPpTag09948
+Call-ID: 948-4715@192.168.20.175
+CSeq: 2 BYE
+Max-Forwards: 70
+Content-Length: 0
+User-Agent: ActisPBX 2.0
+Allow: INVITE, ACK, CANCEL, BYE, REFER, NOTIFY, REGISTER, SUBSCRIBE, INFO, MESSAGE, OPTIONS
+
+.
+2018-07-26	16:06:22.498590	1532613982.498590: Discarding message which can't be mapped to a known SIPp call:
+BYE sip:101@192.168.20.175:5075 SIP/2.0
+Via: SIP/2.0/UDP 10.10.10.149:5060;branch=z9hG4bK3593769b
+From: "800 " <sip:800@10.10.10.149:5060>;tag=d700f87254885f4a
+To: <sip:101@192.168.20.175:5075>;tag=4715SIPpTag09933
+Call-ID: 933-4715@192.168.20.175
+CSeq: 2 BYE
+Max-Forwards: 70
+Content-Length: 0
+User-Agent: ActisPBX 2.0
+Allow: INVITE, ACK, CANCEL, BYE, REFER, NOTIFY, REGISTER, SUBSCRIBE, INFO, MESSAGE, OPTIONS
+
+.
+2018-07-26	16:06:22.498616	1532613982.498616: Discarding message which can't be mapped to a known SIPp call:
+BYE sip:101@192.168.20.175:5075 SIP/2.0
+Via: SIP/2.0/UDP 10.10.10.149:5060;branch=z9hG4bK397724d7
+From: "800 " <sip:800@10.10.10.149:5060>;tag=53fa11f70df22490
+To: <sip:101@192.168.20.175:5075>;tag=4715SIPpTag09935
+Call-ID: 935-4715@192.168.20.175
+CSeq: 2 BYE
+Max-Forwards: 70
+Content-Length: 0
+User-Agent: ActisPBX 2.0
+Allow: INVITE, ACK, CANCEL, BYE, REFER, NOTIFY, REGISTER, SUBSCRIBE, INFO, MESSAGE, OPTIONS
+
+.
+2018-07-26	16:06:22.498926	1532613982.498926: Discarding message which can't be mapped to a known SIPp call:
+BYE sip:101@192.168.20.175:5075 SIP/2.0
+Via: SIP/2.0/UDP 10.10.10.149:5060;branch=z9hG4bK335fc366
+From: "800 " <sip:800@10.10.10.149:5060>;tag=9ad6891bd980aa7e
+To: <sip:101@192.168.20.175:5075>;tag=4715SIPpTag09922
+Call-ID: 922-4715@192.168.20.175
+CSeq: 2 BYE
+Max-Forwards: 70
+Content-Length: 0
+User-Agent: ActisPBX 2.0
+Allow: INVITE, ACK, CANCEL, BYE, REFER, NOTIFY, REGISTER, SUBSCRIBE, INFO, MESSAGE, OPTIONS
+
+.
+2018-07-26	16:06:22.498941	1532613982.498941: Discarding message which can't be mapped to a known SIPp call:
+BYE sip:101@192.168.20.175:5075 SIP/2.0
+Via: SIP/2.0/UDP 10.10.10.149:5060;branch=z9hG4bK135544c6
+From: "800 " <sip:800@10.10.10.149:5060>;tag=cbaf8cb76d35ec78
+To: <sip:101@192.168.20.175:5075>;tag=4715SIPpTag09923
+Call-ID: 923-4715@192.168.20.175
+CSeq: 2 BYE
+Max-Forwards: 70
+Content-Length: 0
+User-Agent: ActisPBX 2.0
+Allow: INVITE, ACK, CANCEL, BYE, REFER, NOTIFY, REGISTER, SUBSCRIBE, INFO, MESSAGE, OPTIONS
+
+.
+2018-07-26	16:06:22.499256	1532613982.499256: Discarding message which can't be mapped to a known SIPp call:
+BYE sip:101@192.168.20.175:5075 SIP/2.0
+Via: SIP/2.0/UDP 10.10.10.149:5060;branch=z9hG4bKe19cad67
+From: "800 " <sip:800@10.10.10.149:5060>;tag=4e82183854c88e7a
+To: <sip:101@192.168.20.175:5075>;tag=4715SIPpTag09942
+Call-ID: 942-4715@192.168.20.175
+CSeq: 2 BYE
+Max-Forwards: 70
+Content-Length: 0
+User-Agent: ActisPBX 2.0
+Allow: INVITE, ACK, CANCEL, BYE, REFER, NOTIFY, REGISTER, SUBSCRIBE, INFO, MESSAGE, OPTIONS
+
+.
+2018-07-26	16:06:22.499506	1532613982.499506: Discarding message which can't be mapped to a known SIPp call:
+BYE sip:101@192.168.20.175:5075 SIP/2.0
+Via: SIP/2.0/UDP 10.10.10.149:5060;branch=z9hG4bK7e6ecddd
+From: "800 " <sip:800@10.10.10.149:5060>;tag=d160cb72407003f7
+To: <sip:101@192.168.20.175:5075>;tag=4715SIPpTag09932
+Call-ID: 932-4715@192.168.20.175
+CSeq: 2 BYE
+Max-Forwards: 70
+Content-Length: 0
+User-Agent: ActisPBX 2.0
+Allow: INVITE, ACK, CANCEL, BYE, REFER, NOTIFY, REGISTER, SUBSCRIBE, INFO, MESSAGE, OPTIONS
+
+.
+2018-07-26	16:06:22.548646	1532613982.548646: Aborting call on an unexpected BYE for call: 95-5792@192.168.20.175.
+2018-07-26	16:06:22.554006	1532613982.554006: Aborting call on an unexpected BYE for call: 94-5792@192.168.20.175.
+2018-07-26	16:06:22.704141	1532613982.704141: Aborting call on an unexpected BYE for call: 96-5792@192.168.20.175.
+2018-07-26	16:06:22.860655	1532613982.860655: Aborting call on an unexpected BYE for call: 97-5792@192.168.20.175.
+2018-07-26	16:06:23.028734	1532613983.028734: Aborting call on an unexpected BYE for call: 98-5792@192.168.20.175.
+2018-07-26	16:06:23.070188	1532613983.070188: Aborting call on an unexpected BYE for call: 99-5792@192.168.20.175.
+2018-07-26	16:06:23.183975	1532613983.183975: Aborting call on an unexpected BYE for call: 100-5792@192.168.20.175.
+2018-07-26	16:06:23.234578	1532613983.234578: Aborting call on an unexpected BYE for call: 101-5792@192.168.20.175.
+2018-07-26	16:06:23.335972	1532613983.335972: Aborting call on an unexpected BYE for call: 102-5792@192.168.20.175.
+2018-07-26	16:06:23.336616	1532613983.336616: Aborting call on an unexpected BYE for call: 103-5792@192.168.20.175.
+2018-07-26	16:06:23.500612	1532613983.500612: Aborting call on an unexpected BYE for call: 104-5792@192.168.20.175.
+2018-07-26	16:06:23.677834	1532613983.677834: Aborting call on an unexpected BYE for call: 106-5792@192.168.20.175.
+2018-07-26	16:06:23.678875	1532613983.678875: Aborting call on an unexpected BYE for call: 105-5792@192.168.20.175.
+2018-07-26	16:06:23.791954	1532613983.791954: Aborting call on an unexpected BYE for call: 107-5792@192.168.20.175.
+2018-07-26	16:06:23.896219	1532613983.896219: Aborting call on an unexpected BYE for call: 108-5792@192.168.20.175.
+2018-07-26	16:06:24.124744	1532613984.124744: Aborting call on an unexpected BYE for call: 109-5792@192.168.20.175.
+2018-07-26	16:06:24.205322	1532613984.205322: Aborting call on an unexpected BYE for call: 110-5792@192.168.20.175.
+2018-07-26	16:06:24.242171	1532613984.242171: Aborting call on an unexpected BYE for call: 111-5792@192.168.20.175.
+2018-07-26	16:06:24.302095	1532613984.302095: Aborting call on an unexpected BYE for call: 112-5792@192.168.20.175.
+2018-07-26	16:06:24.352944	1532613984.352944: Aborting call on an unexpected BYE for call: 113-5792@192.168.20.175.
+2018-07-26	16:06:24.546463	1532613984.546463: Aborting call on an unexpected BYE for call: 114-5792@192.168.20.175.
+2018-07-26	16:06:24.600652	1532613984.600652: Aborting call on an unexpected BYE for call: 115-5792@192.168.20.175.
+2018-07-26	16:06:24.701209	1532613984.701209: Aborting call on an unexpected BYE for call: 116-5792@192.168.20.175.
+2018-07-26	16:06:24.752226	1532613984.752226: Aborting call on an unexpected BYE for call: 117-5792@192.168.20.175.
+2018-07-26	16:06:24.959813	1532613984.959813: Aborting call on an unexpected BYE for call: 119-5792@192.168.20.175.
+2018-07-26	16:06:24.961580	1532613984.961580: Aborting call on an unexpected BYE for call: 118-5792@192.168.20.175.
+2018-07-26	16:06:25.124850	1532613985.124850: Aborting call on an unexpected BYE for call: 120-5792@192.168.20.175.
+2018-07-26	16:06:25.224481	1532613985.224481: Aborting call on an unexpected BYE for call: 121-5792@192.168.20.175.
+2018-07-26	16:06:25.318963	1532613985.318963: Aborting call on an unexpected BYE for call: 122-5792@192.168.20.175.
+2018-07-26	16:06:25.424592	1532613985.424592: Aborting call on an unexpected BYE for call: 123-5792@192.168.20.175.
+2018-07-26	16:06:25.476836	1532613985.476836: Aborting call on an unexpected BYE for call: 124-5792@192.168.20.175.
+2018-07-26	16:06:25.623933	1532613985.623933: Aborting call on an unexpected BYE for call: 125-5792@192.168.20.175.
+2018-07-26	16:06:25.759303	1532613985.759303: Aborting call on an unexpected BYE for call: 126-5792@192.168.20.175.
+2018-07-26	16:06:25.868937	1532613985.868937: Aborting call on an unexpected BYE for call: 127-5792@192.168.20.175.
+2018-07-26	16:06:25.870121	1532613985.870121: Aborting call on an unexpected BYE for call: 128-5792@192.168.20.175.
+2018-07-26	16:06:25.967075	1532613985.967075: Aborting call on an unexpected BYE for call: 129-5792@192.168.20.175.
+2018-07-26	16:06:26.123802	1532613986.123802: Aborting call on an unexpected BYE for call: 130-5792@192.168.20.175.
+2018-07-26	16:06:26.172836	1532613986.172836: Aborting call on an unexpected BYE for call: 131-5792@192.168.20.175.
