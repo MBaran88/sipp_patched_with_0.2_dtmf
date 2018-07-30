@@ -71,7 +71,7 @@ extern "C" {
 int check(uint16_t*, int);
 uint16_t checksum_carry(int);
 int prepare_pkts(const char*, pcap_pkts*);
-int prepare_dtmf(const char*, pcap_pkts*, uint16_t start_seq_no,uint32_t dtmf_ssrcid);
+int prepare_dtmf(const char*, pcap_pkts*, uint16_t start_seq_no);
 #ifdef __cplusplus
 }
 #endif

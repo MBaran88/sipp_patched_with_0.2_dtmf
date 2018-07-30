@@ -32,7 +32,6 @@
 #include <netinet/ip6.h>
 #endif
 #include <string.h>
-#include <sipp.hpp>
 #include "defines.h"
 #include "endianshim.h"
 #include "prepare_pcap.h"
@@ -348,7 +347,7 @@ struct dtmfpacket {
       struct rtpevent dtmf;
     };
 
-//static u_long dtmf_ssrcid = 0x01020304;
+static uint dtmf_ssrcid = 0x0000CA11;
 
 void fill_default_dtmf(struct dtmfpacket * dtmfpacket,uint32_t dtmf_ssrcid, int marker, int seqno, int ts, char digit, int eoe, int duration) {
       u_long pktlen = sizeof(struct dtmfpacket);
@@ -382,7 +381,7 @@ void fill_default_dtmf(struct dtmfpacket * dtmfpacket,uint32_t dtmf_ssrcid, int 
 
 /* prepare a dtmf pcap
  */
-int prepare_dtmf(const char *digits, pcap_pkts *pkts, u_int16_t start_seq_no,uint32_t dtmf_ssrcid) {
+int prepare_dtmf(const char *digits, pcap_pkts *pkts, u_int16_t start_seq_no) {
       int n_pkts = 0;
       int n_digits = 0;
       u_long pktlen = sizeof(struct dtmfpacket);
