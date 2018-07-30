@@ -327,8 +327,8 @@ struct rtphdr {
       unsigned int marker:1;
 
       u_int16_t seqno;
-      u_long timestamp;
-      u_long ssrcid;
+      uint32_t timestamp;
+      uint32_t ssrcid;
     };
 
 struct rtpevent {
