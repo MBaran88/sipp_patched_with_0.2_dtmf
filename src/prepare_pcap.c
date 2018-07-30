@@ -32,7 +32,7 @@
 #include <netinet/ip6.h>
 #endif
 #include <string.h>
-#include <sipp.hpp>
+//#include <sipp.hpp>
 #include "defines.h"
 #include "endianshim.h"
 #include "prepare_pcap.h"
@@ -328,8 +328,8 @@ struct rtphdr {
       unsigned int marker:1;
 
       u_int16_t seqno;
-      u_long timestamp;
-      u_long ssrcid;
+      uint32_t timestamp;
+      uint32_t ssrcid;
     };
 
 struct rtpevent {
