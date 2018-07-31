@@ -1,0 +1,243 @@
+----------------------------------------------- 2018-07-30 16:00:44.714772
+UDP message sent (613 bytes):
+
+INVITE sip:800@10.10.10.149:5060 SIP/2.0
+Via: SIP/2.0/UDP 192.168.20.204:5075;branch=z9hG4bK-21280-1-0
+From: sipp <sip:101@192.168.20.204:5075>;tag=21280SIPpTag091
+To: 800 <sip:800@10.10.10.149:5060>
+Call-ID: 1-21280@192.168.20.204
+CSeq: 1 INVITE
+Contact: sip:101@192.168.20.204:5075
+Max-Forwards: 70
+Subject: Performance Test
+Content-Type: application/sdp
+Content-Length:   221
+
+v=0
+o=user1 53655765 2353687637 IN IP4 192.168.20.204
+s=-
+c=IN IP4 192.168.20.204
+t=0 0
+m=audio 8192  RTP/AVP 8 101
+a=rtpmap:8 PCMA/8000
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-11,16
+a=rtpmap:0 PCMU/8000
+
+----------------------------------------------- 2018-07-30 16:00:44.758805
+UDP message received [306] bytes :
+
+SIP/2.0 100 Trying
+Via: SIP/2.0/UDP 192.168.20.204:5075;branch=z9hG4bK-21280-1-0
+From: <sip:101@192.168.20.204:5075>;tag=21280SIPpTag091
+To: "800 " <sip:800@10.10.10.149:5060>
+Call-ID: 1-21280@192.168.20.204
+CSeq: 1 INVITE
+Max-Forwards: 70
+Contact: <sip:800@10.10.10.149:5060>
+Content-Length: 0
+
+
+----------------------------------------------- 2018-07-30 16:00:44.807206
+UDP message sent (613 bytes):
+
+INVITE sip:800@10.10.10.149:5060 SIP/2.0
+Via: SIP/2.0/UDP 192.168.20.204:5075;branch=z9hG4bK-21280-2-0
+From: sipp <sip:101@192.168.20.204:5075>;tag=21280SIPpTag092
+To: 800 <sip:800@10.10.10.149:5060>
+Call-ID: 2-21280@192.168.20.204
+CSeq: 1 INVITE
+Contact: sip:101@192.168.20.204:5075
+Max-Forwards: 70
+Subject: Performance Test
+Content-Type: application/sdp
+Content-Length:   221
+
+v=0
+o=user1 53655765 2353687637 IN IP4 192.168.20.204
+s=-
+c=IN IP4 192.168.20.204
+t=0 0
+m=audio 8194  RTP/AVP 8 101
+a=rtpmap:8 PCMA/8000
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-11,16
+a=rtpmap:0 PCMU/8000
+
+----------------------------------------------- 2018-07-30 16:00:44.817796
+UDP message received [575] bytes :
+
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 192.168.20.204:5075;branch=z9hG4bK-21280-1-0
+From: <sip:101@192.168.20.204:5075>;tag=21280SIPpTag091
+To: "800 " <sip:800@10.10.10.149:5060>;tag=ff548bee197caa7
+Call-ID: 1-21280@192.168.20.204
+CSeq: 1 INVITE
+Max-Forwards: 70
+Contact: <sip:800@10.10.10.149:5060>
+Content-Type: application/sdp
+Content-Length: 220
+
+v=0
+o=SipUser 0 234278 IN IP4 10.10.10.149
+s=SIP Call
+c=IN IP4 10.10.10.149
+t=0 0
+m=audio 6218 RTP/AVP 8 101 13
+a=rtpmap:8 PCMA/8000
+a=rtpmap:101 telephone-event/8000
+a=rtpmap:13 CN/8000
+a=sendrecv
+a=ptime:20
+
+----------------------------------------------- 2018-07-30 16:00:44.817994
+UDP message sent (371 bytes):
+
+ACK sip:800@10.10.10.149:5060 SIP/2.0
+Via: SIP/2.0/UDP 192.168.20.204:5075;branch=z9hG4bK-21280-1-4
+From: sipp <sip:101@192.168.20.204:5075>;tag=21280SIPpTag091
+To: 800 <sip:800@10.10.10.149:5060>;tag=ff548bee197caa7
+Call-ID: 1-21280@192.168.20.204
+CSeq: 1 ACK
+Contact: sip:101@192.168.20.204:5075
+Max-Forwards: 70
+Subject: Performance Test
+Content-Length: 0
+
+
+----------------------------------------------- 2018-07-30 16:00:44.859234
+UDP message received [306] bytes :
+
+SIP/2.0 100 Trying
+Via: SIP/2.0/UDP 192.168.20.204:5075;branch=z9hG4bK-21280-2-0
+From: <sip:101@192.168.20.204:5075>;tag=21280SIPpTag092
+To: "800 " <sip:800@10.10.10.149:5060>
+Call-ID: 2-21280@192.168.20.204
+CSeq: 1 INVITE
+Max-Forwards: 70
+Contact: <sip:800@10.10.10.149:5060>
+Content-Length: 0
+
+
+----------------------------------------------- 2018-07-30 16:00:44.898644
+UDP message sent (613 bytes):
+
+INVITE sip:800@10.10.10.149:5060 SIP/2.0
+Via: SIP/2.0/UDP 192.168.20.204:5075;branch=z9hG4bK-21280-3-0
+From: sipp <sip:101@192.168.20.204:5075>;tag=21280SIPpTag093
+To: 800 <sip:800@10.10.10.149:5060>
+Call-ID: 3-21280@192.168.20.204
+CSeq: 1 INVITE
+Contact: sip:101@192.168.20.204:5075
+Max-Forwards: 70
+Subject: Performance Test
+Content-Type: application/sdp
+Content-Length:   221
+
+v=0
+o=user1 53655765 2353687637 IN IP4 192.168.20.204
+s=-
+c=IN IP4 192.168.20.204
+t=0 0
+m=audio 8196  RTP/AVP 8 101
+a=rtpmap:8 PCMA/8000
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-11,16
+a=rtpmap:0 PCMU/8000
+
+----------------------------------------------- 2018-07-30 16:00:44.909535
+UDP message received [306] bytes :
+
+SIP/2.0 100 Trying
+Via: SIP/2.0/UDP 192.168.20.204:5075;branch=z9hG4bK-21280-3-0
+From: <sip:101@192.168.20.204:5075>;tag=21280SIPpTag093
+To: "800 " <sip:800@10.10.10.149:5060>
+Call-ID: 3-21280@192.168.20.204
+CSeq: 1 INVITE
+Max-Forwards: 70
+Contact: <sip:800@10.10.10.149:5060>
+Content-Length: 0
+
+
+----------------------------------------------- 2018-07-30 16:00:44.916085
+UDP message received [576] bytes :
+
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 192.168.20.204:5075;branch=z9hG4bK-21280-2-0
+From: <sip:101@192.168.20.204:5075>;tag=21280SIPpTag092
+To: "800 " <sip:800@10.10.10.149:5060>;tag=7514ba09226b448a
+Call-ID: 2-21280@192.168.20.204
+CSeq: 1 INVITE
+Max-Forwards: 70
+Contact: <sip:800@10.10.10.149:5060>
+Content-Type: application/sdp
+Content-Length: 220
+
+v=0
+o=SipUser 0 234278 IN IP4 10.10.10.149
+s=SIP Call
+c=IN IP4 10.10.10.149
+t=0 0
+m=audio 6222 RTP/AVP 8 101 13
+a=rtpmap:8 PCMA/8000
+a=rtpmap:101 telephone-event/8000
+a=rtpmap:13 CN/8000
+a=sendrecv
+a=ptime:20
+
+----------------------------------------------- 2018-07-30 16:00:44.916244
+UDP message sent (372 bytes):
+
+ACK sip:800@10.10.10.149:5060 SIP/2.0
+Via: SIP/2.0/UDP 192.168.20.204:5075;branch=z9hG4bK-21280-2-4
+From: sipp <sip:101@192.168.20.204:5075>;tag=21280SIPpTag092
+To: 800 <sip:800@10.10.10.149:5060>;tag=7514ba09226b448a
+Call-ID: 2-21280@192.168.20.204
+CSeq: 1 ACK
+Contact: sip:101@192.168.20.204:5075
+Max-Forwards: 70
+Subject: Performance Test
+Content-Length: 0
+
+
+----------------------------------------------- 2018-07-30 16:00:44.964117
+UDP message received [576] bytes :
+
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 192.168.20.204:5075;branch=z9hG4bK-21280-3-0
+From: <sip:101@192.168.20.204:5075>;tag=21280SIPpTag093
+To: "800 " <sip:800@10.10.10.149:5060>;tag=744552f15a8c72d0
+Call-ID: 3-21280@192.168.20.204
+CSeq: 1 INVITE
+Max-Forwards: 70
+Contact: <sip:800@10.10.10.149:5060>
+Content-Type: application/sdp
+Content-Length: 220
+
+v=0
+o=SipUser 0 234278 IN IP4 10.10.10.149
+s=SIP Call
+c=IN IP4 10.10.10.149
+t=0 0
+m=audio 6226 RTP/AVP 8 101 13
+a=rtpmap:8 PCMA/8000
+a=rtpmap:101 telephone-event/8000
+a=rtpmap:13 CN/8000
+a=sendrecv
+a=ptime:20
+
+----------------------------------------------- 2018-07-30 16:00:44.964299
+UDP message sent (372 bytes):
+
+ACK sip:800@10.10.10.149:5060 SIP/2.0
+Via: SIP/2.0/UDP 192.168.20.204:5075;branch=z9hG4bK-21280-3-4
+From: sipp <sip:101@192.168.20.204:5075>;tag=21280SIPpTag093
+To: 800 <sip:800@10.10.10.149:5060>;tag=744552f15a8c72d0
+Call-ID: 3-21280@192.168.20.204
+CSeq: 1 ACK
+Contact: sip:101@192.168.20.204:5075
+Max-Forwards: 70
+Subject: Performance Test
+Content-Length: 0
+
+

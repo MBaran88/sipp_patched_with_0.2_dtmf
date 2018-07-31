@@ -159,6 +159,7 @@ add_executable(sipp_3_5_1
         src/watchdog.cpp
         src/xp_parser.c
         src/xp_parser_ut.cpp
+        src/globalSsrcIdDeclaration.h
         aclocal.m4
         build.sh
         CHANGES.md
@@ -182,4 +183,4 @@ add_executable(sipp_3_5_1
         sipp
         sipp.dtd
         test-driver
-        THANKS)
+        THANKS src/globalSsrcIdDeclaration.h)

@@ -48,10 +48,10 @@ RM = /snap/clion/34/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mateuszbaran/Desktop/sipp-3.5.1
+CMAKE_SOURCE_DIR = /home/rafal/CLionProjects/sipp_patched_with_0.2_dtmf_good
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mateuszbaran/Desktop/sipp-3.5.1/cmake-build-debug
+CMAKE_BINARY_DIR = /home/rafal/CLionProjects/sipp_patched_with_0.2_dtmf_good/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mateuszbaran/Desktop/sipp-3.5.1/cmake-build-debug/CMakeFiles /home/mateuszbaran/Desktop/sipp-3.5.1/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rafal/CLionProjects/sipp_patched_with_0.2_dtmf_good/cmake-build-debug/CMakeFiles /home/rafal/CLionProjects/sipp_patched_with_0.2_dtmf_good/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mateuszbaran/Desktop/sipp-3.5.1/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rafal/CLionProjects/sipp_patched_with_0.2_dtmf_good/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -311,6 +311,33 @@ src/fortune.s: src/fortune.cpp.s
 src/fortune.cpp.s:
 	$(MAKE) -f CMakeFiles/sipp_3_5_1.dir/build.make CMakeFiles/sipp_3_5_1.dir/src/fortune.cpp.s
 .PHONY : src/fortune.cpp.s
+
+src/globalSsrcIdDeclaration.h.o: src/globalSsrcIdDeclaration.h.cpp.o
+
+.PHONY : src/globalSsrcIdDeclaration.h.o
+
+# target to build an object file
+src/globalSsrcIdDeclaration.h.cpp.o:
+	$(MAKE) -f CMakeFiles/sipp_3_5_1.dir/build.make CMakeFiles/sipp_3_5_1.dir/src/globalSsrcIdDeclaration.h.cpp.o
+.PHONY : src/globalSsrcIdDeclaration.h.cpp.o
+
+src/globalSsrcIdDeclaration.h.i: src/globalSsrcIdDeclaration.h.cpp.i
+
+.PHONY : src/globalSsrcIdDeclaration.h.i
+
+# target to preprocess a source file
+src/globalSsrcIdDeclaration.h.cpp.i:
+	$(MAKE) -f CMakeFiles/sipp_3_5_1.dir/build.make CMakeFiles/sipp_3_5_1.dir/src/globalSsrcIdDeclaration.h.cpp.i
+.PHONY : src/globalSsrcIdDeclaration.h.cpp.i
+
+src/globalSsrcIdDeclaration.h.s: src/globalSsrcIdDeclaration.h.cpp.s
+
+.PHONY : src/globalSsrcIdDeclaration.h.s
+
+# target to generate assembly for a file
+src/globalSsrcIdDeclaration.h.cpp.s:
+	$(MAKE) -f CMakeFiles/sipp_3_5_1.dir/build.make CMakeFiles/sipp_3_5_1.dir/src/globalSsrcIdDeclaration.h.cpp.s
+.PHONY : src/globalSsrcIdDeclaration.h.cpp.s
 
 src/infile.o: src/infile.cpp.o
 
@@ -1125,6 +1152,9 @@ help:
 	@echo "... src/fortune.o"
 	@echo "... src/fortune.i"
 	@echo "... src/fortune.s"
+	@echo "... src/globalSsrcIdDeclaration.h.o"
+	@echo "... src/globalSsrcIdDeclaration.h.i"
+	@echo "... src/globalSsrcIdDeclaration.h.s"
 	@echo "... src/infile.o"
 	@echo "... src/infile.i"
 	@echo "... src/infile.s"

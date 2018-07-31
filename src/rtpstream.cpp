@@ -27,6 +27,7 @@
 #include <sys/socket.h>
 #include <pthread.h>
 #include "rtpstream.hpp"
+#include "globalSsrcIdDeclaration.h"
 
 /* stub to add extra debugging/logging... */
 static void debugprint(const char *Format, ...)

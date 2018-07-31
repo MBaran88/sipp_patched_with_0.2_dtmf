@@ -35,6 +35,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/sipp_3_5_1.dir/src/watchdog.cpp.o"
   "CMakeFiles/sipp_3_5_1.dir/src/xp_parser.c.o"
   "CMakeFiles/sipp_3_5_1.dir/src/xp_parser_ut.cpp.o"
+  "CMakeFiles/sipp_3_5_1.dir/src/globalSsrcIdDeclaration.h.cpp.o"
   "sipp_3_5_1.pdb"
   "sipp_3_5_1"
 )

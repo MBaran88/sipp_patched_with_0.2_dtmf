@@ -1,0 +1,27 @@
+sipp: The following events occured:
+2018-07-30	15:43:50.433368	1532958230.433368: Discarding message which can't be mapped to a known SIPp call:
+BYE sip:101@192.168.20.204:5075 SIP/2.0
+Via: SIP/2.0/UDP 10.10.10.149:5060;branch=z9hG4bK96519970
+From: "800 " <sip:800@10.10.10.149:5060>;tag=376edd30ef1e45eb
+To: <sip:101@192.168.20.204:5075>;tag=17254SIPpTag091
+Call-ID: 1-17254@192.168.20.204
+CSeq: 2 BYE
+Max-Forwards: 70
+Content-Length: 0
+User-Agent: ActisPBX 2.0
+Allow: INVITE, ACK, CANCEL, BYE, REFER, NOTIFY, REGISTER, SUBSCRIBE, INFO, MESSAGE, OPTIONS
+
+.
+2018-07-30	15:43:50.840639	1532958230.840639: Discarding message which can't be mapped to a known SIPp call:
+BYE sip:101@192.168.20.204:5075 SIP/2.0
+Via: SIP/2.0/UDP 10.10.10.149:5060;branch=z9hG4bK96519970
+From: "800 " <sip:800@10.10.10.149:5060>;tag=376edd30ef1e45eb
+To: <sip:101@192.168.20.204:5075>;tag=17254SIPpTag091
+Call-ID: 1-17254@192.168.20.204
+CSeq: 2 BYE
+Max-Forwards: 70
+Content-Length: 0
+User-Agent: ActisPBX 2.0
+Allow: INVITE, ACK, CANCEL, BYE, REFER, NOTIFY, REGISTER, SUBSCRIBE, INFO, MESSAGE, OPTIONS
+
+.

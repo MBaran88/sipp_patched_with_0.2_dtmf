@@ -1,0 +1,2 @@
+sipp: The following events occured:
+2018-07-30	09:38:05.630580	1532936285.630580: Can't create raw IPv4 socket (need to run as root?): Operation not permitted.

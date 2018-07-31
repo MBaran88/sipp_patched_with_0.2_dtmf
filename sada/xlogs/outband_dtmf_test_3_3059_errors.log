@@ -1,2 +1,0 @@
-sipp: The following events occured:
-2018-07-23	11:12:05.023868	1532337125.023868: Failed to shutdown socket 0, errno = 88 (Socket operation on non-socket).

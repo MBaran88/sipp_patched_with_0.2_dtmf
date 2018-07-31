@@ -1,0 +1,281 @@
+----------------------------------------------- 2018-07-30 16:01:24.550686
+UDP message sent (613 bytes):
+
+INVITE sip:800@10.10.10.149:5060 SIP/2.0
+Via: SIP/2.0/UDP 192.168.20.204:5075;branch=z9hG4bK-21323-1-0
+From: sipp <sip:101@192.168.20.204:5075>;tag=21323SIPpTag091
+To: 800 <sip:800@10.10.10.149:5060>
+Call-ID: 1-21323@192.168.20.204
+CSeq: 1 INVITE
+Contact: sip:101@192.168.20.204:5075
+Max-Forwards: 70
+Subject: Performance Test
+Content-Type: application/sdp
+Content-Length:   221
+
+v=0
+o=user1 53655765 2353687637 IN IP4 192.168.20.204
+s=-
+c=IN IP4 192.168.20.204
+t=0 0
+m=audio 8192  RTP/AVP 8 101
+a=rtpmap:8 PCMA/8000
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-11,16
+a=rtpmap:0 PCMU/8000
+
+----------------------------------------------- 2018-07-30 16:01:24.601967
+UDP message received [306] bytes :
+
+SIP/2.0 100 Trying
+Via: SIP/2.0/UDP 192.168.20.204:5075;branch=z9hG4bK-21323-1-0
+From: <sip:101@192.168.20.204:5075>;tag=21323SIPpTag091
+To: "800 " <sip:800@10.10.10.149:5060>
+Call-ID: 1-21323@192.168.20.204
+CSeq: 1 INVITE
+Max-Forwards: 70
+Contact: <sip:800@10.10.10.149:5060>
+Content-Length: 0
+
+
+----------------------------------------------- 2018-07-30 16:01:24.706490
+UDP message received [576] bytes :
+
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 192.168.20.204:5075;branch=z9hG4bK-21323-1-0
+From: <sip:101@192.168.20.204:5075>;tag=21323SIPpTag091
+To: "800 " <sip:800@10.10.10.149:5060>;tag=f5e61428f1de3304
+Call-ID: 1-21323@192.168.20.204
+CSeq: 1 INVITE
+Max-Forwards: 70
+Contact: <sip:800@10.10.10.149:5060>
+Content-Type: application/sdp
+Content-Length: 220
+
+v=0
+o=SipUser 0 234278 IN IP4 10.10.10.149
+s=SIP Call
+c=IN IP4 10.10.10.149
+t=0 0
+m=audio 6230 RTP/AVP 8 101 13
+a=rtpmap:8 PCMA/8000
+a=rtpmap:101 telephone-event/8000
+a=rtpmap:13 CN/8000
+a=sendrecv
+a=ptime:20
+
+----------------------------------------------- 2018-07-30 16:01:24.706671
+UDP message sent (372 bytes):
+
+ACK sip:800@10.10.10.149:5060 SIP/2.0
+Via: SIP/2.0/UDP 192.168.20.204:5075;branch=z9hG4bK-21323-1-4
+From: sipp <sip:101@192.168.20.204:5075>;tag=21323SIPpTag091
+To: 800 <sip:800@10.10.10.149:5060>;tag=f5e61428f1de3304
+Call-ID: 1-21323@192.168.20.204
+CSeq: 1 ACK
+Contact: sip:101@192.168.20.204:5075
+Max-Forwards: 70
+Subject: Performance Test
+Content-Length: 0
+
+
+----------------------------------------------- 2018-07-30 16:02:26.719104
+UDP message sent (373 bytes):
+
+BYE sip:800@10.10.10.149:5060 SIP/2.0
+Via: SIP/2.0/UDP 192.168.20.204:5075;branch=z9hG4bK-21323-1-10
+From: sipp <sip:101@192.168.20.204:5075>;tag=21323SIPpTag091
+To: 800 <sip:800@10.10.10.149:5060>;tag=f5e61428f1de3304
+Call-ID: 1-21323@192.168.20.204
+CSeq: 2 BYE
+Contact: sip:101@192.168.20.204:5075
+Max-Forwards: 70
+Subject: Performance Test
+Content-Length: 0
+
+
+----------------------------------------------- 2018-07-30 16:02:26.740700
+UDP message received [321] bytes :
+
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 192.168.20.204:5075;branch=z9hG4bK-21323-1-10
+From: <sip:101@192.168.20.204:5075>;tag=21323SIPpTag091
+To: "800 " <sip:800@10.10.10.149:5060>;tag=f5e61428f1de3304
+Call-ID: 1-21323@192.168.20.204
+CSeq: 2 BYE
+Max-Forwards: 70
+Contact: <sip:800@10.10.10.149:5060>
+Content-Length: 0
+
+
+----------------------------------------------- 2018-07-30 16:02:26.822192
+UDP message sent (613 bytes):
+
+INVITE sip:800@10.10.10.149:5060 SIP/2.0
+Via: SIP/2.0/UDP 192.168.20.204:5075;branch=z9hG4bK-21323-2-0
+From: sipp <sip:101@192.168.20.204:5075>;tag=21323SIPpTag092
+To: 800 <sip:800@10.10.10.149:5060>
+Call-ID: 2-21323@192.168.20.204
+CSeq: 1 INVITE
+Contact: sip:101@192.168.20.204:5075
+Max-Forwards: 70
+Subject: Performance Test
+Content-Type: application/sdp
+Content-Length:   221
+
+v=0
+o=user1 53655765 2353687637 IN IP4 192.168.20.204
+s=-
+c=IN IP4 192.168.20.204
+t=0 0
+m=audio 8194  RTP/AVP 8 101
+a=rtpmap:8 PCMA/8000
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-11,16
+a=rtpmap:0 PCMU/8000
+
+----------------------------------------------- 2018-07-30 16:02:26.846566
+UDP message received [306] bytes :
+
+SIP/2.0 100 Trying
+Via: SIP/2.0/UDP 192.168.20.204:5075;branch=z9hG4bK-21323-2-0
+From: <sip:101@192.168.20.204:5075>;tag=21323SIPpTag092
+To: "800 " <sip:800@10.10.10.149:5060>
+Call-ID: 2-21323@192.168.20.204
+CSeq: 1 INVITE
+Max-Forwards: 70
+Contact: <sip:800@10.10.10.149:5060>
+Content-Length: 0
+
+
+----------------------------------------------- 2018-07-30 16:02:26.901365
+UDP message received [576] bytes :
+
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 192.168.20.204:5075;branch=z9hG4bK-21323-2-0
+From: <sip:101@192.168.20.204:5075>;tag=21323SIPpTag092
+To: "800 " <sip:800@10.10.10.149:5060>;tag=4e75ecba762f64af
+Call-ID: 2-21323@192.168.20.204
+CSeq: 1 INVITE
+Max-Forwards: 70
+Contact: <sip:800@10.10.10.149:5060>
+Content-Type: application/sdp
+Content-Length: 220
+
+v=0
+o=SipUser 0 234278 IN IP4 10.10.10.149
+s=SIP Call
+c=IN IP4 10.10.10.149
+t=0 0
+m=audio 6242 RTP/AVP 8 101 13
+a=rtpmap:8 PCMA/8000
+a=rtpmap:101 telephone-event/8000
+a=rtpmap:13 CN/8000
+a=sendrecv
+a=ptime:20
+
+----------------------------------------------- 2018-07-30 16:02:26.901532
+UDP message sent (372 bytes):
+
+ACK sip:800@10.10.10.149:5060 SIP/2.0
+Via: SIP/2.0/UDP 192.168.20.204:5075;branch=z9hG4bK-21323-2-4
+From: sipp <sip:101@192.168.20.204:5075>;tag=21323SIPpTag092
+To: 800 <sip:800@10.10.10.149:5060>;tag=4e75ecba762f64af
+Call-ID: 2-21323@192.168.20.204
+CSeq: 1 ACK
+Contact: sip:101@192.168.20.204:5075
+Max-Forwards: 70
+Subject: Performance Test
+Content-Length: 0
+
+
+----------------------------------------------- 2018-07-30 16:02:55.711926
+UDP message received [421] bytes :
+
+BYE sip:101@192.168.20.204:5075 SIP/2.0
+Via: SIP/2.0/UDP 10.10.10.149:5060;branch=z9hG4bKbf19f230
+From: "800 " <sip:800@10.10.10.149:5060>;tag=ff548bee197caa7
+To: <sip:101@192.168.20.204:5075>;tag=21280SIPpTag091
+Call-ID: 1-21280@192.168.20.204
+CSeq: 2 BYE
+Max-Forwards: 70
+Content-Length: 0
+User-Agent: ActisPBX 2.0
+Allow: INVITE, ACK, CANCEL, BYE, REFER, NOTIFY, REGISTER, SUBSCRIBE, INFO, MESSAGE, OPTIONS
+
+
+----------------------------------------------- 2018-07-30 16:02:55.810133
+UDP message received [422] bytes :
+
+BYE sip:101@192.168.20.204:5075 SIP/2.0
+Via: SIP/2.0/UDP 10.10.10.149:5060;branch=z9hG4bK95c8d008
+From: "800 " <sip:800@10.10.10.149:5060>;tag=7514ba09226b448a
+To: <sip:101@192.168.20.204:5075>;tag=21280SIPpTag092
+Call-ID: 2-21280@192.168.20.204
+CSeq: 2 BYE
+Max-Forwards: 70
+Content-Length: 0
+User-Agent: ActisPBX 2.0
+Allow: INVITE, ACK, CANCEL, BYE, REFER, NOTIFY, REGISTER, SUBSCRIBE, INFO, MESSAGE, OPTIONS
+
+
+----------------------------------------------- 2018-07-30 16:02:56.058479
+UDP message received [422] bytes :
+
+BYE sip:101@192.168.20.204:5075 SIP/2.0
+Via: SIP/2.0/UDP 10.10.10.149:5060;branch=z9hG4bKd1454170
+From: "800 " <sip:800@10.10.10.149:5060>;tag=744552f15a8c72d0
+To: <sip:101@192.168.20.204:5075>;tag=21280SIPpTag093
+Call-ID: 3-21280@192.168.20.204
+CSeq: 2 BYE
+Max-Forwards: 70
+Content-Length: 0
+User-Agent: ActisPBX 2.0
+Allow: INVITE, ACK, CANCEL, BYE, REFER, NOTIFY, REGISTER, SUBSCRIBE, INFO, MESSAGE, OPTIONS
+
+
+----------------------------------------------- 2018-07-30 16:02:56.091886
+UDP message received [421] bytes :
+
+BYE sip:101@192.168.20.204:5075 SIP/2.0
+Via: SIP/2.0/UDP 10.10.10.149:5060;branch=z9hG4bKbf19f230
+From: "800 " <sip:800@10.10.10.149:5060>;tag=ff548bee197caa7
+To: <sip:101@192.168.20.204:5075>;tag=21280SIPpTag091
+Call-ID: 1-21280@192.168.20.204
+CSeq: 2 BYE
+Max-Forwards: 70
+Content-Length: 0
+User-Agent: ActisPBX 2.0
+Allow: INVITE, ACK, CANCEL, BYE, REFER, NOTIFY, REGISTER, SUBSCRIBE, INFO, MESSAGE, OPTIONS
+
+
+----------------------------------------------- 2018-07-30 16:02:56.092208
+UDP message received [422] bytes :
+
+BYE sip:101@192.168.20.204:5075 SIP/2.0
+Via: SIP/2.0/UDP 10.10.10.149:5060;branch=z9hG4bK95c8d008
+From: "800 " <sip:800@10.10.10.149:5060>;tag=7514ba09226b448a
+To: <sip:101@192.168.20.204:5075>;tag=21280SIPpTag092
+Call-ID: 2-21280@192.168.20.204
+CSeq: 2 BYE
+Max-Forwards: 70
+Content-Length: 0
+User-Agent: ActisPBX 2.0
+Allow: INVITE, ACK, CANCEL, BYE, REFER, NOTIFY, REGISTER, SUBSCRIBE, INFO, MESSAGE, OPTIONS
+
+
+----------------------------------------------- 2018-07-30 16:02:56.340685
+UDP message received [422] bytes :
+
+BYE sip:101@192.168.20.204:5075 SIP/2.0
+Via: SIP/2.0/UDP 10.10.10.149:5060;branch=z9hG4bKd1454170
+From: "800 " <sip:800@10.10.10.149:5060>;tag=744552f15a8c72d0
+To: <sip:101@192.168.20.204:5075>;tag=21280SIPpTag093
+Call-ID: 3-21280@192.168.20.204
+CSeq: 2 BYE
+Max-Forwards: 70
+Content-Length: 0
+User-Agent: ActisPBX 2.0
+Allow: INVITE, ACK, CANCEL, BYE, REFER, NOTIFY, REGISTER, SUBSCRIBE, INFO, MESSAGE, OPTIONS
+
+

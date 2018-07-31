@@ -243,7 +243,8 @@ src/sipp-rtpstream.o: src/rtpstream.cpp /usr/include/stdc-predef.h \
  include/comp.h include/infile.hpp include/call_generation_task.hpp \
  include/reporttask.hpp include/ratetask.hpp include/watchdog.hpp \
  include/time.hpp include/logger.hpp include/strings.hpp \
- /usr/include/c++/7/cstddef include/rtpstream.hpp
+ /usr/include/c++/7/cstddef include/rtpstream.hpp \
+ src/globalSsrcIdDeclaration.h
 
 /usr/include/stdc-predef.h:
 
@@ -904,3 +905,5 @@ include/strings.hpp:
 /usr/include/c++/7/cstddef:
 
 include/rtpstream.hpp:
+
+src/globalSsrcIdDeclaration.h:

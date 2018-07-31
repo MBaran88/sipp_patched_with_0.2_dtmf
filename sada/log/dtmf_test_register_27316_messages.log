@@ -1,0 +1,62 @@
+----------------------------------------------- 2018-07-30 13:34:34.547173
+UDP message sent (328 bytes):
+
+REGISTER sip:10.10.10.149 SIP/2.0
+Via: SIP/2.0/UDP 192.168.20.204:5064;branch=z9hG4bK-27316-1-0
+From: <sip:101@10.10.10.149>;tag=1
+To: <sip:101@10.10.10.149>
+Call-ID: 1-27316@192.168.20.204
+CSeq: 1 REGISTER
+Contact: sip:101@192.168.20.204:5064
+Max-Forwards: 10
+Expires: 120
+User-Agent: SIPp/Linux
+Content-Length: 0
+
+
+----------------------------------------------- 2018-07-30 13:34:34.559015
+UDP message received [453] bytes :
+
+SIP/2.0 401 Unauthorized
+Via: SIP/2.0/UDP 192.168.20.204:5064;branch=z9hG4bK-27316-1-0
+From: <sip:101@10.10.10.149:5060>;tag=1
+To: <sip:101@10.10.10.149:5060>;tag=545879485d27b33e
+Call-ID: 1-27316@192.168.20.204
+CSeq: 1 REGISTER
+Max-Forwards: 70
+Contact: sip:101@192.168.20.204:5064
+WWW-Authenticate: Digest realm="10.10.10.149:5060",qop="auth",nonce="0bcb52bec1d35950ea398d3563e5b908",opaque="1532950474557",algorithm=MD5
+Content-Length: 0
+
+
+----------------------------------------------- 2018-07-30 13:34:34.559287
+UDP message sent (583 bytes):
+
+REGISTER sip:10.10.10.149 SIP/2.0
+Via: SIP/2.0/UDP 192.168.20.204:5064;branch=z9hG4bK-27316-1-3
+From: <sip:101@10.10.10.149>;tag=1
+To: <sip:101@10.10.10.149>
+Call-ID: 1-27316@192.168.20.204
+CSeq: 2 REGISTER
+Contact: sip:101@192.168.20.204:5064
+Authorization: Digest username="101",realm="10.10.10.149:5060",cnonce="327b23c6",nc=00000001,qop=auth,uri="sip:10.10.10.149:5060",nonce="0bcb52bec1d35950ea398d3563e5b908",response="deb9c4486413a7ccf9e225a704fbba8d",algorithm=MD5,opaque="1532950474557"
+Max-Forwards: 10
+Expires: 72000
+User-Agent: SIPp/Linux
+Content-Length: 0
+
+
+----------------------------------------------- 2018-07-30 13:34:34.654985
+UDP message received [302] bytes :
+
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 192.168.20.204:5064;branch=z9hG4bK-27316-1-3
+From: <sip:101@10.10.10.149:5060>;tag=1
+To: <sip:101@10.10.10.149:5060>;tag=545879485d27b33e
+Call-ID: 1-27316@192.168.20.204
+CSeq: 2 REGISTER
+Max-Forwards: 70
+Contact: sip:101@192.168.20.204:5064
+Content-Length: 0
+
+
