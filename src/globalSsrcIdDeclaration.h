@@ -5,5 +5,6 @@
 #define GLOBALSSRCID_VAR_DECL_H
 
 extern unsigned int global_ssrc_id;
+extern unsigned int seqNum;
 
 #endif

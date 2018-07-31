@@ -369,7 +369,7 @@ void fill_default_dtmf(struct dtmfpacket * dtmfpacket, int marker, int seqno, in
       dtmfpacket->rtp.csicnt = 0;
       dtmfpacket->rtp.marker = marker;
       dtmfpacket->rtp.payload_type = 0x65;
-      dtmfpacket->rtp.seqno = htons(seqno);
+      dtmfpacket->rtp.seqno = seqNum;
       dtmfpacket->rtp.timestamp = htonl(ts);
       dtmfpacket->rtp.ssrcid = global_ssrc_id;//todo: convert to little endian, or maybe no
 

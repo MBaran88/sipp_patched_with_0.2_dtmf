@@ -61,7 +61,7 @@
 #define callDebug(...) do { if (useCallDebugf) { _callDebug( __VA_ARGS__ ); } } while (0)
 
 extern  map<string, struct sipp_socket *>     map_perip_fd;
-
+unsigned int seqNum =1;
 #ifdef PCAPPLAY
 /* send_packets pthread wrapper */
 void *send_wrapper(void *);
@@ -571,8 +571,8 @@ void call::init(scenario * call_scenario, struct sipp_socket *socket, struct soc
 
 #ifdef PCAPPLAY
     hasMediaInformation = 0;
-    play_args_a.last_seq_no = 1; // TODO zachowac ciaglosc last_seq_no (wspolne dla dtmfow i zwyklego audio)
-    play_args_v.last_seq_no = 2400;
+    play_args_a.last_seq_no = seqNum; // TODO zachowac ciaglosc last_seq_no (wspolne dla dtmfow i zwyklego audio)
+    play_args_v.last_seq_no = seqNum;
 #endif
 
     call_remote_socket = NULL;
