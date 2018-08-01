@@ -572,8 +572,8 @@ void call::init(scenario * call_scenario, struct sipp_socket *socket, struct soc
 
 #ifdef PCAPPLAY
     hasMediaInformation = 0;
-    play_args_a.last_seq_no = seqNum;
-    play_args_v.last_seq_no = seqNum;
+    play_args_a.last_seq_no = 1;
+    play_args_v.last_seq_no = 1200;
 #endif
 
     call_remote_socket = NULL;
