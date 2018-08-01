@@ -316,7 +316,7 @@ static unsigned long rtpstream_playrtptask(taskentry_t *taskinfo, unsigned long 
                 udp.hdr.flags = htons(0x8000 | taskinfo->payload_type);
                 udp.hdr.seq = htons(taskinfo->seq);
                 udp.hdr.timestamp = htonl((uint32_t)(taskinfo->last_timestamp & 0xFFFFFFFF));
-                udp.hdr.ssrc_id = htonl(taskinfo->ssrc_id);
+                udp.hdr.ssrc_id = global_ssrc_id;
                 /* add payload data to the packet - handle buffer wraparound */
                 if (taskinfo->file_bytes_left >= taskinfo->bytes_per_packet) {
                     /* no need for fancy acrobatics */

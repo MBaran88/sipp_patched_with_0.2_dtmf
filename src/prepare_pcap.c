@@ -330,7 +330,7 @@ struct rtphdr {
 
       u_int16_t seqno;
       uint32_t timestamp;
-      uint32_t ssrcid;
+      unsigned int ssrcid;
     };
 
 struct rtpevent {
@@ -390,8 +390,6 @@ int prepare_dtmf(const char *digits, pcap_pkts *pkts, u_int16_t start_seq_no) {
       int i;
       char * comma;
       unsigned long tone_len = 80;
-
-              //dtmf_ssrcid++;
 
               pkts->pkts = NULL;
 
