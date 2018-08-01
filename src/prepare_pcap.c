@@ -369,9 +369,9 @@ void fill_default_dtmf(struct dtmfpacket * dtmfpacket, int marker, int seqno, in
       dtmfpacket->rtp.csicnt = 0;
       dtmfpacket->rtp.marker = marker;
       dtmfpacket->rtp.payload_type = 0x65;
-      dtmfpacket->rtp.seqno = seqNum;
+      dtmfpacket->rtp.seqno = htons(seqNum++);
       dtmfpacket->rtp.timestamp = htonl(ts);
-      dtmfpacket->rtp.ssrcid = global_ssrc_id;//todo: convert to little endian, or maybe no
+      dtmfpacket->rtp.ssrcid = global_ssrc_id;
 
               dtmfpacket->dtmf.event_id = digit;
       dtmfpacket->dtmf.end_of_event = eoe;
@@ -436,7 +436,7 @@ int prepare_dtmf(const char *digits, pcap_pkts *pkts, u_int16_t start_seq_no) {
 
                           dtmfpacket = (struct dtmfpacket*)pkt_index->data;
 
-                          fill_default_dtmf(dtmfpacket,n_pkts == 0, n_pkts + start_seq_no, n_digits * tone_len * 2 + 24000, uc_digit, 0, cur_tone_len);
+                          fill_default_dtmf(dtmfpacket,n_pkts == 0, n_pkts + seqNum, n_digits * tone_len * 2 + 24000, uc_digit, 0, cur_tone_len);
 
                     #if defined(__HPUX) || defined(__DARWIN) || (defined __CYGWIN) || defined(__FreeBSD__)
                           pkt_index->partial_check = check((u_int16_t *) &dtmfpacket->udp.uh_ulen, pktlen - 4) + ntohs(IPPROTO_UDP + pktlen);
@@ -465,7 +465,7 @@ int prepare_dtmf(const char *digits, pcap_pkts *pkts, u_int16_t start_seq_no) {
 
                           dtmfpacket = (struct dtmfpacket*)pkt_index->data;
 
-                          fill_default_dtmf(dtmfpacket,0, n_pkts + start_seq_no, n_digits * tone_len * 2 + 24000, uc_digit, 1, tone_len);
+                          fill_default_dtmf(dtmfpacket,0, n_pkts + seqNum, n_digits * tone_len * 2 + 24000, uc_digit, 1, tone_len);
 
                     #if defined(__HPUX) || defined(__DARWIN) || (defined __CYGWIN) || defined(__FreeBSD__)
                           pkt_index->partial_check = check((u_int16_t *) &dtmfpacket->udp.uh_ulen, pktlen - 4) + ntohs(IPPROTO_UDP + pktlen);

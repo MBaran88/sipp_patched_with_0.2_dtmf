@@ -434,7 +434,7 @@
 		<Unit filename="/home/rafal/CLionProjects/sipp_patched_with_0.2_dtmf_good/src/fortune.cpp">
 			<Option target="sipp_3_5_1"/>
 		</Unit>
-		<Unit filename="/home/rafal/CLionProjects/sipp_patched_with_0.2_dtmf_good/src/globalSsrcIdDeclaration.h.cpp">
+		<Unit filename="/home/rafal/CLionProjects/sipp_patched_with_0.2_dtmf_good/src/globalSsrcIdDeclaration.h">
 			<Option target="sipp_3_5_1"/>
 		</Unit>
 		<Unit filename="/home/rafal/CLionProjects/sipp_patched_with_0.2_dtmf_good/src/infile.cpp">
