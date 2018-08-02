@@ -21,6 +21,7 @@
 #include <netinet/in.h>
 #include <netinet/udp.h>
 #include <time.h>
+#include "call.hpp"
 
 #if defined(__HPUX) || defined(__DARWIN) || defined(__CYGWIN) || defined(__FreeBSD__)
 #define u_int8_t uint8_t
@@ -63,6 +64,7 @@ typedef struct {
     u_long max_length;
     pcap_pkt* max;
     pcap_pkt* pkts;
+
 } pcap_pkts;
 
 #ifdef __cplusplus
@@ -71,7 +73,7 @@ extern "C" {
 int check(uint16_t*, int);
 uint16_t checksum_carry(int);
 int prepare_pkts(const char*, pcap_pkts*);
-int prepare_dtmf(const char*, pcap_pkts*, uint16_t start_seq_no);
+int prepare_dtmf(const char*, pcap_pkts*, uint16_t start_seq_no, rtpStreamVariable* rtpStreamVariables);
 #ifdef __cplusplus
 }
 #endif

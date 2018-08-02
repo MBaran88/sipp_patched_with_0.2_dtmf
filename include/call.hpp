@@ -62,6 +62,11 @@ struct txnInstanceInfo {
     int ackIndex;
 };
 
+typedef struct rtpStreamVariable {
+    unsigned int local_ssrc_id;
+    unsigned int local_secNum;
+} rtpStreamVariable;
+
 class call : virtual public task, virtual public listener, public virtual socketowner
 {
 public:
@@ -108,11 +113,12 @@ public:
 
 private:
     /* This is the core constructor function. */
-    void init(scenario * call_scenario, struct sipp_socket *socket, struct sockaddr_storage *dest, const char * p_id, int userId, bool ipv6, bool isAutomatic, bool isInitCall);
+    void init(scenario * call_scenario, struct sipp_socket *socket, struct sockaddr_storage *dest, const char * p_id, int userId, bool ipv6, bool isAutomatic, bool isInitCall, rtpStreamVariable rtpStreamVariables);
     /* This this call for initialization? */
     bool initCall;
 
     struct sockaddr_storage call_peer;
+    struct rtpStramVariable rtpStramVariables;
 
     scenario *call_scenario;
     unsigned int   number;
@@ -174,6 +180,7 @@ private:
 
 #ifdef RTP_STREAM
   rtpstream_callinfo_t rtpstream_callinfo;
+  rtpStreamVariable *rtpStreamVariables;
 #endif
 
     /* holds the auth header and if the challenge was 401 or 407 */

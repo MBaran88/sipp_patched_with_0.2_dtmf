@@ -29,6 +29,7 @@ struct rtpstream_callinfo_t
   taskentry_t  *taskinfo;
   int          audioport;
   int          videoport;
+  rtpStreamVariable* rtpStreamVariables;
 };
 
 struct rtpstream_actinfo_t

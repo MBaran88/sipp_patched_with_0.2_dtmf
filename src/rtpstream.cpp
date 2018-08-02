@@ -251,7 +251,7 @@ static void rtpstream_process_task_flags(taskentry_t* taskinfo)
 }
 
 /**** todo - check code ****/
-static unsigned long rtpstream_playrtptask(taskentry_t *taskinfo, unsigned long  timenow_ms)
+static unsigned long rtpstream_playrtptask(taskentry_t *taskinfo, unsigned long  timenow_ms, rtpStreamVariable* rtpStreamVariables)
 {
     int rc;
     unsigned long next_wake;
@@ -313,9 +313,9 @@ static unsigned long rtpstream_playrtptask(taskentry_t *taskinfo, unsigned long 
             if (taskinfo->last_timestamp < target_timestamp) {
                 /* need to send rtp payload - build rtp packet header... */
                 udp.hdr.flags = htons(0x8000 | taskinfo->payload_type);
-                udp.hdr.seq = htons(seqNum);
+                udp.hdr.seq = htons(rtpStreamVariables->local_secNum++);
                 udp.hdr.timestamp = htonl((uint32_t)(taskinfo->last_timestamp & 0xFFFFFFFF));
-                udp.hdr.ssrc_id = global_ssrc_id;
+                udp.hdr.ssrc_id = rtpStreamVariables->local_ssrc_id;
                 /* add payload data to the packet - handle buffer wraparound */
                 if (taskinfo->file_bytes_left >= taskinfo->bytes_per_packet) {
                     /* no need for fancy acrobatics */
@@ -345,7 +345,7 @@ static unsigned long rtpstream_playrtptask(taskentry_t *taskinfo, unsigned long 
                     rtpstream_bytes_out += taskinfo->bytes_per_packet + sizeof(rtp_header_t);
                     rtpstream_pckts++;
                     /* advance playback pointer to next packet */
-                    seqNum++;
+                    rtpStreamVariables->local_secNum++;
                     /* must change if timer ticks per packet can be fractional */
                     taskinfo->last_timestamp += taskinfo->timeticks_per_packet;
                     taskinfo->file_bytes_left -= taskinfo->bytes_per_packet;
@@ -417,7 +417,7 @@ static void* rtpstream_playback_thread(void* params)
       /* should we update current time inbetween tasks? */
       if (taskinfo->nextwake_ms<=timenow_ms) {
         /* task needs to execute now */
-        taskinfo->nextwake_ms= rtpstream_playrtptask (taskinfo,timenow_ms);
+        taskinfo->nextwake_ms= rtpstream_playrtptask (taskinfo,timenow_ms, rtpStreamVariables);
       }
       if (waketime_ms>taskinfo->nextwake_ms) {
         waketime_ms= taskinfo->nextwake_ms;
@@ -449,7 +449,7 @@ static void* rtpstream_playback_thread(void* params)
 }
 
 /* code checked */
-static int rtpstream_start_task (rtpstream_callinfo_t *callinfo)
+static int rtpstream_start_task (rtpstream_callinfo_t *callinfo, rtpStreamVariable* rtpStreamVariables)
 {
   int           ready_index;
   int           allocsize;
@@ -592,7 +592,7 @@ static void rtpstream_stop_task(rtpstream_callinfo_t* callinfo)
 }
 
 /* code checked */
-int rtpstream_new_call (rtpstream_callinfo_t *callinfo)
+int rtpstream_new_call (rtpstream_callinfo_t *callinfo, rtpStreamVariable* rtpStreamVariables)
 {
   debugprint ("rtpstream_new_call callinfo=%p\n",callinfo);
 
@@ -616,7 +616,7 @@ int rtpstream_new_call (rtpstream_callinfo_t *callinfo)
   taskinfo->video_rtp_socket= -1;
   taskinfo->video_rtcp_socket= -1;
   /* rtp stream members */
-  taskinfo->ssrc_id= global_ssrc_id++;
+  taskinfo->ssrc_id= rtpStreamVariables->local_ssrc_id;
   /* pthread mutexes */
   pthread_mutex_init(&(callinfo->taskinfo->mutex),NULL);
 

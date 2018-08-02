@@ -57,6 +57,7 @@
 #include "deadcall.hpp"
 #include "config.h"
 #include "version.h"
+#include "globalSsrcIdDeclaration.h"
 
 #define callDebug(...) do { if (useCallDebugf) { _callDebug( __VA_ARGS__ ); } } while (0)
 
@@ -467,7 +468,7 @@ call::call(const char *p_id, bool use_ipv6, int userId, struct sockaddr_storage 
 
 call::call(const char *p_id, struct sipp_socket *socket, struct sockaddr_storage *dest) : listener(p_id, true)
 {
-    init(main_scenario, socket, dest, p_id, 0 /* No User. */, socket->ss_ipv6, false /* Not Auto. */, false);
+    init(main_scenario, socket, dest, p_id, 0 /* No User. */, socket->ss_ipv6, false /* Not Auto. */, false, rtpStreamVariables);
 }
 
 call::call(scenario * call_scenario, struct sipp_socket *socket, struct sockaddr_storage *dest, const char * p_id, int userId, bool ipv6, bool isAutomatic, bool isInitialization) : listener(p_id, true)
@@ -513,7 +514,7 @@ call *call::add_call(int userId, bool ipv6, struct sockaddr_storage *dest)
 }
 
 
-void call::init(scenario * call_scenario, struct sipp_socket *socket, struct sockaddr_storage *dest, const char * p_id, int userId, bool ipv6, bool isAutomatic, bool isInitCall)
+void call::init(scenario * call_scenario, struct sipp_socket *socket, struct sockaddr_storage *dest, const char * p_id, int userId, bool ipv6, bool isAutomatic, bool isInitCall, rtpStreamVariable rtpStreamVariables)
 {
     this->call_scenario = call_scenario;
     zombie = false;
@@ -567,7 +568,10 @@ void call::init(scenario * call_scenario, struct sipp_socket *socket, struct soc
 #endif
 #ifdef RTP_STREAM
   /* check and warn on rtpstream_new_call result? -> error alloc'ing mem */
-  rtpstream_new_call (&rtpstream_callinfo);
+  rtpStreamVariables.local_secNum =0;
+  rtpStreamVariables.local_ssrc_id = global_ssrc_id++;
+  rtpstream_new_call (&rtpstream_callinfo, &rtpStreamVariables);
+
 #endif
 
 #ifdef PCAPPLAY
@@ -3929,7 +3933,7 @@ call::T_ActionResult call::executeAction(char * msg, message *curmsg)
       if (currentAction->getActionType() == CAction::E_AT_PLAY_DTMF) {
         char * digits = createSendingMessage(currentAction->getMessage(), -2 /* do not add crlf*/);
 	play_args->pcap = (pcap_pkts *) malloc(sizeof(pcap_pkts));
-	play_args->last_seq_no = parse_dtmf_play_args(digits, play_args->pcap, play_args->last_seq_no);
+	play_args->last_seq_no = parse_dtmf_play_args(digits, play_args->pcap, play_args->last_seq_no, &rtpStreamVariables);
 	play_args->free_pcap_when_done = 1;
       } else {
 	play_args->pcap = currentAction->getPcapPkts();
