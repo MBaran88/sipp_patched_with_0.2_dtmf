@@ -67,6 +67,7 @@ struct taskentry_t
   unsigned long long   last_timestamp;
   char                 payload_type;
   unsigned int         ssrc_id;
+  rtpStreamVariable*    rtpStreamVariables;
 
   /* current playback information */
   int                  loop_count;
@@ -417,7 +418,7 @@ static void* rtpstream_playback_thread(void* params)
       /* should we update current time inbetween tasks? */
       if (taskinfo->nextwake_ms<=timenow_ms) {
         /* task needs to execute now */
-        taskinfo->nextwake_ms= rtpstream_playrtptask (taskinfo,timenow_ms, rtpStreamVariables);
+        taskinfo->nextwake_ms= rtpstream_playrtptask (taskinfo,timenow_ms, taskinfo->rtpStreamVariables);
       }
       if (waketime_ms>taskinfo->nextwake_ms) {
         waketime_ms= taskinfo->nextwake_ms;
@@ -617,6 +618,7 @@ int rtpstream_new_call (rtpstream_callinfo_t *callinfo, rtpStreamVariable* rtpSt
   taskinfo->video_rtcp_socket= -1;
   /* rtp stream members */
   taskinfo->ssrc_id= rtpStreamVariables->local_ssrc_id;
+  taskinfo->rtpStreamVariables= rtpStreamVariables;
   /* pthread mutexes */
   pthread_mutex_init(&(callinfo->taskinfo->mutex),NULL);
 

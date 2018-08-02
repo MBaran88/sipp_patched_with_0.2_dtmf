@@ -468,7 +468,7 @@ call::call(const char *p_id, bool use_ipv6, int userId, struct sockaddr_storage 
 
 call::call(const char *p_id, struct sipp_socket *socket, struct sockaddr_storage *dest) : listener(p_id, true)
 {
-    init(main_scenario, socket, dest, p_id, 0 /* No User. */, socket->ss_ipv6, false /* Not Auto. */, false, rtpStreamVariables);
+    init(main_scenario, socket, dest, p_id, 0 /* No User. */, socket->ss_ipv6, false /* Not Auto. */, false);
 }
 
 call::call(scenario * call_scenario, struct sipp_socket *socket, struct sockaddr_storage *dest, const char * p_id, int userId, bool ipv6, bool isAutomatic, bool isInitialization) : listener(p_id, true)
@@ -514,7 +514,7 @@ call *call::add_call(int userId, bool ipv6, struct sockaddr_storage *dest)
 }
 
 
-void call::init(scenario * call_scenario, struct sipp_socket *socket, struct sockaddr_storage *dest, const char * p_id, int userId, bool ipv6, bool isAutomatic, bool isInitCall, rtpStreamVariable rtpStreamVariables)
+void call::init(scenario * call_scenario, struct sipp_socket *socket, struct sockaddr_storage *dest, const char * p_id, int userId, bool ipv6, bool isAutomatic, bool isInitCall)
 {
     this->call_scenario = call_scenario;
     zombie = false;

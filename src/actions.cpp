@@ -23,9 +23,10 @@
 
 #include "sipp.hpp"
 #include <assert.h>
-#ifdef PCAPPLAY
+#include <send_packets.h>
+//#ifdef PCAPPLAY
 #include "prepare_pcap.h"
-#endif
+//#endif
 
 
 static const char* strIntCmd(CAction::T_IntCmdType type)
@@ -241,12 +242,12 @@ char*          CAction::getStringValue()
 {
     return(M_stringValue);
 }
-#ifdef PCAPPLAY
+//#ifdef PCAPPLAY
 pcap_pkts  *   CAction::getPcapPkts()
 {
     return(M_pcapArgs);
 }
-#endif
+//#endif
 #ifdef RTP_STREAM
 rtpstream_actinfo_t *CAction::getRTPStreamActInfo() { return (&M_rtpstream_actinfo); }
 #endif
@@ -459,7 +460,7 @@ void CAction::setSubString(char** P_target, const char* P_source, int P_start, i
 }
 
 
-#ifdef PCAPPLAY
+//#ifdef PCAPPLAY
 void CAction::setPcapArgs (pcap_pkts  *  P_value)
 {
     if(M_pcapArgs != NULL) {
@@ -490,7 +491,7 @@ void CAction::setPcapArgs(const char* P_value)
         }
     }
 }
-#endif
+//#endif
 
 #ifdef RTP_STREAM
 void CAction::setRTPStreamActInfo(const char* P_value)
