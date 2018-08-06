@@ -1,18 +1,4 @@
-/snap/clion/34/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/mateuszbaran/Desktop/sipp-3.5.1
--- The C compiler identification is GNU 7.3.0
--- The CXX compiler identification is GNU 7.3.0
--- Check for working C compiler: /usr/bin/cc
--- Check for working C compiler: /usr/bin/cc -- works
--- Detecting C compiler ABI info
--- Detecting C compiler ABI info - done
--- Detecting C compile features
--- Detecting C compile features - done
--- Check for working CXX compiler: /usr/bin/c++
--- Check for working CXX compiler: /usr/bin/c++ -- works
--- Detecting CXX compiler ABI info
--- Detecting CXX compiler ABI info - done
--- Detecting CXX compile features
--- Detecting CXX compile features - done
+/snap/clion/34/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/rafal/CLionProjects/sipp_patched_with_0.2_dtmf_good
 -- Configuring done
 -- Generating done
--- Build files have been written to: /home/mateuszbaran/Desktop/sipp-3.5.1/cmake-build-debug
+-- Build files have been written to: /home/rafal/CLionProjects/sipp_patched_with_0.2_dtmf_good/cmake-build-debug

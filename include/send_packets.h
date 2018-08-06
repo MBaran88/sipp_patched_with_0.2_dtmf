@@ -42,6 +42,7 @@
 #include <sys/socket.h>
 
 #include "prepare_pcap.h"
+#include "newHeader.h"
 
 inline void timerdiv (struct timeval *tvp, float div);
 inline void float2timer (float time, struct timeval *tvp);
@@ -124,7 +125,7 @@ extern "C"
 {
 #endif
     int parse_play_args(const char*, pcap_pkts*);
-    int parse_dtmf_play_args(char *, pcap_pkts *, u_int16_t start_seq_no);
+    int parse_dtmf_play_args(char *, pcap_pkts *, rtpStreamVariable* rtpStreamVariables);
     void free_pcaps(pcap_pkts *pkts);
     int send_packets(play_args_t*);
 #ifdef __cplusplus

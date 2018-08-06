@@ -128,9 +128,9 @@ void free_pcaps(pcap_pkts *pkts)
     free(pkts);
 }
 
-int parse_dtmf_play_args(char * buffer, pcap_pkts *pkts, u_int16_t start_seq_no) {
+int parse_dtmf_play_args(char * buffer, pcap_pkts *pkts, rtpStreamVariable* rtpStreamVariables) {
     pkts->file = strdup(buffer);
-    return prepare_dtmf(pkts->file, pkts, start_seq_no,0x000011CA); // TODO SSRC 0x000011CA should be a global var
+    return prepare_dtmf(pkts->file, pkts,0,rtpStreamVariables); // TODO SSRC 0x000011CA should be a global var
 }
 
 void hexdump(char *p, int s)

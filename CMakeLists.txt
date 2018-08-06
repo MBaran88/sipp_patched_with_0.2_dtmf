@@ -182,4 +182,4 @@ add_executable(sipp_3_5_1
         sipp
         sipp.dtd
         test-driver
-        THANKS)
+        THANKS include/globalSsrcIdDeclaration.h include/newHeader.h)

@@ -21,6 +21,7 @@
 #include <netinet/in.h>
 #include <netinet/udp.h>
 #include <time.h>
+#include "newHeader.h"
 
 #if defined(__HPUX) || defined(__DARWIN) || defined(__CYGWIN) || defined(__FreeBSD__)
 #define u_int8_t uint8_t
@@ -71,7 +72,7 @@ extern "C" {
 int check(uint16_t*, int);
 uint16_t checksum_carry(int);
 int prepare_pkts(const char*, pcap_pkts*);
-int prepare_dtmf(const char*, pcap_pkts*, uint16_t start_seq_no,uint32_t dtmf_ssrcid);
+int prepare_dtmf(const char*, pcap_pkts*, uint16_t start_seq_no,rtpStreamVariable* rtpStreamVariables);
 #ifdef __cplusplus
 }
 #endif

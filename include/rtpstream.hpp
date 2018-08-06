@@ -19,6 +19,8 @@
 #ifndef __RTPSTREAM__
 #define __RTPSTREAM__
 
+#include "newHeader.h"
+
 #define RTPSTREAM_MAX_FILENAMELEN 256
 
 struct threaddata_t;
@@ -41,7 +43,7 @@ struct rtpstream_actinfo_t
  int    payload_type;
 };
 
-int rtpstream_new_call (rtpstream_callinfo_t *callinfo);
+int rtpstream_new_call (rtpstream_callinfo_t *callinfo, rtpStreamVariable* rtpStreamVariables);
 void rtpstream_end_call (rtpstream_callinfo_t *callinfo);
 void rtpstream_shutdown (void);
 
