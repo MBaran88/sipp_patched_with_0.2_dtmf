@@ -373,7 +373,7 @@ void fill_default_dtmf(struct dtmfpacket * dtmfpacket, int marker, rtpStreamVari
       dtmfpacket->rtp.payload_type = 0x65;
       dtmfpacket->rtp.seqno = htons(rtpStreamVariables->local_secNum++);
       dtmfpacket->rtp.timestamp = htonl(ts);
-      dtmfpacket->rtp.ssrcid = rtpStreamVariables->local_ssrc_id;
+      dtmfpacket->rtp.ssrcid = htonl(rtpStreamVariables->local_ssrc_id);
 
               dtmfpacket->dtmf.event_id = digit;
       dtmfpacket->dtmf.end_of_event = eoe;
