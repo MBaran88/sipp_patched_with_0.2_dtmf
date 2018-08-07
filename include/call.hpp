@@ -29,7 +29,7 @@
 #include <string.h>
 #include "scenario.hpp"
 #include "stat.hpp"
-#include "newHeader.h"
+#include "rtpVariables.h"
 
 #ifdef USE_OPENSSL
 #include "sslcommon.h"

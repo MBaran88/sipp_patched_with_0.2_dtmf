@@ -237,10 +237,11 @@ src/sipp-socketowner.o: src/socketowner.cpp /usr/include/stdc-predef.h \
  /usr/include/regex.h include/message.hpp include/prepare_pcap.h \
  /usr/include/pcap.h /usr/include/pcap/pcap.h \
  /usr/include/pcap/export-defs.h /usr/include/pcap/bpf.h \
- /usr/include/pcap/dlt.h /usr/include/netinet/udp.h include/newHeader.h \
- include/rtpstream.hpp include/stat.hpp /usr/include/c++/7/ctime \
- include/screen.hpp include/defines.h include/task.hpp \
- /usr/include/c++/7/list /usr/include/c++/7/bits/stl_list.h \
+ /usr/include/pcap/dlt.h /usr/include/netinet/udp.h \
+ include/rtpVariables.h include/rtpstream.hpp include/stat.hpp \
+ /usr/include/c++/7/ctime include/screen.hpp include/defines.h \
+ include/task.hpp /usr/include/c++/7/list \
+ /usr/include/c++/7/bits/stl_list.h \
  /usr/include/c++/7/bits/allocated_ptr.h /usr/include/c++/7/bits/list.tcc \
  include/listener.hpp include/sipp.hpp include/socketowner.hpp \
  include/socket.hpp include/call.hpp include/send_packets.h \
@@ -867,7 +868,7 @@ include/prepare_pcap.h:
 
 /usr/include/netinet/udp.h:
 
-include/newHeader.h:
+include/rtpVariables.h:
 
 include/rtpstream.hpp:
 

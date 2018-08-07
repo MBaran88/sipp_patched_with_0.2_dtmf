@@ -42,7 +42,7 @@
 #include <sys/socket.h>
 
 #include "prepare_pcap.h"
-#include "newHeader.h"
+#include "rtpVariables.h"
 
 inline void timerdiv (struct timeval *tvp, float div);
 inline void float2timer (float time, struct timeval *tvp);

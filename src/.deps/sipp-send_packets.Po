@@ -103,7 +103,7 @@ src/sipp-send_packets.o: src/send_packets.c /usr/include/stdc-predef.h \
  /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
  /usr/include/x86_64-linux-gnu/bits/mathinline.h include/prepare_pcap.h \
- include/newHeader.h include/prepare_pcap.h
+ include/rtpVariables.h include/prepare_pcap.h
 
 /usr/include/stdc-predef.h:
 
@@ -357,6 +357,6 @@ include/send_packets.h:
 
 include/prepare_pcap.h:
 
-include/newHeader.h:
+include/rtpVariables.h:
 
 include/prepare_pcap.h:

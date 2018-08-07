@@ -240,10 +240,10 @@ src/sipp-stat.o: src/stat.cpp /usr/include/stdc-predef.h \
  /usr/include/regex.h include/message.hpp include/prepare_pcap.h \
  /usr/include/pcap.h /usr/include/pcap/pcap.h \
  /usr/include/pcap/export-defs.h /usr/include/pcap/bpf.h \
- /usr/include/pcap/dlt.h /usr/include/netinet/udp.h include/newHeader.h \
- include/rtpstream.hpp include/stat.hpp include/screen.hpp \
- include/defines.h include/task.hpp /usr/include/c++/7/list \
- /usr/include/c++/7/bits/stl_list.h \
+ /usr/include/pcap/dlt.h /usr/include/netinet/udp.h \
+ include/rtpVariables.h include/rtpstream.hpp include/stat.hpp \
+ include/screen.hpp include/defines.h include/task.hpp \
+ /usr/include/c++/7/list /usr/include/c++/7/bits/stl_list.h \
  /usr/include/c++/7/bits/allocated_ptr.h /usr/include/c++/7/bits/list.tcc \
  include/listener.hpp /usr/include/c++/7/iterator \
  /usr/include/c++/7/bits/stream_iterator.h include/sipp.hpp \
@@ -884,7 +884,7 @@ include/prepare_pcap.h:
 
 /usr/include/netinet/udp.h:
 
-include/newHeader.h:
+include/rtpVariables.h:
 
 include/rtpstream.hpp:
 

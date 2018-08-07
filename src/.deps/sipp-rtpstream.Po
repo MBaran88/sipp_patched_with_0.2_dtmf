@@ -210,10 +210,11 @@ src/sipp-rtpstream.o: src/rtpstream.cpp /usr/include/stdc-predef.h \
  /usr/include/regex.h include/message.hpp include/prepare_pcap.h \
  /usr/include/pcap.h /usr/include/pcap/pcap.h \
  /usr/include/pcap/export-defs.h /usr/include/pcap/bpf.h \
- /usr/include/pcap/dlt.h /usr/include/netinet/udp.h include/newHeader.h \
- include/rtpstream.hpp include/stat.hpp /usr/include/c++/7/ctime \
- /usr/include/c++/7/iostream /usr/include/c++/7/ostream \
- /usr/include/c++/7/ios /usr/include/c++/7/bits/ios_base.h \
+ /usr/include/pcap/dlt.h /usr/include/netinet/udp.h \
+ include/rtpVariables.h include/rtpstream.hpp include/stat.hpp \
+ /usr/include/c++/7/ctime /usr/include/c++/7/iostream \
+ /usr/include/c++/7/ostream /usr/include/c++/7/ios \
+ /usr/include/c++/7/bits/ios_base.h \
  /usr/include/c++/7/bits/locale_classes.h \
  /usr/include/c++/7/bits/locale_classes.tcc \
  /usr/include/c++/7/system_error \
@@ -788,7 +789,7 @@ include/prepare_pcap.h:
 
 /usr/include/netinet/udp.h:
 
-include/newHeader.h:
+include/rtpVariables.h:
 
 include/rtpstream.hpp:
 

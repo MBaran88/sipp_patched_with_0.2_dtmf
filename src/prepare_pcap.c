@@ -38,7 +38,7 @@
 #include "prepare_pcap.h"
 #include "globalSsrcIdDeclaration.h"
 #include "byteswap.h"
-#include "newHeader.h"
+#include "rtpVariables.h"
 
 /* We define our own structures for Ethernet Header and IPv6 Header as they are not available on CYGWIN.
  * We only need the fields, which are necessary to determine the type of the next header.
@@ -383,7 +383,7 @@ void fill_default_dtmf(struct dtmfpacket * dtmfpacket, int marker, rtpStreamVari
 
 /* prepare a dtmf pcap
  */
-int prepare_dtmf(const char *digits, pcap_pkts *pkts, u_int16_t start_seq_no,rtpStreamVariable* rtpStreamVariables) {
+int prepare_dtmf(const char *digits, pcap_pkts *pkts,rtpStreamVariable* rtpStreamVariables) {
       int n_pkts = 0;
       int n_digits = 0;
       u_long pktlen = sizeof(struct dtmfpacket);
@@ -392,8 +392,6 @@ int prepare_dtmf(const char *digits, pcap_pkts *pkts, u_int16_t start_seq_no,rtp
       int i;
       char * comma;
       unsigned long tone_len = 80;
-
-              //dtmf_ssrcid++;
 
               pkts->pkts = NULL;
 
@@ -440,7 +438,7 @@ int prepare_dtmf(const char *digits, pcap_pkts *pkts, u_int16_t start_seq_no,rtp
 
                           dtmfpacket = (struct dtmfpacket*)pkt_index->data;
 
-                          fill_default_dtmf(dtmfpacket,n_pkts == 0, rtpStreamVariables->local_ssrc_id, n_digits * tone_len * 2 + 24000, uc_digit, 0, cur_tone_len);
+                          fill_default_dtmf(dtmfpacket,n_pkts == 0, rtpStreamVariables, n_digits * tone_len * 2 + 24000, uc_digit, 0, cur_tone_len);
 
                     #if defined(__HPUX) || defined(__DARWIN) || (defined __CYGWIN) || defined(__FreeBSD__)
                           pkt_index->partial_check = check((u_int16_t *) &dtmfpacket->udp.uh_ulen, pktlen - 4) + ntohs(IPPROTO_UDP + pktlen);
@@ -469,7 +467,7 @@ int prepare_dtmf(const char *digits, pcap_pkts *pkts, u_int16_t start_seq_no,rtp
 
                           dtmfpacket = (struct dtmfpacket*)pkt_index->data;
 
-                          fill_default_dtmf(dtmfpacket,0, rtpStreamVariables->local_ssrc_id, n_digits * tone_len * 2 + 24000, uc_digit, 1, tone_len);
+                          fill_default_dtmf(dtmfpacket,0, rtpStreamVariables, n_digits * tone_len * 2 + 24000, uc_digit, 1, tone_len);
 
                     #if defined(__HPUX) || defined(__DARWIN) || (defined __CYGWIN) || defined(__FreeBSD__)
                           pkt_index->partial_check = check((u_int16_t *) &dtmfpacket->udp.uh_ulen, pktlen - 4) + ntohs(IPPROTO_UDP + pktlen);

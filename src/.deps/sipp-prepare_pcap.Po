@@ -76,8 +76,8 @@ src/sipp-prepare_pcap.o: src/prepare_pcap.c /usr/include/stdc-predef.h \
  /usr/include/x86_64-linux-gnu/bits/time.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
- include/newHeader.h include/globalSsrcIdDeclaration.h \
- /usr/include/byteswap.h include/newHeader.h
+ include/rtpVariables.h include/globalSsrcIdDeclaration.h \
+ /usr/include/byteswap.h include/rtpVariables.h
 
 /usr/include/stdc-predef.h:
 
@@ -269,10 +269,10 @@ include/prepare_pcap.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
 
-include/newHeader.h:
+include/rtpVariables.h:
 
 include/globalSsrcIdDeclaration.h:
 
 /usr/include/byteswap.h:
 
-include/newHeader.h:
+include/rtpVariables.h:

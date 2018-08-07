@@ -130,7 +130,7 @@ void free_pcaps(pcap_pkts *pkts)
 
 int parse_dtmf_play_args(char * buffer, pcap_pkts *pkts, rtpStreamVariable* rtpStreamVariables) {
     pkts->file = strdup(buffer);
-    return prepare_dtmf(pkts->file, pkts,0,rtpStreamVariables); // TODO SSRC 0x000011CA should be a global var
+    return prepare_dtmf(pkts->file, pkts,rtpStreamVariables);
 }
 
 void hexdump(char *p, int s)

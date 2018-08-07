@@ -62,7 +62,6 @@
 #define callDebug(...) do { if (useCallDebugf) { _callDebug( __VA_ARGS__ ); } } while (0)
 
 extern  map<string, struct sipp_socket *>     map_perip_fd;
-unsigned int seqNum =0;
 #ifdef PCAPPLAY
 /* send_packets pthread wrapper */
 void *send_wrapper(void *);
@@ -518,7 +517,6 @@ void call::init(scenario * call_scenario, struct sipp_socket *socket, struct soc
 {
     this->call_scenario = call_scenario;
     zombie = false;
-    seqNum =0;
 
     debugBuffer = NULL;
     debugLength = 0;

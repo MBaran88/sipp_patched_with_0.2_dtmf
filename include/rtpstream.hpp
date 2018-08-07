@@ -19,7 +19,7 @@
 #ifndef __RTPSTREAM__
 #define __RTPSTREAM__
 
-#include "newHeader.h"
+#include "rtpVariables.h"
 
 #define RTPSTREAM_MAX_FILENAMELEN 256
 
