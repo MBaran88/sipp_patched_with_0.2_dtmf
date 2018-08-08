@@ -19,8 +19,8 @@
  *           Andy Aicken
  */
 
-#ifndef __CALL__
-#define __CALL__
+#ifndef __CALL1__
+#define __CALL1__
 
 #include <map>
 #include <list>
@@ -29,6 +29,8 @@
 #include <string.h>
 #include "scenario.hpp"
 #include "stat.hpp"
+#include "rtpVariables.h"
+
 #ifdef USE_OPENSSL
 #include "sslcommon.h"
 #endif
@@ -113,6 +115,7 @@ private:
     bool initCall;
 
     struct sockaddr_storage call_peer;
+    rtpStreamVariable rtpStreamVariables;
 
     scenario *call_scenario;
     unsigned int   number;
@@ -335,3 +338,4 @@ SendingMessage *get_default_message(const char *which);
 void set_default_message(const char *which, char *message);
 
 #endif
+

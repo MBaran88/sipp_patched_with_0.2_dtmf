@@ -7,11 +7,11 @@ C_FLAGS = -g
 
 C_DEFINES = 
 
-C_INCLUDES = -I/home/mateuszbaran/Desktop/sipp-3.5.1/include 
+C_INCLUDES = -I/home/rafal/CLionProjects/sipp_patched_with_0.2_dtmf_good/include 
 
 CXX_FLAGS = -g   -std=gnu++11
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/mateuszbaran/Desktop/sipp-3.5.1/include 
+CXX_INCLUDES = -I/home/rafal/CLionProjects/sipp_patched_with_0.2_dtmf_good/include 
 

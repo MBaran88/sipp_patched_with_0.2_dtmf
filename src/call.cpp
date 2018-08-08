@@ -57,11 +57,11 @@
 #include "deadcall.hpp"
 #include "config.h"
 #include "version.h"
+#include "globalSsrcIdDeclaration.h"
 
 #define callDebug(...) do { if (useCallDebugf) { _callDebug( __VA_ARGS__ ); } } while (0)
 
 extern  map<string, struct sipp_socket *>     map_perip_fd;
-
 #ifdef PCAPPLAY
 /* send_packets pthread wrapper */
 void *send_wrapper(void *);
@@ -566,13 +566,16 @@ void call::init(scenario * call_scenario, struct sipp_socket *socket, struct soc
 #endif
 #ifdef RTP_STREAM
   /* check and warn on rtpstream_new_call result? -> error alloc'ing mem */
-  rtpstream_new_call (&rtpstream_callinfo);
+  rtpStreamVariables.local_secNum =0;
+  rtpStreamVariables.local_ssrc_id = global_ssrc_id++;
+  rtpstream_new_call (&rtpstream_callinfo, &rtpStreamVariables);
+
 #endif
 
 #ifdef PCAPPLAY
     hasMediaInformation = 0;
-    play_args_a.last_seq_no = 1; // TODO zachowac ciaglosc last_seq_no (wspolne dla dtmfow i zwyklego audio)
-    play_args_v.last_seq_no = 2400;
+    play_args_a.last_seq_no = 1;
+    play_args_v.last_seq_no = 1200;
 #endif
 
     call_remote_socket = NULL;
@@ -3928,7 +3931,7 @@ call::T_ActionResult call::executeAction(char * msg, message *curmsg)
       if (currentAction->getActionType() == CAction::E_AT_PLAY_DTMF) {
         char * digits = createSendingMessage(currentAction->getMessage(), -2 /* do not add crlf*/);
 	play_args->pcap = (pcap_pkts *) malloc(sizeof(pcap_pkts));
-	play_args->last_seq_no = parse_dtmf_play_args(digits, play_args->pcap, play_args->last_seq_no);
+	play_args->last_seq_no = parse_dtmf_play_args(digits, play_args->pcap, &rtpStreamVariables);
 	play_args->free_pcap_when_done = 1;
       } else {
 	play_args->pcap = currentAction->getPcapPkts();

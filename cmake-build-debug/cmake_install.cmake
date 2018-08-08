@@ -1,4 +1,4 @@
-# Install script for directory: /home/mateuszbaran/Desktop/sipp-3.5.1
+# Install script for directory: /home/rafal/CLionProjects/sipp_patched_with_0.2_dtmf_good
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/mateuszbaran/Desktop/sipp-3.5.1/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/rafal/CLionProjects/sipp_patched_with_0.2_dtmf_good/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

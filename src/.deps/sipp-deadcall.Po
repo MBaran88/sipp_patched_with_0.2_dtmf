@@ -192,8 +192,9 @@ src/sipp-deadcall.o: src/deadcall.cpp /usr/include/stdc-predef.h \
  /usr/include/x86_64-linux-gnu/bits/in.h include/prepare_pcap.h \
  /usr/include/pcap.h /usr/include/pcap/pcap.h \
  /usr/include/pcap/export-defs.h /usr/include/pcap/bpf.h \
- /usr/include/pcap/dlt.h /usr/include/netinet/udp.h include/sipp.hpp \
- /usr/include/c++/7/stdlib.h /usr/include/string.h /usr/include/strings.h \
+ /usr/include/pcap/dlt.h /usr/include/netinet/udp.h \
+ include/rtpVariables.h include/sipp.hpp /usr/include/c++/7/stdlib.h \
+ /usr/include/string.h /usr/include/strings.h \
  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
  /usr/include/netinet/tcp.h /usr/include/x86_64-linux-gnu/sys/poll.h \
@@ -732,6 +733,8 @@ include/prepare_pcap.h:
 /usr/include/pcap/dlt.h:
 
 /usr/include/netinet/udp.h:
+
+include/rtpVariables.h:
 
 include/sipp.hpp:
 
