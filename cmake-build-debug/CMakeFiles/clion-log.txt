@@ -1,4 +1,4 @@
-/snap/clion/34/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/rafal/CLionProjects/sipp_patched_with_0.2_dtmf_good
+/snap/clion/35/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/rafal/CLionProjects/sipp_patched_with_0.2_dtmf_good
 -- Configuring done
 -- Generating done
 -- Build files have been written to: /home/rafal/CLionProjects/sipp_patched_with_0.2_dtmf_good/cmake-build-debug
