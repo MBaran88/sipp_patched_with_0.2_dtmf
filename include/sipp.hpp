@@ -181,6 +181,7 @@ cmd messages are received */
 
 /************ User controls and command line options ***********/
 
+extern unsigned int       repeat_id                _DEFVAL(0);
 extern int                duration                _DEFVAL(0);
 extern double             rate                    _DEFVAL(DEFAULT_RATE);
 extern double             rate_scale              _DEFVAL(DEFAULT_RATE_SCALE);

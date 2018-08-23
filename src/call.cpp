@@ -72,7 +72,7 @@ int call::startDynamicId  = 10000;             // FIXME both param to be in comm
 int call::stepDynamicId   = 4;                // FIXME both param to be in command line !!!!
 
 /************** Call map and management routines **************/
-static unsigned int next_number = 1;
+static unsigned int next_number = 0;
 
 static unsigned int get_tdm_map_number()
 {
@@ -482,33 +482,64 @@ call *call::add_call(int userId, bool ipv6, struct sockaddr_storage *dest)
     const char * src = call_id_string;
     int count = 0;
 
-    if(!next_number) {
-        next_number ++;
+    if(repeat_id > 0) {
+    if (next_number <= repeat_id) {
+        next_number++;
+    } else {
+        next_number = 1;
     }
 
-    while (*src && count < MAX_HEADER_LEN-1) {
+    while (*src && count < MAX_HEADER_LEN - 1) {
         if (*src == '%') {
             ++src;
-            switch(*src++) {
-            case 'u':
-                count += snprintf(&call_id[count], MAX_HEADER_LEN-count-1,"%u", next_number);
-                break;
-            case 'p':
-                count += snprintf(&call_id[count], MAX_HEADER_LEN-count-1,"%u", pid);
-                break;
-            case 's':
-                count += snprintf(&call_id[count], MAX_HEADER_LEN-count-1,"%s", local_ip);
-                break;
-            default:      // treat all unknown sequences as %%
-                call_id[count++] = '%';
-                break;
+            switch (*src++) {
+                case 'u':
+                    count += snprintf(&call_id[count], MAX_HEADER_LEN - count - 1, "%u", next_number);
+                    break;
+                case 'p':
+                    count += snprintf(&call_id[count], MAX_HEADER_LEN - count - 1, "%u", next_number);
+                    break;
+                case 's':
+                    count += snprintf(&call_id[count], MAX_HEADER_LEN - count - 1, "%s", local_ip);
+                    break;
+                default:      // treat all unknown sequences as %%
+                    call_id[count++] = '%';
+                    break;
             }
         } else {
             call_id[count++] = *src++;
         }
     }
     call_id[count] = 0;
+}
+else {
+    if (!next_number) {
+        next_number++;
+    }
 
+    while (*src && count < MAX_HEADER_LEN - 1) {
+        if (*src == '%') {
+            ++src;
+            switch (*src++) {
+                case 'u':
+                    count += snprintf(&call_id[count], MAX_HEADER_LEN - count - 1, "%u", next_number);
+                    break;
+                case 'p':
+                    count += snprintf(&call_id[count], MAX_HEADER_LEN - count - 1, "%u", pid);
+                    break;
+                case 's':
+                    count += snprintf(&call_id[count], MAX_HEADER_LEN - count - 1, "%s", local_ip);
+                    break;
+                default:      // treat all unknown sequences as %%
+                    call_id[count++] = '%';
+                    break;
+            }
+        } else {
+            call_id[count++] = *src++;
+        }
+    }
+    call_id[count] = 0;
+}
     return new call(main_scenario, NULL, dest, call_id, userId, ipv6, false /* Not Auto. */, false);
 }
 
@@ -682,8 +713,12 @@ void call::init(scenario * call_scenario, struct sipp_socket *socket, struct soc
         /* Not advancing the number is safe, because for automatic calls we do not
          * assign the identifier,  the only other place it is used is for the auto
          * media port. */
-        number = next_number++;
-
+        if(repeat_id > 0) {
+            number = next_number;
+        }
+        else {
+            number = next_number++;
+        }
         if (use_tdmmap) {
             tdm_map_number = get_tdm_map_number();
             if (tdm_map_number == 0) {

@@ -248,7 +248,7 @@ struct sipp_option options_table[] = {
     {"ip_field", "Set which field from the injection file contains the IP address from which the client will send its messages.\n"
      "If this option is omitted and the '-t ui' option is present, then field 0 is assumed.\n"
      "Use this option together with '-t ui'", SIPP_OPTION_INT, &peripfield, 1},
-
+    {"repeat_id", "It will repeat id in range given in argument", SIPP_OPTION_INT, &repeat_id, 0},
 
     {"", "RTP behaviour options:", SIPP_HELP_TEXT_HEADER, NULL, 0},
     {"mi", "Set the local media IP address (default: local primary host IP address)", SIPP_OPTION_IP, media_ip, 1},
